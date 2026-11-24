@@ -140,7 +140,7 @@ process makeReport {
     output:
         path "${report_name}", emit: report_html
     script:
-        String workflow_name = workflow.manifest.name.replace("epi2me-labs/","")
+        String workflow_name = workflow.manifest.name.tokenize("/")[-1]  // [wf-16s-oral] strip any owner prefix, not only epi2me-labs/
         String metadata = new JsonBuilder(metadata).toPrettyString()
         report_name = "${workflow_name}-report.html"
         String align_stats = params.minimap2_by_reference ? "--align_stats alignment_stats" : ""

@@ -1,7 +1,7 @@
 {
   "files": {
     "workflow-report": {
-      "filepath": "wf-16s-report.html",
+      "filepath": "wf-16s-oral-report.html",
       "title": "workflow report",
       "description": "Report for all samples.",
       "mime-type": "text/html",
