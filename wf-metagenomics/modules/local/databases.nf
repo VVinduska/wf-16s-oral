@@ -217,9 +217,9 @@ workflow prepare_databases {
                 taxonomy_dir = download_unpack_taxonomy(params.database_set, taxonomy_local_path, taxonomy_remote_path, file(taxonomy_remote_path).simpleName, true)
             } else {
                 // [wf-16s-oral] taxonomy bundled inside the workflow repository (e.g. eHOMD)
-                log.info("Using bundled local taxonomy: ${taxonomy_remote_path}")
-                def bundled_taxonomy = file(taxonomy_remote_path, type: "file", checkIfExists:true)
-                taxonomy_dir = download_unpack_taxonomy(params.database_set, bundled_taxonomy, '', bundled_taxonomy.simpleName, false)
+                log.info("Using bundled local taxonomy: " + taxonomy_remote_path)
+                taxonomy_local_path = file(taxonomy_remote_path, type: "file", checkIfExists:true)
+                taxonomy_dir = download_unpack_taxonomy(params.database_set, taxonomy_local_path, '', taxonomy_local_path.simpleName, false)
             }
         }
         // MINIMAP
@@ -265,7 +265,7 @@ workflow prepare_databases {
                     ref2taxid_file = reference.ref2taxid_file
                 } else {
                     // [wf-16s-oral] reference + ref2taxid bundled inside the workflow repository (e.g. eHOMD)
-                    log.info("Using bundled local reference: ${reference_url}")
+                    log.info("Using bundled local reference: " + reference_url)
                     reference_file = Channel.fromPath(file(reference_url, type: "file", checkIfExists:true)).first()
                     ref2taxid_file = Channel.fromPath(file(ref2taxid_url, type: "file", checkIfExists:true)).first()
                     check_reference_ref2taxid(reference_file, ref2taxid_file)
