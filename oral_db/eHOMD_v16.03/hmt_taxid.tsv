@@ -1,0 +1,803 @@
+taxid	species	HMT	n_sequences	lineage
+263	Abiotrophia defectiva	HMT-389	6	k__Bacteria;p__Bacillota;c__Bacilli;o__Lactobacillales;f__Aerococcaceae;g__Abiotrophia;s__defectiva
+265	Abiotrophia sp. HMT-427	HMT-427	1	k__Bacteria;p__Bacillota;c__Bacilli;o__Lactobacillales;f__Aerococcaceae;g__Abiotrophia;s__sp. HMT-427
+1229	Absconditicoccaceae [G1] bacterium HMT-345	HMT-345	3	k__Bacteria;p__Patescibacteria;c__Patescibacteria [C1];o__Absconditabacterales;f__Absconditicoccaceae;g__Absconditicoccaceae [G1];s__bacterium HMT-345
+1230	Absconditicoccaceae [G1] bacterium HMT-874	HMT-874	3	k__Bacteria;p__Patescibacteria;c__Patescibacteria [C1];o__Absconditabacterales;f__Absconditicoccaceae;g__Absconditicoccaceae [G1];s__bacterium HMT-874
+1327	Absconditicoccaceae [G1] bacterium HMT-875	HMT-875	1	k__Bacteria;p__Patescibacteria;c__Patescibacteria [C1];o__Absconditabacterales;f__Absconditicoccaceae;g__Absconditicoccaceae [G1];s__bacterium HMT-875
+1224	Absconditicoccaceae [G2] bacterium HMT-991	HMT-991	1	k__Bacteria;p__Patescibacteria;c__Patescibacteria [C1];o__Absconditabacterales;f__Absconditicoccaceae;g__Absconditicoccaceae [G2];s__bacterium HMT-991
+650	Achromobacter xylosoxidans	HMT-343	9	k__Bacteria;p__Pseudomonadota;c__Betaproteobacteria;o__Burkholderiales;f__Alcaligenaceae;g__Achromobacter;s__xylosoxidans
+703	Acidovorax ebreus	HMT-209	9	k__Bacteria;p__Pseudomonadota;c__Betaproteobacteria;o__Burkholderiales;f__Comamonadaceae;g__Acidovorax;s__ebreus
+708	Acidovorax temperans	HMT-216	3	k__Bacteria;p__Pseudomonadota;c__Betaproteobacteria;o__Burkholderiales;f__Comamonadaceae;g__Acidovorax;s__temperans
+529	Acinetobacter baumannii	HMT-554	5	k__Bacteria;p__Pseudomonadota;c__Gammaproteobacteria;o__Pseudomonadales;f__Moraxellaceae;g__Acinetobacter;s__baumannii
+512	Acinetobacter johnsonii	HMT-297	35	k__Bacteria;p__Pseudomonadota;c__Gammaproteobacteria;o__Pseudomonadales;f__Moraxellaceae;g__Acinetobacter;s__johnsonii
+493	Acinetobacter junii	HMT-282	16	k__Bacteria;p__Pseudomonadota;c__Gammaproteobacteria;o__Pseudomonadales;f__Moraxellaceae;g__Acinetobacter;s__junii
+520	Acinetobacter lwoffii	HMT-005	18	k__Bacteria;p__Pseudomonadota;c__Gammaproteobacteria;o__Pseudomonadales;f__Moraxellaceae;g__Acinetobacter;s__lwoffii
+505	Acinetobacter radioresistens	HMT-010	22	k__Bacteria;p__Pseudomonadota;c__Gammaproteobacteria;o__Pseudomonadales;f__Moraxellaceae;g__Acinetobacter;s__radioresistens
+964	Acinetobacter sp. HMT-408	HMT-408	1	k__Bacteria;p__Pseudomonadota;c__Gammaproteobacteria;o__Pseudomonadales;f__Moraxellaceae;g__Acinetobacter;s__sp. HMT-408
+694	Actinomyces dentalis	HMT-888	1	k__Bacteria;p__Actinomycetota;c__Actinomycetes;o__Actinomycetales;f__Actinomycetaceae;g__Actinomyces;s__dentalis
+155	Actinomyces gerencseriae	HMT-618	3	k__Bacteria;p__Actinomycetota;c__Actinomycetes;o__Actinomycetales;f__Actinomycetaceae;g__Actinomyces;s__gerencseriae
+471	Actinomyces graevenitzii	HMT-866	5	k__Bacteria;p__Actinomycetota;c__Actinomycetes;o__Actinomycetales;f__Actinomycetaceae;g__Actinomyces;s__graevenitzii
+290	Actinomyces israelii	HMT-645	2	k__Bacteria;p__Actinomycetota;c__Actinomycetes;o__Actinomycetales;f__Actinomycetaceae;g__Actinomyces;s__israelii
+206	Actinomyces johnsonii	HMT-849	1	k__Bacteria;p__Actinomycetota;c__Actinomycetes;o__Actinomycetales;f__Actinomycetaceae;g__Actinomyces;s__johnsonii
+217	Actinomyces massiliensis	HMT-852	2	k__Bacteria;p__Actinomycetota;c__Actinomycetes;o__Actinomycetales;f__Actinomycetaceae;g__Actinomyces;s__massiliensis
+204	Actinomyces naeslundii	HMT-176	14	k__Bacteria;p__Actinomycetota;c__Actinomycetes;o__Actinomycetales;f__Actinomycetaceae;g__Actinomyces;s__naeslundii
+266	Actinomyces oricola	HMT-708	2	k__Bacteria;p__Actinomycetota;c__Actinomycetes;o__Actinomycetales;f__Actinomycetaceae;g__Actinomyces;s__oricola
+203	Actinomyces oris	HMT-043,HMT-079,HMT-144,HMT-169,HMT-171,HMT-893	43	k__Bacteria;p__Actinomycetota;c__Actinomycetes;o__Actinomycetales;f__Actinomycetaceae;g__Actinomyces;s__oris
+509	Actinomyces radicidentis	HMT-746	2	k__Bacteria;p__Actinomycetota;c__Actinomycetes;o__Actinomycetales;f__Actinomycetaceae;g__Actinomyces;s__radicidentis
+216	Actinomyces sp. HMT-170	HMT-170	1	k__Bacteria;p__Actinomycetota;c__Actinomycetes;o__Actinomycetales;f__Actinomycetaceae;g__Actinomyces;s__sp. HMT-170
+198	Actinomyces sp. HMT-403	HMT-403	2	k__Bacteria;p__Actinomycetota;c__Actinomycetes;o__Actinomycetales;f__Actinomycetaceae;g__Actinomyces;s__sp. HMT-403
+231	Actinomyces sp. HMT-414	HMT-414	3	k__Bacteria;p__Actinomycetota;c__Actinomycetes;o__Actinomycetales;f__Actinomycetaceae;g__Actinomyces;s__sp. HMT-414
+257	Actinomyces sp. HMT-448	HMT-448	2	k__Bacteria;p__Actinomycetota;c__Actinomycetes;o__Actinomycetales;f__Actinomycetaceae;g__Actinomyces;s__sp. HMT-448
+635	Actinomyces sp. HMT-525	HMT-525	1	k__Bacteria;p__Actinomycetota;c__Actinomycetes;o__Actinomycetales;f__Actinomycetaceae;g__Actinomyces;s__sp. HMT-525
+558	Actinomyces sp. HMT-896	HMT-896	1	k__Bacteria;p__Actinomycetota;c__Actinomycetes;o__Actinomycetales;f__Actinomycetaceae;g__Actinomyces;s__sp. HMT-896
+359	Actinomyces sp. HMT-897	HMT-897	6	k__Bacteria;p__Actinomycetota;c__Actinomycetes;o__Actinomycetales;f__Actinomycetaceae;g__Actinomyces;s__sp. HMT-897
+425	Actinomyces timonensis	HMT-179	3	k__Bacteria;p__Actinomycetota;c__Actinomycetes;o__Actinomycetales;f__Actinomycetaceae;g__Actinomyces;s__timonensis
+437	Actinomyces viscosus	HMT-688	2	k__Bacteria;p__Actinomycetota;c__Actinomycetes;o__Actinomycetales;f__Actinomycetaceae;g__Actinomyces;s__viscosus
+1172	Aeriscardovia sp. HMT-407	HMT-407	1	k__Bacteria;p__Actinomycetota;c__Actinomycetes;o__Bifidobacteriales;f__Bifidobacteriaceae;g__Aeriscardovia;s__sp. HMT-407
+314	Aerococcus viridans	HMT-312	11	k__Bacteria;p__Bacillota;c__Bacilli;o__Lactobacillales;f__Aerococcaceae;g__Aerococcus;s__viridans
+1273	Afipia broomeae	HMT-559	1	k__Bacteria;p__Pseudomonadota;c__Alphaproteobacteria;o__Hyphomicrobiales;f__Nitrobacteraceae;g__Afipia;s__broomeae
+583	Agathobacter rectalis	HMT-960	13	k__Bacteria;p__Bacillota;c__Clostridia;o__Lachnospirales;f__Lachnospiraceae;g__Agathobacter;s__rectalis
+408	Aggregatibacter actinomycetemcomitans	HMT-531	25	k__Bacteria;p__Pseudomonadota;c__Gammaproteobacteria;o__Pasteurellales;f__Pasteurellaceae;g__Aggregatibacter;s__actinomycetemcomitans
+473	Aggregatibacter aphrophilus	HMT-545	20	k__Bacteria;p__Pseudomonadota;c__Gammaproteobacteria;o__Pasteurellales;f__Pasteurellaceae;g__Aggregatibacter;s__aphrophilus
+470	Aggregatibacter kilianii	HMT-426	7	k__Bacteria;p__Pseudomonadota;c__Gammaproteobacteria;o__Pasteurellales;f__Pasteurellaceae;g__Aggregatibacter;s__kilianii
+482	Aggregatibacter segnis	HMT-762	11	k__Bacteria;p__Pseudomonadota;c__Gammaproteobacteria;o__Pasteurellales;f__Pasteurellaceae;g__Aggregatibacter;s__segnis
+474	Aggregatibacter sp. HMT-458	HMT-458	3	k__Bacteria;p__Pseudomonadota;c__Gammaproteobacteria;o__Pasteurellales;f__Pasteurellaceae;g__Aggregatibacter;s__sp. HMT-458
+504	Aggregatibacter sp. HMT-513	HMT-513	7	k__Bacteria;p__Pseudomonadota;c__Gammaproteobacteria;o__Pasteurellales;f__Pasteurellaceae;g__Aggregatibacter;s__sp. HMT-513
+914	Aggregatibacter sp. HMT-898	HMT-898	2	k__Bacteria;p__Pseudomonadota;c__Gammaproteobacteria;o__Pasteurellales;f__Pasteurellaceae;g__Aggregatibacter;s__sp. HMT-898
+1358	Aggregatibacter sp. HMT-949	HMT-949	1	k__Bacteria;p__Pseudomonadota;c__Gammaproteobacteria;o__Pasteurellales;f__Pasteurellaceae;g__Aggregatibacter;s__sp. HMT-949
+212	Agrobacterium tumefaciens	HMT-485	5	k__Bacteria;p__Pseudomonadota;c__Alphaproteobacteria;o__Hyphomicrobiales;f__Rhizobiaceae;g__Agrobacterium;s__tumefaciens
+1011	Akkermansia muciniphila	HMT-963	5	k__Bacteria;p__Verrucomicrobiota;c__Verrucomicrobiia;o__Verrucomicrobiales;f__Akkermansiaceae;g__Akkermansia;s__muciniphila
+706	Alistipes onderdonkii	HMT-964	4	k__Bacteria;p__Bacteroidota;c__Bacteroidia;o__Bacteroidales;f__Rikenellaceae;g__Alistipes;s__onderdonkii
+751	Alistipes putredinis	HMT-965	1	k__Bacteria;p__Bacteroidota;c__Bacteroidia;o__Bacteroidales;f__Rikenellaceae;g__Alistipes;s__putredinis
+803	Alistipes shahii	HMT-966	7	k__Bacteria;p__Bacteroidota;c__Bacteroidia;o__Bacteroidales;f__Rikenellaceae;g__Alistipes;s__shahii
+304	Alkalihalobacillus clausii	HMT-045	8	k__Bacteria;p__Bacillota;c__Bacilli;o__Caryophanales;f__Bacillaceae;g__Alkalihalobacillus;s__clausii
+331	Alloiococcus otitis	HMT-831	7	k__Bacteria;p__Bacillota;c__Bacilli;o__Lactobacillales;f__Carnobacteriaceae;g__Alloiococcus;s__otitis
+563	Alloprevotella rava	HMT-302	4	k__Bacteria;p__Bacteroidota;c__Bacteroidia;o__Bacteroidales;f__Prevotellaceae;g__Alloprevotella;s__rava
+1135	Alloprevotella sp. HMT-308	HMT-308	1	k__Bacteria;p__Bacteroidota;c__Bacteroidia;o__Bacteroidales;f__Prevotellaceae;g__Alloprevotella;s__sp. HMT-308
+755	Alloprevotella sp. HMT-413	HMT-413	4	k__Bacteria;p__Bacteroidota;c__Bacteroidia;o__Bacteroidales;f__Prevotellaceae;g__Alloprevotella;s__sp. HMT-413
+1285	Alloprevotella sp. HMT-473	HMT-473	1	k__Bacteria;p__Bacteroidota;c__Bacteroidia;o__Bacteroidales;f__Prevotellaceae;g__Alloprevotella;s__sp. HMT-473
+1111	Alloprevotella sp. HMT-912	HMT-912	2	k__Bacteria;p__Bacteroidota;c__Bacteroidia;o__Bacteroidales;f__Prevotellaceae;g__Alloprevotella;s__sp. HMT-912
+1119	Alloprevotella sp. HMT-913	HMT-913	1	k__Bacteria;p__Bacteroidota;c__Bacteroidia;o__Bacteroidales;f__Prevotellaceae;g__Alloprevotella;s__sp. HMT-913
+1361	Alloprevotella sp. HMT-914	HMT-914	1	k__Bacteria;p__Bacteroidota;c__Bacteroidia;o__Bacteroidales;f__Prevotellaceae;g__Alloprevotella;s__sp. HMT-914
+639	Alloprevotella tannerae	HMT-466	6	k__Bacteria;p__Bacteroidota;c__Bacteroidia;o__Bacteroidales;f__Prevotellaceae;g__Alloprevotella;s__tannerae
+689	Alloscardovia omnicolens	HMT-198	4	k__Bacteria;p__Actinomycetota;c__Actinomycetes;o__Bifidobacteriales;f__Bifidobacteriaceae;g__Alloscardovia;s__omnicolens
+752	Anaerococcus lactolyticus	HMT-859	1	k__Bacteria;p__Bacillota;c__Clostridia;o__Tissierellales;f__Peptoniphilaceae;g__Anaerococcus;s__lactolyticus
+698	Anaerococcus nagyae	HMT-792	1	k__Bacteria;p__Bacillota;c__Clostridia;o__Tissierellales;f__Peptoniphilaceae;g__Anaerococcus;s__nagyae
+741	Anaerococcus octavius	HMT-017	9	k__Bacteria;p__Bacillota;c__Clostridia;o__Tissierellales;f__Peptoniphilaceae;g__Anaerococcus;s__octavius
+744	Anaerococcus prevotii	HMT-738	5	k__Bacteria;p__Bacillota;c__Clostridia;o__Tissierellales;f__Peptoniphilaceae;g__Anaerococcus;s__prevotii
+1237	Anaerococcus sp. HMT-290	HMT-290	1	k__Bacteria;p__Bacillota;c__Clostridia;o__Tissierellales;f__Peptoniphilaceae;g__Anaerococcus;s__sp. HMT-290
+1274	Anaerococcus sp. HMT-295	HMT-295	1	k__Bacteria;p__Bacillota;c__Clostridia;o__Tissierellales;f__Peptoniphilaceae;g__Anaerococcus;s__sp. HMT-295
+816	Anaerococcus tetradius	HMT-788	3	k__Bacteria;p__Bacillota;c__Clostridia;o__Tissierellales;f__Peptoniphilaceae;g__Anaerococcus;s__tetradius
+760	Anaerococcus vaginimassiliensis	HMT-294	6	k__Bacteria;p__Bacillota;c__Clostridia;o__Tissierellales;f__Peptoniphilaceae;g__Anaerococcus;s__vaginimassiliensis
+367	Anaeroglobus geminatus	HMT-121	2	k__Bacteria;p__Bacillota;c__Negativicutes;o__Veillonellales;f__Veillonellaceae;g__Anaeroglobus;s__geminatus
+179	Anaeroglobus massiliensis	HMT-123	4	k__Bacteria;p__Bacillota;c__Negativicutes;o__Veillonellales;f__Veillonellaceae;g__Anaeroglobus;s__massiliensis
+1162	Anaerolinea thermophila	HMT-995	2	k__Bacteria;p__Chloroflexota;c__Anaerolineae;o__Anaerolineales;f__Anaerolineaceae;g__Anaerolinea;s__thermophila
+1208	Anaerolineae [G1] bacterium HMT-439	HMT-439	3	k__Bacteria;p__Chloroflexota;c__Anaerolineae;o__Anaerolineales;f__Anaerolineaceae;g__Anaerolineae [G1];s__bacterium HMT-439
+685	Anaerosphaera mikwangii	HMT-386	3	k__Bacteria;p__Bacillota;c__Clostridia;o__Tissierellales;f__Peptoniphilaceae;g__Anaerosphaera;s__mikwangii
+1203	Anaerovoracaceae [G1] bacterium HMT-383	HMT-383	1	k__Bacteria;p__Bacillota;c__Clostridia;o__Peptostreptococcales;f__Anaerovoracaceae;g__Anaerovoracaceae [G1];s__bacterium HMT-383
+923	Anaerovoracaceae [G1] infirmum	HMT-105	4	k__Bacteria;p__Bacillota;c__Clostridia;o__Peptostreptococcales;f__Anaerovoracaceae;g__Anaerovoracaceae [G1];s__infirmum
+922	Anaerovoracaceae [G1] sulci	HMT-467	5	k__Bacteria;p__Bacillota;c__Clostridia;o__Peptostreptococcales;f__Anaerovoracaceae;g__Anaerovoracaceae [G1];s__sulci
+1219	Anaerovoracaceae [G2] bacterium HMT-091	HMT-091	1	k__Bacteria;p__Bacillota;c__Clostridia;o__Peptostreptococcales;f__Anaerovoracaceae;g__Anaerovoracaceae [G2];s__bacterium HMT-091
+1235	Anaerovoracaceae [G3] bacterium HMT-495	HMT-495	1	k__Bacteria;p__Bacillota;c__Clostridia;o__Peptostreptococcales;f__Anaerovoracaceae;g__Anaerovoracaceae [G3];s__bacterium HMT-495
+1226	Anaerovoracaceae [G3] bacterium HMT-950	HMT-950	1	k__Bacteria;p__Bacillota;c__Clostridia;o__Peptostreptococcales;f__Anaerovoracaceae;g__Anaerovoracaceae [G3];s__bacterium HMT-950
+1176	Anaerovoracaceae [G4] bacterium HMT-103	HMT-103	2	k__Bacteria;p__Bacillota;c__Clostridia;o__Peptostreptococcales;f__Anaerovoracaceae;g__Anaerovoracaceae [G4];s__bacterium HMT-103
+1205	Anaerovoracaceae [G5] bacterium HMT-493	HMT-493	1	k__Bacteria;p__Bacillota;c__Clostridia;o__Peptostreptococcales;f__Anaerovoracaceae;g__Anaerovoracaceae [G5];s__bacterium HMT-493
+1002	Anaerovoracaceae [G5] saphenum	HMT-759	2	k__Bacteria;p__Bacillota;c__Clostridia;o__Peptostreptococcales;f__Anaerovoracaceae;g__Anaerovoracaceae [G5];s__saphenum
+1234	Anaerovoracaceae [G8] bacterium HMT-382	HMT-382	1	k__Bacteria;p__Bacillota;c__Clostridia;o__Peptostreptococcales;f__Anaerovoracaceae;g__Anaerovoracaceae [G8];s__bacterium HMT-382
+222	Anoxybacillus flavithermus	HMT-182	29	k__Bacteria;p__Bacillota;c__Bacilli;o__Caryophanales;f__Bacillaceae;g__Anoxybacillus;s__flavithermus
+1277	Aquamicrobium lusatiense	HMT-660	2	k__Bacteria;p__Pseudomonadota;c__Alphaproteobacteria;o__Hyphomicrobiales;f__Phyllobacteriaceae;g__Aquamicrobium;s__lusatiense
+724	Arachnia propionica	HMT-739	5	k__Bacteria;p__Actinomycetota;c__Actinomycetes;o__Propionibacteriales;f__Propionibacteriaceae;g__Arachnia;s__propionica
+802	Arachnia rubra	HMT-194	3	k__Bacteria;p__Actinomycetota;c__Actinomycetes;o__Propionibacteriales;f__Propionibacteriaceae;g__Arachnia;s__rubra
+659	Arcanobacterium haemolyticum	HMT-811	7	k__Bacteria;p__Actinomycetota;c__Actinomycetes;o__Actinomycetales;f__Actinomycetaceae;g__Arcanobacterium;s__haemolyticum
+862	Arsenicicoccus sp. HMT-190	HMT-190	2	k__Bacteria;p__Actinomycetota;c__Actinomycetes;o__Micrococcales;f__Dermatophilaceae;g__Arsenicicoccus;s__sp. HMT-190
+1266	Arthrospira platensis	HMT-229	3	k__Bacteria;p__Cyanobacteriota;c__Cyanophyceae;o__Oscillatoriales;f__Microcoleaceae;g__Arthrospira;s__platensis
+881	Atopobium minutum	HMT-674	2	k__Bacteria;p__Actinomycetota;c__Coriobacteriia;o__Coriobacteriales;f__Atopobiaceae;g__Atopobium;s__minutum
+268	Bacillus anthracis	HMT-824	49	k__Bacteria;p__Bacillota;c__Bacilli;o__Caryophanales;f__Bacillaceae;g__Bacillus;s__anthracis
+318	Bacillus subtilis	HMT-468	17	k__Bacteria;p__Bacillota;c__Bacilli;o__Caryophanales;f__Bacillaceae;g__Bacillus;s__subtilis
+670	Bacteroides caccae	HMT-967	15	k__Bacteria;p__Bacteroidota;c__Bacteroidia;o__Bacteroidales;f__Bacteroidaceae;g__Bacteroides;s__caccae
+710	Bacteroides heparinolyticus	HMT-630	8	k__Bacteria;p__Bacteroidota;c__Bacteroidia;o__Bacteroidales;f__Bacteroidaceae;g__Bacteroides;s__heparinolyticus
+655	Bacteroides ovatus	HMT-968	28	k__Bacteria;p__Bacteroidota;c__Bacteroidia;o__Bacteroidales;f__Bacteroidaceae;g__Bacteroides;s__ovatus
+676	Bacteroides pyogenes	HMT-787	7	k__Bacteria;p__Bacteroidota;c__Bacteroidia;o__Bacteroidales;f__Bacteroidaceae;g__Bacteroides;s__pyogenes
+754	Bacteroides stercoris	HMT-969	23	k__Bacteria;p__Bacteroidota;c__Bacteroidia;o__Bacteroidales;f__Bacteroidaceae;g__Bacteroides;s__stercoris
+667	Bacteroides thetaiotaomicron	HMT-970	27	k__Bacteria;p__Bacteroidota;c__Bacteroidia;o__Bacteroidales;f__Bacteroidaceae;g__Bacteroides;s__thetaiotaomicron
+745	Bacteroides uniformis	HMT-971	13	k__Bacteria;p__Bacteroidota;c__Bacteroidia;o__Bacteroidales;f__Bacteroidaceae;g__Bacteroides;s__uniformis
+669	Bacteroides xylanisolvens	HMT-972	25	k__Bacteria;p__Bacteroidota;c__Bacteroidia;o__Bacteroidales;f__Bacteroidaceae;g__Bacteroides;s__xylanisolvens
+718	Bacteroides zoogleoformans	HMT-465	2	k__Bacteria;p__Bacteroidota;c__Bacteroidia;o__Bacteroidales;f__Bacteroidaceae;g__Bacteroides;s__zoogleoformans
+1253	Bartonella schoenbuchensis	HMT-001	5	k__Bacteria;p__Pseudomonadota;c__Alphaproteobacteria;o__Hyphomicrobiales;f__Bartonellaceae;g__Bartonella;s__schoenbuchensis
+1088	Bdellovibrio sp. HMT-039	HMT-039	1	k__Bacteria;p__Pseudomonadota;c__Oligoflexia;o__Bdellovibrionales;f__Pseudobdellovibrionaceae;g__Bdellovibrio;s__sp. HMT-039
+429	Bifidobacterium animalis	HMT-895	9	k__Bacteria;p__Actinomycetota;c__Actinomycetes;o__Bifidobacteriales;f__Bifidobacteriaceae;g__Bifidobacterium;s__animalis
+600	Bifidobacterium breve	HMT-889	8	k__Bacteria;p__Actinomycetota;c__Actinomycetes;o__Bifidobacteriales;f__Bifidobacteriaceae;g__Bifidobacterium;s__breve
+641	Bifidobacterium dentium	HMT-588	4	k__Bacteria;p__Actinomycetota;c__Actinomycetes;o__Bifidobacteriales;f__Bifidobacteriaceae;g__Bifidobacterium;s__dentium
+761	Bifidobacterium longum	HMT-862	4	k__Bacteria;p__Actinomycetota;c__Actinomycetes;o__Bifidobacteriales;f__Bifidobacteriaceae;g__Bifidobacterium;s__longum
+779	Bifidobacterium scardovii	HMT-891	2	k__Bacteria;p__Actinomycetota;c__Actinomycetes;o__Bifidobacteriales;f__Bifidobacteriaceae;g__Bifidobacterium;s__scardovii
+829	Bifidobacterium subtile	HMT-890	2	k__Bacteria;p__Actinomycetota;c__Actinomycetes;o__Bifidobacteriales;f__Bifidobacteriaceae;g__Bifidobacterium;s__subtile
+599	Bordetella pertussis	HMT-828	5	k__Bacteria;p__Pseudomonadota;c__Betaproteobacteria;o__Burkholderiales;f__Alcaligenaceae;g__Bordetella;s__pertussis
+1246	Bradyrhizobium elkanii	HMT-597	3	k__Bacteria;p__Pseudomonadota;c__Alphaproteobacteria;o__Hyphomicrobiales;f__Nitrobacteraceae;g__Bradyrhizobium;s__elkanii
+811	Brevibacterium paucivorans	HMT-340	4	k__Bacteria;p__Actinomycetota;c__Actinomycetes;o__Micrococcales;f__Brevibacteriaceae;g__Brevibacterium;s__paucivorans
+1331	Brevundimonas diminuta	HMT-590	5	k__Bacteria;p__Pseudomonadota;c__Alphaproteobacteria;o__Caulobacterales;f__Caulobacteraceae;g__Brevundimonas;s__diminuta
+347	Brochothrix thermosphacta	HMT-241	12	k__Bacteria;p__Bacillota;c__Bacilli;o__Caryophanales;f__Listeriaceae;g__Brochothrix;s__thermosphacta
+876	Brooklawnia sp. HMT-192	HMT-192	2	k__Bacteria;p__Actinomycetota;c__Actinomycetes;o__Propionibacteriales;f__Propionibacteriaceae;g__Brooklawnia;s__sp. HMT-192
+1296	Brucella anthropi	HMT-544	6	k__Bacteria;p__Pseudomonadota;c__Alphaproteobacteria;o__Hyphomicrobiales;f__Brucellaceae;g__Brucella;s__anthropi
+777	Bulleidia extructa	HMT-603	2	k__Bacteria;p__Bacillota;c__Erysipelotrichia;o__Erysipelotrichales;f__Erysipelotrichaceae;g__Bulleidia;s__extructa
+589	Burkholderia cepacia	HMT-571	25	k__Bacteria;p__Pseudomonadota;c__Betaproteobacteria;o__Burkholderiales;f__Burkholderiaceae;g__Burkholderia;s__cepacia
+817	Butyrivibrio sp. HMT-080	HMT-080	1	k__Bacteria;p__Bacillota;c__Clostridia;o__Lachnospirales;f__Lachnospiraceae;g__Butyrivibrio;s__sp. HMT-080
+808	Butyrivibrio sp. HMT-090	HMT-090	1	k__Bacteria;p__Bacillota;c__Clostridia;o__Lachnospirales;f__Lachnospiraceae;g__Butyrivibrio;s__sp. HMT-090
+855	Butyrivibrio sp. HMT-455	HMT-455	1	k__Bacteria;p__Bacillota;c__Clostridia;o__Lachnospirales;f__Lachnospiraceae;g__Butyrivibrio;s__sp. HMT-455
+1110	Caldilinea aerophila	HMT-994	1	k__Bacteria;p__Chloroflexota;c__Caldilineae;o__Caldilineales;f__Caldilineaceae;g__Caldilinea;s__aerophila
+1042	Campylobacter concisus	HMT-433,HMT-575	45	k__Bacteria;p__Pseudomonadota;c__Epsilonproteobacteria;o__Campylobacterales;f__Campylobacteraceae;g__Campylobacter;s__concisus
+107	Campylobacter curvus	HMT-580	9	k__Bacteria;p__Pseudomonadota;c__Epsilonproteobacteria;o__Campylobacterales;f__Campylobacteraceae;g__Campylobacter;s__curvus
+991	Campylobacter gracilis	HMT-623	2	k__Bacteria;p__Pseudomonadota;c__Epsilonproteobacteria;o__Campylobacterales;f__Campylobacteraceae;g__Campylobacter;s__gracilis
+106	Campylobacter rectus	HMT-748	2	k__Bacteria;p__Pseudomonadota;c__Epsilonproteobacteria;o__Campylobacterales;f__Campylobacteraceae;g__Campylobacter;s__rectus
+1049	Campylobacter showae	HMT-763	6	k__Bacteria;p__Pseudomonadota;c__Epsilonproteobacteria;o__Campylobacterales;f__Campylobacteraceae;g__Campylobacter;s__showae
+1257	Campylobacter sp. HMT-044	HMT-044	1	k__Bacteria;p__Pseudomonadota;c__Epsilonproteobacteria;o__Campylobacterales;f__Campylobacteraceae;g__Campylobacter;s__sp. HMT-044
+122	Campylobacter sputorum	HMT-776	4	k__Bacteria;p__Pseudomonadota;c__Epsilonproteobacteria;o__Campylobacterales;f__Campylobacteraceae;g__Campylobacter;s__sputorum
+988	Campylobacter ureolyticus	HMT-842	6	k__Bacteria;p__Pseudomonadota;c__Epsilonproteobacteria;o__Campylobacterales;f__Campylobacteraceae;g__Campylobacter;s__ureolyticus
+1030	Capnocytophaga bilenii	HMT-332	2	k__Bacteria;p__Bacteroidota;c__Flavobacteriia;o__Flavobacteriales;f__Flavobacteriaceae;g__Capnocytophaga;s__bilenii
+981	Capnocytophaga gingivalis	HMT-337	5	k__Bacteria;p__Bacteroidota;c__Flavobacteriia;o__Flavobacteriales;f__Flavobacteriaceae;g__Capnocytophaga;s__gingivalis
+1043	Capnocytophaga granulosa	HMT-325	5	k__Bacteria;p__Bacteroidota;c__Flavobacteriia;o__Flavobacteriales;f__Flavobacteriaceae;g__Capnocytophaga;s__granulosa
+909	Capnocytophaga haemolytica	HMT-627	5	k__Bacteria;p__Bacteroidota;c__Flavobacteriia;o__Flavobacteriales;f__Flavobacteriaceae;g__Capnocytophaga;s__haemolytica
+1024	Capnocytophaga leadbetteri	HMT-329	11	k__Bacteria;p__Bacteroidota;c__Flavobacteriia;o__Flavobacteriales;f__Flavobacteriaceae;g__Capnocytophaga;s__leadbetteri
+920	Capnocytophaga ochracea	HMT-700	38	k__Bacteria;p__Bacteroidota;c__Flavobacteriia;o__Flavobacteriales;f__Flavobacteriaceae;g__Capnocytophaga;s__ochracea
+982	Capnocytophaga periodontitidis	HMT-326	11	k__Bacteria;p__Bacteroidota;c__Flavobacteriia;o__Flavobacteriales;f__Flavobacteriaceae;g__Capnocytophaga;s__periodontitidis
+990	Capnocytophaga sp. HMT-338	HMT-338	2	k__Bacteria;p__Bacteroidota;c__Flavobacteriia;o__Flavobacteriales;f__Flavobacteriaceae;g__Capnocytophaga;s__sp. HMT-338
+1348	Capnocytophaga sp. HMT-471	HMT-471	1	k__Bacteria;p__Bacteroidota;c__Flavobacteriia;o__Flavobacteriales;f__Flavobacteriaceae;g__Capnocytophaga;s__sp. HMT-471
+1031	Capnocytophaga sp. HMT-863	HMT-863	2	k__Bacteria;p__Bacteroidota;c__Flavobacteriia;o__Flavobacteriales;f__Flavobacteriaceae;g__Capnocytophaga;s__sp. HMT-863
+1041	Capnocytophaga sp. HMT-878	HMT-878	2	k__Bacteria;p__Bacteroidota;c__Flavobacteriia;o__Flavobacteriales;f__Flavobacteriaceae;g__Capnocytophaga;s__sp. HMT-878
+1255	Capnocytophaga sp. HMT-901	HMT-901	1	k__Bacteria;p__Bacteroidota;c__Flavobacteriia;o__Flavobacteriales;f__Flavobacteriaceae;g__Capnocytophaga;s__sp. HMT-901
+955	Capnocytophaga sputigena	HMT-775	17	k__Bacteria;p__Bacteroidota;c__Flavobacteriia;o__Flavobacteriales;f__Flavobacteriaceae;g__Capnocytophaga;s__sputigena
+578	Cardiobacterium hominis	HMT-633	4	k__Bacteria;p__Pseudomonadota;c__Gammaproteobacteria;o__Cardiobacteriales;f__Cardiobacteriaceae;g__Cardiobacterium;s__hominis
+570	Cardiobacterium valvarum	HMT-540	2	k__Bacteria;p__Pseudomonadota;c__Gammaproteobacteria;o__Cardiobacteriales;f__Cardiobacteriaceae;g__Cardiobacterium;s__valvarum
+531	Catonella massiliensis	HMT-428	4	k__Bacteria;p__Bacillota;c__Clostridia;o__Lachnospirales;f__Lachnospiraceae;g__Catonella;s__massiliensis
+541	Catonella morbi	HMT-165	5	k__Bacteria;p__Bacillota;c__Clostridia;o__Lachnospirales;f__Lachnospiraceae;g__Catonella;s__morbi
+1040	Catonella sp. HMT-164	HMT-164	1	k__Bacteria;p__Bacillota;c__Clostridia;o__Lachnospirales;f__Lachnospiraceae;g__Catonella;s__sp. HMT-164
+1364	Catonella sp. HMT-451	HMT-451	1	k__Bacteria;p__Bacillota;c__Clostridia;o__Lachnospirales;f__Lachnospiraceae;g__Catonella;s__sp. HMT-451
+1336	Caulobacter sp. HMT-002	HMT-002	1	k__Bacteria;p__Pseudomonadota;c__Alphaproteobacteria;o__Caulobacterales;f__Caulobacteraceae;g__Caulobacter;s__sp. HMT-002
+823	Cellulosimicrobium funkei	HMT-374	5	k__Bacteria;p__Actinomycetota;c__Actinomycetes;o__Micrococcales;f__Promicromonosporaceae;g__Cellulosimicrobium;s__funkei
+866	Centipeda periodontii	HMT-726	1	k__Bacteria;p__Bacillota;c__Negativicutes;o__Selenomonadales;f__Selenomonadaceae;g__Centipeda;s__periodontii
+280	Chlamydia pneumoniae	HMT-733	5	k__Bacteria;p__Chlamydiota;c__Chlamydiia;o__Chlamydiales;f__Chlamydiaceae;g__Chlamydia;s__pneumoniae
+1167	Chlorobium limicola	HMT-984	1	k__Bacteria;p__Chlorobiota;c__Chlorobiia;o__Chlorobiales;f__Chlorobiaceae;g__Chlorobium;s__limicola
+1232	Chryseobacterium sp. HMT-319	HMT-319	1	k__Bacteria;p__Bacteroidota;c__Flavobacteriia;o__Flavobacteriales;f__Weeksellaceae;g__Chryseobacterium;s__sp. HMT-319
+954	Cloacibacterium normanense	HMT-422	3	k__Bacteria;p__Bacteroidota;c__Flavobacteriia;o__Flavobacteriales;f__Weeksellaceae;g__Cloacibacterium;s__normanense
+1342	Cloacibacterium sp. HMT-206	HMT-206	1	k__Bacteria;p__Bacteroidota;c__Flavobacteriia;o__Flavobacteriales;f__Weeksellaceae;g__Cloacibacterium;s__sp. HMT-206
+1243	Clostridiales [F1 G1] bacterium HMT-093	HMT-093	1	k__Bacteria;p__Bacillota;c__Clostridia;o__Eubacteriales;f__Clostridiales [F1];g__Clostridiales [F1 G1];s__bacterium HMT-093
+1114	Clostridiales [F1 G2] bacterium HMT-402	HMT-402	1	k__Bacteria;p__Bacillota;c__Clostridia;o__Eubacteriales;f__Clostridiales [F1];g__Clostridiales [F1 G2];s__bacterium HMT-402
+1155	Clostridiales [F3 G1] bacterium HMT-876	HMT-876	1	k__Bacteria;p__Bacillota;c__Clostridia;o__Eubacteriales;f__Clostridiales [F3];g__Clostridiales [F3 G1];s__bacterium HMT-876
+593	Comamonas testosteroni	HMT-858	9	k__Bacteria;p__Pseudomonadota;c__Betaproteobacteria;o__Burkholderiales;f__Comamonadaceae;g__Comamonas;s__testosteroni
+891	Corynebacterium accolens	HMT-019	36	k__Bacteria;p__Actinomycetota;c__Actinomycetes;o__Mycobacteriales;f__Corynebacteriaceae;g__Corynebacterium;s__accolens
+928	Corynebacterium afermentans	HMT-030	9	k__Bacteria;p__Actinomycetota;c__Actinomycetes;o__Mycobacteriales;f__Corynebacteriaceae;g__Corynebacterium;s__afermentans
+784	Corynebacterium amycolatum	HMT-031	19	k__Bacteria;p__Actinomycetota;c__Actinomycetes;o__Mycobacteriales;f__Corynebacteriaceae;g__Corynebacterium;s__amycolatum
+942	Corynebacterium appendicis	HMT-033	3	k__Bacteria;p__Actinomycetota;c__Actinomycetes;o__Mycobacteriales;f__Corynebacteriaceae;g__Corynebacterium;s__appendicis
+890	Corynebacterium aurimucosum	HMT-034,HMT-450	16	k__Bacteria;p__Actinomycetota;c__Actinomycetes;o__Mycobacteriales;f__Corynebacteriaceae;g__Corynebacterium;s__aurimucosum
+874	Corynebacterium bovis	HMT-208	3	k__Bacteria;p__Actinomycetota;c__Actinomycetes;o__Mycobacteriales;f__Corynebacteriaceae;g__Corynebacterium;s__bovis
+929	Corynebacterium coyleae	HMT-341	13	k__Bacteria;p__Actinomycetota;c__Actinomycetes;o__Mycobacteriales;f__Corynebacteriaceae;g__Corynebacterium;s__coyleae
+854	Corynebacterium diphtheriae	HMT-591	7	k__Bacteria;p__Actinomycetota;c__Actinomycetes;o__Mycobacteriales;f__Corynebacteriaceae;g__Corynebacterium;s__diphtheriae
+396	Corynebacterium durum	HMT-595	9	k__Bacteria;p__Actinomycetota;c__Actinomycetes;o__Mycobacteriales;f__Corynebacteriaceae;g__Corynebacterium;s__durum
+936	Corynebacterium gottingense	HMT-207	7	k__Bacteria;p__Actinomycetota;c__Actinomycetes;o__Mycobacteriales;f__Corynebacteriaceae;g__Corynebacterium;s__gottingense
+883	Corynebacterium hesseae	HMT-445	9	k__Bacteria;p__Actinomycetota;c__Actinomycetes;o__Mycobacteriales;f__Corynebacteriaceae;g__Corynebacterium;s__hesseae
+711	Corynebacterium jeikeium	HMT-047	15	k__Bacteria;p__Actinomycetota;c__Actinomycetes;o__Mycobacteriales;f__Corynebacteriaceae;g__Corynebacterium;s__jeikeium
+916	Corynebacterium kefirresidentii	HMT-783	6	k__Bacteria;p__Actinomycetota;c__Actinomycetes;o__Mycobacteriales;f__Corynebacteriaceae;g__Corynebacterium;s__kefirresidentii
+827	Corynebacterium kroppenstedtii	HMT-049	4	k__Bacteria;p__Actinomycetota;c__Actinomycetes;o__Mycobacteriales;f__Corynebacteriaceae;g__Corynebacterium;s__kroppenstedtii
+557	Corynebacterium macclintockiae	HMT-454	5	k__Bacteria;p__Actinomycetota;c__Actinomycetes;o__Mycobacteriales;f__Corynebacteriaceae;g__Corynebacterium;s__macclintockiae
+899	Corynebacterium macginleyi	HMT-050	4	k__Bacteria;p__Actinomycetota;c__Actinomycetes;o__Mycobacteriales;f__Corynebacteriaceae;g__Corynebacterium;s__macginleyi
+872	Corynebacterium massiliense	HMT-333	1	k__Bacteria;p__Actinomycetota;c__Actinomycetes;o__Mycobacteriales;f__Corynebacteriaceae;g__Corynebacterium;s__massiliense
+740	Corynebacterium mastitidis	HMT-328	3	k__Bacteria;p__Actinomycetota;c__Actinomycetes;o__Mycobacteriales;f__Corynebacteriaceae;g__Corynebacterium;s__mastitidis
+239	Corynebacterium matruchotii	HMT-666	10	k__Bacteria;p__Actinomycetota;c__Actinomycetes;o__Mycobacteriales;f__Corynebacteriaceae;g__Corynebacterium;s__matruchotii
+931	Corynebacterium minutissimum	HMT-053	10	k__Bacteria;p__Actinomycetota;c__Actinomycetes;o__Mycobacteriales;f__Corynebacteriaceae;g__Corynebacterium;s__minutissimum
+867	Corynebacterium mucifaciens	HMT-835	7	k__Bacteria;p__Actinomycetota;c__Actinomycetes;o__Mycobacteriales;f__Corynebacteriaceae;g__Corynebacterium;s__mucifaciens
+342	Corynebacterium otitidis	HMT-832	3	k__Bacteria;p__Actinomycetota;c__Actinomycetes;o__Mycobacteriales;f__Corynebacteriaceae;g__Corynebacterium;s__otitidis
+961	Corynebacterium pilbarense	HMT-054	1	k__Bacteria;p__Actinomycetota;c__Actinomycetes;o__Mycobacteriales;f__Corynebacteriaceae;g__Corynebacterium;s__pilbarense
+945	Corynebacterium propinquum	HMT-059	11	k__Bacteria;p__Actinomycetota;c__Actinomycetes;o__Mycobacteriales;f__Corynebacteriaceae;g__Corynebacterium;s__propinquum
+944	Corynebacterium pseudodiphtheriticum	HMT-060	8	k__Bacteria;p__Actinomycetota;c__Actinomycetes;o__Mycobacteriales;f__Corynebacteriaceae;g__Corynebacterium;s__pseudodiphtheriticum
+930	Corynebacterium simulans	HMT-062	8	k__Bacteria;p__Actinomycetota;c__Actinomycetes;o__Mycobacteriales;f__Corynebacteriaceae;g__Corynebacterium;s__simulans
+911	Corynebacterium singulare	HMT-063	3	k__Bacteria;p__Actinomycetota;c__Actinomycetes;o__Mycobacteriales;f__Corynebacteriaceae;g__Corynebacterium;s__singulare
+898	Corynebacterium striatum	HMT-072	24	k__Bacteria;p__Actinomycetota;c__Actinomycetes;o__Mycobacteriales;f__Corynebacteriaceae;g__Corynebacterium;s__striatum
+924	Corynebacterium tuberculostearicum	HMT-077	9	k__Bacteria;p__Actinomycetota;c__Actinomycetes;o__Mycobacteriales;f__Corynebacteriaceae;g__Corynebacterium;s__tuberculostearicum
+912	Corynebacterium tuscaniense	HMT-184	2	k__Bacteria;p__Actinomycetota;c__Actinomycetes;o__Mycobacteriales;f__Corynebacteriaceae;g__Corynebacterium;s__tuscaniense
+833	Corynebacterium urealyticum	HMT-853	11	k__Bacteria;p__Actinomycetota;c__Actinomycetes;o__Mycobacteriales;f__Corynebacteriaceae;g__Corynebacterium;s__urealyticum
+328	Cronobacter sakazakii	HMT-753	20	k__Bacteria;p__Pseudomonadota;c__Gammaproteobacteria;o__Enterobacterales;f__Enterobacteriaceae;g__Cronobacter;s__sakazakii
+995	Cryptobacterium curtum	HMT-579	3	k__Bacteria;p__Actinomycetota;c__Coriobacteriia;o__Eggerthellales;f__Eggerthellaceae;g__Cryptobacterium;s__curtum
+561	Cupriavidus gilardii	HMT-027	12	k__Bacteria;p__Pseudomonadota;c__Betaproteobacteria;o__Burkholderiales;f__Burkholderiaceae;g__Cupriavidus;s__gilardii
+772	Cutibacterium acnes	HMT-530	23	k__Bacteria;p__Actinomycetota;c__Actinomycetes;o__Propionibacteriales;f__Propionibacteriaceae;g__Cutibacterium;s__acnes
+828	Cutibacterium avidum	HMT-552	10	k__Bacteria;p__Actinomycetota;c__Actinomycetes;o__Propionibacteriales;f__Propionibacteriaceae;g__Cutibacterium;s__avidum
+812	Cutibacterium granulosum	HMT-114	3	k__Bacteria;p__Actinomycetota;c__Actinomycetes;o__Propionibacteriales;f__Propionibacteriaceae;g__Cutibacterium;s__granulosum
+785	Cutibacterium modestum	HMT-193	2	k__Bacteria;p__Actinomycetota;c__Actinomycetes;o__Propionibacteriales;f__Propionibacteriaceae;g__Cutibacterium;s__modestum
+832	Cutibacterium namnetense	HMT-791	1	k__Bacteria;p__Actinomycetota;c__Actinomycetes;o__Propionibacteriales;f__Propionibacteriaceae;g__Cutibacterium;s__namnetense
+581	Delftia acidovorans	HMT-023	11	k__Bacteria;p__Pseudomonadota;c__Betaproteobacteria;o__Burkholderiales;f__Comamonadaceae;g__Delftia;s__acidovorans
+886	Dermabacter hominis	HMT-354	10	k__Bacteria;p__Actinomycetota;c__Actinomycetes;o__Micrococcales;f__Dermabacteraceae;g__Dermabacter;s__hominis
+247	Desulfobulbus oralis	HMT-041	3	k__Bacteria;p__Pseudomonadota;c__Deltaproteobacteria;o__Desulfobacterales;f__Desulfobulbaceae;g__Desulfobulbus;s__oralis
+302	Desulfomicrobium orale	HMT-703	1	k__Bacteria;p__Pseudomonadota;c__Deltaproteobacteria;o__Desulfovibrionales;f__Desulfomicrobiaceae;g__Desulfomicrobium;s__orale
+334	Desulfovibrio fairfieldensis	HMT-605	5	k__Bacteria;p__Pseudomonadota;c__Deltaproteobacteria;o__Desulfovibrionales;f__Desulfovibrionaceae;g__Desulfovibrio;s__fairfieldensis
+713	Desulfovibrio sp. HMT-040	HMT-040	1	k__Bacteria;p__Pseudomonadota;c__Deltaproteobacteria;o__Desulfovibrionales;f__Desulfovibrionaceae;g__Desulfovibrio;s__sp. HMT-040
+177	Dialister invisus	HMT-118	12	k__Bacteria;p__Bacillota;c__Negativicutes;o__Veillonellales;f__Veillonellaceae;g__Dialister;s__invisus
+165	Dialister pneumosintes	HMT-736	5	k__Bacteria;p__Bacillota;c__Negativicutes;o__Veillonellales;f__Veillonellaceae;g__Dialister;s__pneumosintes
+369	Dialister sp. HMT-119	HMT-119	1	k__Bacteria;p__Bacillota;c__Negativicutes;o__Veillonellales;f__Veillonellaceae;g__Dialister;s__sp. HMT-119
+853	Dietzia cinnamea	HMT-368	7	k__Bacteria;p__Actinomycetota;c__Actinomycetes;o__Mycobacteriales;f__Dietziaceae;g__Dietzia;s__cinnamea
+394	Dolosigranulum pigrum	HMT-813	37	k__Bacteria;p__Bacillota;c__Bacilli;o__Lactobacillales;f__Carnobacteriaceae;g__Dolosigranulum;s__pigrum
+1064	Eggerthella lenta	HMT-654	9	k__Bacteria;p__Actinomycetota;c__Coriobacteriia;o__Eggerthellales;f__Eggerthellaceae;g__Eggerthella;s__lenta
+380	Eggerthia catenaformis	HMT-569	2	k__Bacteria;p__Bacillota;c__Erysipelotrichia;o__Erysipelotrichales;f__Coprobacillaceae;g__Eggerthia;s__catenaformis
+454	Eikenella corrodens	HMT-577	19	k__Bacteria;p__Pseudomonadota;c__Betaproteobacteria;o__Neisseriales;f__Neisseriaceae;g__Eikenella;s__corrodens
+882	Eikenella sp. HMT-011	HMT-011	1	k__Bacteria;p__Pseudomonadota;c__Betaproteobacteria;o__Neisseriales;f__Neisseriaceae;g__Eikenella;s__sp. HMT-011
+1322	Enhydrobacter aerosaccus	HMT-196	1	k__Bacteria;p__Pseudomonadota;c__Gammaproteobacteria;o__Pseudomonadales;f__Moraxellaceae;g__Enhydrobacter;s__aerosaccus
+459	Enterobacter cancerogenus	HMT-565	38	k__Bacteria;p__Pseudomonadota;c__Gammaproteobacteria;o__Enterobacterales;f__Enterobacteriaceae;g__Enterobacter;s__cancerogenus
+433	Enterobacter hormaechei	HMT-634	25	k__Bacteria;p__Pseudomonadota;c__Gammaproteobacteria;o__Enterobacterales;f__Enterobacteriaceae;g__Enterobacter;s__hormaechei
+215	Enterococcus casseliflavus	HMT-801	18	k__Bacteria;p__Bacillota;c__Bacilli;o__Lactobacillales;f__Enterococcaceae;g__Enterococcus;s__casseliflavus
+207	Enterococcus durans	HMT-880	22	k__Bacteria;p__Bacillota;c__Bacilli;o__Lactobacillales;f__Enterococcaceae;g__Enterococcus;s__durans
+197	Enterococcus faecalis	HMT-604	8	k__Bacteria;p__Bacillota;c__Bacilli;o__Lactobacillales;f__Enterococcaceae;g__Enterococcus;s__faecalis
+251	Enterococcus italicus	HMT-803	1	k__Bacteria;p__Bacillota;c__Bacilli;o__Lactobacillales;f__Enterococcaceae;g__Enterococcus;s__italicus
+218	Enterococcus saccharolyticus	HMT-802	4	k__Bacteria;p__Bacillota;c__Bacilli;o__Lactobacillales;f__Enterococcaceae;g__Enterococcus;s__saccharolyticus
+951	Erysipelothrix tonsillarum	HMT-484	1	k__Bacteria;p__Bacillota;c__Erysipelotrichia;o__Erysipelotrichales;f__Erysipelotrichaceae;g__Erysipelothrix;s__tonsillarum
+1334	Erysipelotrichaceae [G1] bacterium HMT-904	HMT-904	1	k__Bacteria;p__Bacillota;c__Erysipelotrichia;o__Erysipelotrichales;f__Erysipelotrichaceae;g__Erysipelotrichaceae [G1];s__bacterium HMT-904
+1333	Erysipelotrichaceae [G1] bacterium HMT-905	HMT-905	1	k__Bacteria;p__Bacillota;c__Erysipelotrichia;o__Erysipelotrichales;f__Erysipelotrichaceae;g__Erysipelotrichaceae [G1];s__bacterium HMT-905
+1292	Erythrobacter ramosus	HMT-747	1	k__Bacteria;p__Pseudomonadota;c__Alphaproteobacteria;o__Sphingomonadales;f__Erythrobacteraceae;g__Erythrobacter;s__ramosus
+1291	Erythrobacter tepidarius	HMT-007	2	k__Bacteria;p__Pseudomonadota;c__Alphaproteobacteria;o__Sphingomonadales;f__Erythrobacteraceae;g__Erythrobacter;s__tepidarius
+421	Escherichia coli	HMT-574	41	k__Bacteria;p__Pseudomonadota;c__Gammaproteobacteria;o__Enterobacterales;f__Enterobacteriaceae;g__Escherichia;s__coli
+792	Eubacterium limosum	HMT-655	8	k__Bacteria;p__Bacillota;c__Clostridia;o__Eubacteriales;f__Eubacteriaceae;g__Eubacterium;s__limosum
+1005	Faecalibacterium prausnitzii	HMT-961	24	k__Bacteria;p__Bacillota;c__Clostridia;o__Eubacteriales;f__Oscillospiraceae;g__Faecalibacterium;s__prausnitzii
+973	Fannyhessea sp. HMT-416	HMT-416	2	k__Bacteria;p__Actinomycetota;c__Coriobacteriia;o__Coriobacteriales;f__Atopobiaceae;g__Fannyhessea;s__sp. HMT-416
+947	Fannyhessea vaginae	HMT-814	3	k__Bacteria;p__Actinomycetota;c__Coriobacteriia;o__Coriobacteriales;f__Atopobiaceae;g__Fannyhessea;s__vaginae
+566	Fastidiosipila sanguinis	HMT-935	3	k__Bacteria;p__Bacillota;c__Clostridia;o__Eubacteriales;f__Oscillospiraceae;g__Fastidiosipila;s__sanguinis
+526	Fenollaria massiliensis	HMT-929	10	k__Bacteria;p__Bacillota;c__Clostridia;o__Tissierellales;f__Peptoniphilaceae;g__Fenollaria;s__massiliensis
+545	Filifactor alocis	HMT-539	2	k__Bacteria;p__Bacillota;c__Clostridia;o__Peptostreptococcales;f__Filifactoraceae;g__Filifactor;s__alocis
+841	Finegoldia magna	HMT-662	18	k__Bacteria;p__Bacillota;c__Clostridia;o__Tissierellales;f__Peptoniphilaceae;g__Finegoldia;s__magna
+1121	Flavitalea sp. HMT-320	HMT-320	1	k__Bacteria;p__Bacteroidota;c__Chitinophagia;o__Chitinophagales;f__Chitinophagaceae;g__Flavitalea;s__sp. HMT-320
+1227	Fretibacterium fastidiosum	HMT-363	3	k__Bacteria;p__Synergistota;c__Synergistia;o__Synergistales;f__Synergistaceae;g__Fretibacterium;s__fastidiosum
+1190	Fretibacterium sp. HMT-358	HMT-358	1	k__Bacteria;p__Synergistota;c__Synergistia;o__Synergistales;f__Synergistaceae;g__Fretibacterium;s__sp. HMT-358
+1195	Fretibacterium sp. HMT-359	HMT-359	1	k__Bacteria;p__Synergistota;c__Synergistia;o__Synergistales;f__Synergistaceae;g__Fretibacterium;s__sp. HMT-359
+1189	Fretibacterium sp. HMT-360	HMT-360	1	k__Bacteria;p__Synergistota;c__Synergistia;o__Synergistales;f__Synergistaceae;g__Fretibacterium;s__sp. HMT-360
+1181	Fretibacterium sp. HMT-361	HMT-361	3	k__Bacteria;p__Synergistota;c__Synergistia;o__Synergistales;f__Synergistaceae;g__Fretibacterium;s__sp. HMT-361
+1187	Fretibacterium sp. HMT-362	HMT-362	2	k__Bacteria;p__Synergistota;c__Synergistia;o__Synergistales;f__Synergistaceae;g__Fretibacterium;s__sp. HMT-362
+903	Fusobacterium animalis	HMT-420	169	k__Bacteria;p__Fusobacteriota;c__Fusobacteriia;o__Fusobacteriales;f__Fusobacteriaceae;g__Fusobacterium;s__animalis
+1096	Fusobacterium gonidiaformans	HMT-860	2	k__Bacteria;p__Fusobacteriota;c__Fusobacteriia;o__Fusobacteriales;f__Fusobacteriaceae;g__Fusobacterium;s__gonidiaformans
+1099	Fusobacterium hwasookii	HMT-953	20	k__Bacteria;p__Fusobacteriota;c__Fusobacteriia;o__Fusobacteriales;f__Fusobacteriaceae;g__Fusobacterium;s__hwasookii
+1089	Fusobacterium necrophorum	HMT-690	20	k__Bacteria;p__Fusobacteriota;c__Fusobacteriia;o__Fusobacteriales;f__Fusobacteriaceae;g__Fusobacterium;s__necrophorum
+897	Fusobacterium nucleatum_sensu_stricto	HMT-698	50	k__Bacteria;p__Fusobacteriota;c__Fusobacteriia;o__Fusobacteriales;f__Fusobacteriaceae;g__Fusobacterium;s__nucleatum_sensu_stricto
+1128	Fusobacterium periodonticum	HMT-201	15	k__Bacteria;p__Fusobacteriota;c__Fusobacteriia;o__Fusobacteriales;f__Fusobacteriaceae;g__Fusobacterium;s__periodonticum
+904	Fusobacterium polymorphum	HMT-202	130	k__Bacteria;p__Fusobacteriota;c__Fusobacteriia;o__Fusobacteriales;f__Fusobacteriaceae;g__Fusobacterium;s__polymorphum
+1124	Fusobacterium pseudoperiodonticum	HMT-429	17	k__Bacteria;p__Fusobacteriota;c__Fusobacteriia;o__Fusobacteriales;f__Fusobacteriaceae;g__Fusobacterium;s__pseudoperiodonticum
+935	Fusobacterium simiae	HMT-447	1	k__Bacteria;p__Fusobacteriota;c__Fusobacteriia;o__Fusobacteriales;f__Fusobacteriaceae;g__Fusobacterium;s__simiae
+1204	Fusobacterium sp. HMT-203	HMT-203	2	k__Bacteria;p__Fusobacteriota;c__Fusobacteriia;o__Fusobacteriales;f__Fusobacteriaceae;g__Fusobacterium;s__sp. HMT-203
+1293	Fusobacterium sp. HMT-204	HMT-204	1	k__Bacteria;p__Fusobacteriota;c__Fusobacteriia;o__Fusobacteriales;f__Fusobacteriaceae;g__Fusobacterium;s__sp. HMT-204
+1201	Fusobacterium sp. HMT-205	HMT-205	1	k__Bacteria;p__Fusobacteriota;c__Fusobacteriia;o__Fusobacteriales;f__Fusobacteriaceae;g__Fusobacterium;s__sp. HMT-205
+1126	Fusobacterium sp. HMT-248	HMT-248	3	k__Bacteria;p__Fusobacteriota;c__Fusobacteriia;o__Fusobacteriales;f__Fusobacteriaceae;g__Fusobacterium;s__sp. HMT-248
+1212	Fusobacterium sp. HMT-370	HMT-370	1	k__Bacteria;p__Fusobacteriota;c__Fusobacteriia;o__Fusobacteriales;f__Fusobacteriaceae;g__Fusobacterium;s__sp. HMT-370
+910	Fusobacterium vincentii	HMT-200	65	k__Bacteria;p__Fusobacteriota;c__Fusobacteriia;o__Fusobacteriales;f__Fusobacteriaceae;g__Fusobacterium;s__vincentii
+918	Fusobacterium watanabei	HMT-464	62	k__Bacteria;p__Fusobacteriota;c__Fusobacteriia;o__Fusobacteriales;f__Fusobacteriaceae;g__Fusobacterium;s__watanabei
+939	Gallibacter brachus	HMT-557	2	k__Bacteria;p__Bacillota;c__Clostridia;o__Peptostreptococcales;f__Anaerovoracaceae;g__Gallibacter;s__brachus
+742	Gardnerella leopoldii	HMT-867	3	k__Bacteria;p__Actinomycetota;c__Actinomycetes;o__Bifidobacteriales;f__Bifidobacteriaceae;g__Gardnerella;s__leopoldii
+747	Gardnerella piotii	HMT-846	9	k__Bacteria;p__Actinomycetota;c__Actinomycetes;o__Bifidobacteriales;f__Bifidobacteriaceae;g__Gardnerella;s__piotii
+728	Gardnerella swidsinskii	HMT-868	3	k__Bacteria;p__Actinomycetota;c__Actinomycetes;o__Bifidobacteriales;f__Bifidobacteriaceae;g__Gardnerella;s__swidsinskii
+748	Gardnerella vaginalis	HMT-829	4	k__Bacteria;p__Actinomycetota;c__Actinomycetes;o__Bifidobacteriales;f__Bifidobacteriaceae;g__Gardnerella;s__vaginalis
+548	Gemella bergeri	HMT-555	1	k__Bacteria;p__Bacillota;c__Bacilli;o__Caryophanales;f__Gemellaceae;g__Gemella;s__bergeri
+242	Gemella haemolysans	HMT-434,HMT-626	10	k__Bacteria;p__Bacillota;c__Bacilli;o__Caryophanales;f__Gemellaceae;g__Gemella;s__haemolysans
+256	Gemella massiliensis	HMT-928	1	k__Bacteria;p__Bacillota;c__Bacilli;o__Caryophanales;f__Gemellaceae;g__Gemella;s__massiliensis
+240	Gemella morbillorum	HMT-046	6	k__Bacteria;p__Bacillota;c__Bacilli;o__Caryophanales;f__Gemellaceae;g__Gemella;s__morbillorum
+225	Gemella sanguinis	HMT-757	5	k__Bacteria;p__Bacillota;c__Bacilli;o__Caryophanales;f__Gemellaceae;g__Gemella;s__sanguinis
+308	Granulicatella adiacens	HMT-534	15	k__Bacteria;p__Bacillota;c__Bacilli;o__Lactobacillales;f__Carnobacteriaceae;g__Granulicatella;s__adiacens
+320	Granulicatella elegans	HMT-596	6	k__Bacteria;p__Bacillota;c__Bacilli;o__Lactobacillales;f__Carnobacteriaceae;g__Granulicatella;s__elegans
+1324	Haematobacter missouriensis	HMT-316	1	k__Bacteria;p__Pseudomonadota;c__Alphaproteobacteria;o__Rhodobacterales;f__Paracoccaceae;g__Haematobacter;s__missouriensis
+448	Haemophilus aegyptius	HMT-535	29	k__Bacteria;p__Pseudomonadota;c__Gammaproteobacteria;o__Pasteurellales;f__Pasteurellaceae;g__Haemophilus;s__aegyptius
+450	Haemophilus ducreyi	HMT-821	7	k__Bacteria;p__Pseudomonadota;c__Gammaproteobacteria;o__Pasteurellales;f__Pasteurellaceae;g__Haemophilus;s__ducreyi
+460	Haemophilus haemolyticus	HMT-851	51	k__Bacteria;p__Pseudomonadota;c__Gammaproteobacteria;o__Pasteurellales;f__Pasteurellaceae;g__Haemophilus;s__haemolyticus
+447	Haemophilus influenzae	HMT-641	139	k__Bacteria;p__Pseudomonadota;c__Gammaproteobacteria;o__Pasteurellales;f__Pasteurellaceae;g__Haemophilus;s__influenzae
+469	Haemophilus parahaemolyticus	HMT-945	14	k__Bacteria;p__Pseudomonadota;c__Gammaproteobacteria;o__Pasteurellales;f__Pasteurellaceae;g__Haemophilus;s__parahaemolyticus
+458	Haemophilus parainfluenzae	HMT-718	79	k__Bacteria;p__Pseudomonadota;c__Gammaproteobacteria;o__Pasteurellales;f__Pasteurellaceae;g__Haemophilus;s__parainfluenzae
+485	Haemophilus paraphrohaemolyticus	HMT-035	4	k__Bacteria;p__Pseudomonadota;c__Gammaproteobacteria;o__Pasteurellales;f__Pasteurellaceae;g__Haemophilus;s__paraphrohaemolyticus
+434	Haemophilus pittmaniae	HMT-946	14	k__Bacteria;p__Pseudomonadota;c__Gammaproteobacteria;o__Pasteurellales;f__Pasteurellaceae;g__Haemophilus;s__pittmaniae
+161	Haemophilus sp. HMT-036	HMT-036	14	k__Bacteria;p__Pseudomonadota;c__Gammaproteobacteria;o__Pasteurellales;f__Pasteurellaceae;g__Haemophilus;s__sp. HMT-036
+441	Haemophilus sputorum	HMT-944	3	k__Bacteria;p__Pseudomonadota;c__Gammaproteobacteria;o__Pasteurellales;f__Pasteurellaceae;g__Haemophilus;s__sputorum
+556	Hallella dentalis	HMT-583	2	k__Bacteria;p__Bacteroidota;c__Bacteroidia;o__Bacteroidales;f__Prevotellaceae;g__Hallella;s__dentalis
+528	Hallella multisaccharivorax	HMT-794	7	k__Bacteria;p__Bacteroidota;c__Bacteroidia;o__Bacteroidales;f__Prevotellaceae;g__Hallella;s__multisaccharivorax
+974	Hallella sp. HMT-315	HMT-315	2	k__Bacteria;p__Bacteroidota;c__Bacteroidia;o__Bacteroidales;f__Prevotellaceae;g__Hallella;s__sp. HMT-315
+574	Hallella sp. HMT-376	HMT-376	1	k__Bacteria;p__Bacteroidota;c__Bacteroidia;o__Bacteroidales;f__Prevotellaceae;g__Hallella;s__sp. HMT-376
+989	Hallella sp. HMT-515	HMT-515	1	k__Bacteria;p__Bacteroidota;c__Bacteroidia;o__Bacteroidales;f__Prevotellaceae;g__Hallella;s__sp. HMT-515
+1118	Helicobacter pylori	HMT-812	10	k__Bacteria;p__Pseudomonadota;c__Epsilonproteobacteria;o__Campylobacterales;f__Helicobacteraceae;g__Helicobacter;s__pylori
+976	Hominimerdicola aceti	HMT-962	10	k__Bacteria;p__Bacillota;c__Clostridia;o__Eubacteriales;f__Oscillospiraceae;g__Hominimerdicola;s__aceti
+948	Hornefia minuta	HMT-673	2	k__Bacteria;p__Bacillota;c__Clostridia;o__Peptostreptococcales;f__Anaerovoracaceae;g__Hornefia;s__minuta
+941	Hornefia nodatum	HMT-694	2	k__Bacteria;p__Bacillota;c__Clostridia;o__Peptostreptococcales;f__Anaerovoracaceae;g__Hornefia;s__nodatum
+595	Hoylesella buccalis	HMT-562	5	k__Bacteria;p__Bacteroidota;c__Bacteroidia;o__Bacteroidales;f__Prevotellaceae;g__Hoylesella;s__buccalis
+657	Hoylesella enoeca	HMT-600	1	k__Bacteria;p__Bacteroidota;c__Bacteroidia;o__Bacteroidales;f__Prevotellaceae;g__Hoylesella;s__enoeca
+634	Hoylesella koreensis	HMT-526	3	k__Bacteria;p__Bacteroidota;c__Bacteroidia;o__Bacteroidales;f__Prevotellaceae;g__Hoylesella;s__koreensis
+692	Hoylesella loescheii	HMT-658	5	k__Bacteria;p__Bacteroidota;c__Bacteroidia;o__Bacteroidales;f__Prevotellaceae;g__Hoylesella;s__loescheii
+680	Hoylesella marshii	HMT-665	1	k__Bacteria;p__Bacteroidota;c__Bacteroidia;o__Bacteroidales;f__Prevotellaceae;g__Hoylesella;s__marshii
+714	Hoylesella nanceiensis	HMT-299	7	k__Bacteria;p__Bacteroidota;c__Bacteroidia;o__Bacteroidales;f__Prevotellaceae;g__Hoylesella;s__nanceiensis
+550	Hoylesella oralis	HMT-705	6	k__Bacteria;p__Bacteroidota;c__Bacteroidia;o__Bacteroidales;f__Prevotellaceae;g__Hoylesella;s__oralis
+603	Hoylesella pleuritidis	HMT-303	3	k__Bacteria;p__Bacteroidota;c__Bacteroidia;o__Bacteroidales;f__Prevotellaceae;g__Hoylesella;s__pleuritidis
+1090	Hoylesella saccharolytica	HMT-781	3	k__Bacteria;p__Bacteroidota;c__Bacteroidia;o__Bacteroidales;f__Prevotellaceae;g__Hoylesella;s__saccharolytica
+690	Hoylesella shahii	HMT-795	1	k__Bacteria;p__Bacteroidota;c__Bacteroidia;o__Bacteroidales;f__Prevotellaceae;g__Hoylesella;s__shahii
+1080	Hoylesella sp. HMT-301	HMT-301	1	k__Bacteria;p__Bacteroidota;c__Bacteroidia;o__Bacteroidales;f__Prevotellaceae;g__Hoylesella;s__sp. HMT-301
+663	Hoylesella sp. HMT-317	HMT-317	3	k__Bacteria;p__Bacteroidota;c__Bacteroidia;o__Bacteroidales;f__Prevotellaceae;g__Hoylesella;s__sp. HMT-317
+677	Hoylesella sp. HMT-475	HMT-475	4	k__Bacteria;p__Bacteroidota;c__Bacteroidia;o__Bacteroidales;f__Prevotellaceae;g__Hoylesella;s__sp. HMT-475
+1360	Hoylesella sp. HMT-942	HMT-942	1	k__Bacteria;p__Bacteroidota;c__Bacteroidia;o__Bacteroidales;f__Prevotellaceae;g__Hoylesella;s__sp. HMT-942
+468	Ignavibacterium album	HMT-982	1	k__Bacteria;p__Chlorobiota;c__Ignavibacteria;o__Ignavibacteriales;f__Ignavibacteriaceae;g__Ignavibacterium;s__album
+826	Janibacter indicus	HMT-339	6	k__Bacteria;p__Actinomycetota;c__Actinomycetes;o__Micrococcales;f__Intrasporangiaceae;g__Janibacter;s__indicus
+323	Jeotgalicoccus marinus	HMT-243	3	k__Bacteria;p__Bacillota;c__Bacilli;o__Caryophanales;f__Staphylococcaceae;g__Jeotgalicoccus;s__marinus
+726	Johnsonella ignava	HMT-635	1	k__Bacteria;p__Bacillota;c__Clostridia;o__Lachnospirales;f__Lachnospiraceae;g__Johnsonella;s__ignava
+1044	Johnsonella sp. HMT-166	HMT-166	1	k__Bacteria;p__Bacillota;c__Clostridia;o__Lachnospirales;f__Lachnospiraceae;g__Johnsonella;s__sp. HMT-166
+618	Jonquetella anthropi	HMT-777	4	k__Bacteria;p__Synergistota;c__Synergistia;o__Synergistales;f__Dethiosulfovibrionaceae;g__Jonquetella;s__anthropi
+535	Kingella denitrificans	HMT-582	2	k__Bacteria;p__Pseudomonadota;c__Betaproteobacteria;o__Neisseriales;f__Neisseriaceae;g__Kingella;s__denitrificans
+522	Kingella kingae	HMT-646	11	k__Bacteria;p__Pseudomonadota;c__Betaproteobacteria;o__Neisseriales;f__Neisseriaceae;g__Kingella;s__kingae
+462	Kingella negevensis	HMT-405	5	k__Bacteria;p__Pseudomonadota;c__Betaproteobacteria;o__Neisseriales;f__Neisseriaceae;g__Kingella;s__negevensis
+488	Kingella oralis	HMT-706	3	k__Bacteria;p__Pseudomonadota;c__Betaproteobacteria;o__Neisseriales;f__Neisseriaceae;g__Kingella;s__oralis
+888	Kingella sp. HMT-012	HMT-012	3	k__Bacteria;p__Pseudomonadota;c__Betaproteobacteria;o__Neisseriales;f__Neisseriaceae;g__Kingella;s__sp. HMT-012
+555	Kingella sp. HMT-459	HMT-459	1	k__Bacteria;p__Pseudomonadota;c__Betaproteobacteria;o__Neisseriales;f__Neisseriaceae;g__Kingella;s__sp. HMT-459
+864	Kingella sp. HMT-932	HMT-932	1	k__Bacteria;p__Pseudomonadota;c__Betaproteobacteria;o__Neisseriales;f__Neisseriaceae;g__Kingella;s__sp. HMT-932
+390	Klebsiella aerogenes	HMT-153	27	k__Bacteria;p__Pseudomonadota;c__Gammaproteobacteria;o__Enterobacterales;f__Enterobacteriaceae;g__Klebsiella;s__aerogenes
+463	Klebsiella pneumoniae	HMT-731	24	k__Bacteria;p__Pseudomonadota;c__Gammaproteobacteria;o__Enterobacterales;f__Enterobacteriaceae;g__Klebsiella;s__pneumoniae
+456	Kluyvera ascorbata	HMT-865	15	k__Bacteria;p__Pseudomonadota;c__Gammaproteobacteria;o__Enterobacterales;f__Enterobacteriaceae;g__Kluyvera;s__ascorbata
+674	Kocuria atrinae	HMT-189	2	k__Bacteria;p__Actinomycetota;c__Actinomycetes;o__Micrococcales;f__Micrococcaceae;g__Kocuria;s__atrinae
+746	Kocuria palustris	HMT-084	2	k__Bacteria;p__Actinomycetota;c__Actinomycetes;o__Micrococcales;f__Micrococcaceae;g__Kocuria;s__palustris
+621	Kocuria rhizophila	HMT-197	9	k__Bacteria;p__Actinomycetota;c__Actinomycetes;o__Micrococcales;f__Micrococcaceae;g__Kocuria;s__rhizophila
+806	Kytococcus sedentarius	HMT-855	4	k__Bacteria;p__Actinomycetota;c__Actinomycetes;o__Micrococcales;f__Kytococcaceae;g__Kytococcus;s__sedentarius
+132	Lachnoanaerobaculum gingivalis	HMT-460	10	k__Bacteria;p__Bacillota;c__Clostridia;o__Lachnospirales;f__Lachnospiraceae;g__Lachnoanaerobaculum;s__gingivalis
+594	Lachnoanaerobaculum orale	HMT-082	5	k__Bacteria;p__Bacillota;c__Clostridia;o__Lachnospirales;f__Lachnospiraceae;g__Lachnoanaerobaculum;s__orale
+1062	Lachnoanaerobaculum saburreum	HMT-494	3	k__Bacteria;p__Bacillota;c__Clostridia;o__Lachnospirales;f__Lachnospiraceae;g__Lachnoanaerobaculum;s__saburreum
+602	Lachnoanaerobaculum sp. HMT-083	HMT-083	7	k__Bacteria;p__Bacillota;c__Clostridia;o__Lachnospirales;f__Lachnospiraceae;g__Lachnoanaerobaculum;s__sp. HMT-083
+1081	Lachnoanaerobaculum sp. HMT-089	HMT-089	1	k__Bacteria;p__Bacillota;c__Clostridia;o__Lachnospirales;f__Lachnospiraceae;g__Lachnoanaerobaculum;s__sp. HMT-089
+604	Lachnoanaerobaculum sp. HMT-441	HMT-441	5	k__Bacteria;p__Bacillota;c__Clostridia;o__Lachnospirales;f__Lachnospiraceae;g__Lachnoanaerobaculum;s__sp. HMT-441
+1093	Lachnoanaerobaculum sp. HMT-496	HMT-496	1	k__Bacteria;p__Bacillota;c__Clostridia;o__Lachnospirales;f__Lachnospiraceae;g__Lachnoanaerobaculum;s__sp. HMT-496
+1346	Lachnoanaerobaculum umeaense	HMT-107	8	k__Bacteria;p__Bacillota;c__Clostridia;o__Lachnospirales;f__Lachnospiraceae;g__Lachnoanaerobaculum;s__umeaense
+673	Lachnocurva vaginae	HMT-924	8	k__Bacteria;p__Bacillota;c__Clostridia;o__Lachnospirales;f__Lachnospiraceae;g__Lachnocurva;s__vaginae
+1076	Lachnospiraceae [G10] bacterium HMT-094	HMT-094	1	k__Bacteria;p__Bacillota;c__Clostridia;o__Lachnospirales;f__Lachnospiraceae;g__Lachnospiraceae [G10];s__bacterium HMT-094
+1094	Lachnospiraceae [G2] bacterium HMT-088	HMT-088	1	k__Bacteria;p__Bacillota;c__Clostridia;o__Lachnospirales;f__Lachnospiraceae;g__Lachnospiraceae [G2];s__bacterium HMT-088
+631	Lachnospiraceae [G2] bacterium HMT-096	HMT-096	11	k__Bacteria;p__Bacillota;c__Clostridia;o__Lachnospirales;f__Lachnospiraceae;g__Lachnospiraceae [G2];s__bacterium HMT-096
+1039	Lachnospiraceae [G3] bacterium HMT-100	HMT-100	1	k__Bacteria;p__Bacillota;c__Clostridia;o__Lachnospirales;f__Lachnospiraceae;g__Lachnospiraceae [G3];s__bacterium HMT-100
+997	Lachnospiraceae [G7] bacterium HMT-086	HMT-086	1	k__Bacteria;p__Bacillota;c__Clostridia;o__Lachnospirales;f__Lachnospiraceae;g__Lachnospiraceae [G7];s__bacterium HMT-086
+1000	Lachnospiraceae [G7] bacterium HMT-163	HMT-163	1	k__Bacteria;p__Bacillota;c__Clostridia;o__Lachnospirales;f__Lachnospiraceae;g__Lachnospiraceae [G7];s__bacterium HMT-163
+591	Lachnospiraceae [G8] bacterium HMT-500	HMT-500	4	k__Bacteria;p__Bacillota;c__Clostridia;o__Lachnospirales;f__Lachnospiraceae;g__Lachnospiraceae [G8];s__bacterium HMT-500
+172	Lacticaseibacillus casei	HMT-568	21	k__Bacteria;p__Bacillota;c__Bacilli;o__Lactobacillales;f__Lactobacillaceae;g__Lacticaseibacillus;s__casei
+171	Lacticaseibacillus paracasei	HMT-716	15	k__Bacteria;p__Bacillota;c__Bacilli;o__Lactobacillales;f__Lactobacillaceae;g__Lacticaseibacillus;s__paracasei
+174	Lacticaseibacillus rhamnosus	HMT-749	11	k__Bacteria;p__Bacillota;c__Bacilli;o__Lactobacillales;f__Lactobacillaceae;g__Lacticaseibacillus;s__rhamnosus
+181	Lactiplantibacillus pentosus	HMT-883	13	k__Bacteria;p__Bacillota;c__Bacilli;o__Lactobacillales;f__Lactobacillaceae;g__Lactiplantibacillus;s__pentosus
+182	Lactiplantibacillus plantarum	HMT-861	10	k__Bacteria;p__Bacillota;c__Bacilli;o__Lactobacillales;f__Lactobacillaceae;g__Lactiplantibacillus;s__plantarum
+202	Lactobacillus acidophilus	HMT-529	2	k__Bacteria;p__Bacillota;c__Bacilli;o__Lactobacillales;f__Lactobacillaceae;g__Lactobacillus;s__acidophilus
+191	Lactobacillus crispatus	HMT-817	11	k__Bacteria;p__Bacillota;c__Bacilli;o__Lactobacillales;f__Lactobacillaceae;g__Lactobacillus;s__crispatus
+156	Lactobacillus gasseri	HMT-615	3	k__Bacteria;p__Bacillota;c__Bacilli;o__Lactobacillales;f__Lactobacillaceae;g__Lactobacillus;s__gasseri
+169	Lactobacillus iners	HMT-838	10	k__Bacteria;p__Bacillota;c__Bacilli;o__Lactobacillales;f__Lactobacillaceae;g__Lactobacillus;s__iners
+200	Lactobacillus jensenii	HMT-839	6	k__Bacteria;p__Bacillota;c__Bacilli;o__Lactobacillales;f__Lactobacillaceae;g__Lactobacillus;s__jensenii
+147	Lactobacillus johnsonii	HMT-819	12	k__Bacteria;p__Bacillota;c__Bacilli;o__Lactobacillales;f__Lactobacillaceae;g__Lactobacillus;s__johnsonii
+199	Lactobacillus ultunensis	HMT-461	2	k__Bacteria;p__Bacillota;c__Bacilli;o__Lactobacillales;f__Lactobacillaceae;g__Lactobacillus;s__ultunensis
+357	Lactococcus lactis	HMT-804	3	k__Bacteria;p__Bacillota;c__Bacilli;o__Lactobacillales;f__Streptococcaceae;g__Lactococcus;s__lactis
+1034	Lancefieldella parvula	HMT-723	2	k__Bacteria;p__Actinomycetota;c__Coriobacteriia;o__Coriobacteriales;f__Atopobiaceae;g__Lancefieldella;s__parvula
+980	Lancefieldella rimae	HMT-750	1	k__Bacteria;p__Actinomycetota;c__Coriobacteriia;o__Coriobacteriales;f__Atopobiaceae;g__Lancefieldella;s__rimae
+1012	Lancefieldella sp. HMT-199	HMT-199	3	k__Bacteria;p__Actinomycetota;c__Coriobacteriia;o__Coriobacteriales;f__Atopobiaceae;g__Lancefieldella;s__sp. HMT-199
+645	Lautropia dentalis	HMT-409	1	k__Bacteria;p__Pseudomonadota;c__Betaproteobacteria;o__Burkholderiales;f__Burkholderiaceae;g__Lautropia;s__dentalis
+660	Lautropia mirabilis	HMT-022	5	k__Bacteria;p__Pseudomonadota;c__Betaproteobacteria;o__Burkholderiales;f__Burkholderiaceae;g__Lautropia;s__mirabilis
+839	Lawsonella clevelandensis	HMT-173	3	k__Bacteria;p__Actinomycetota;c__Actinomycetes;o__Mycobacteriales;f__Lawsonellaceae;g__Lawsonella;s__clevelandensis
+144	Lentilactobacillus buchneri	HMT-881	23	k__Bacteria;p__Bacillota;c__Bacilli;o__Lactobacillales;f__Lactobacillaceae;g__Lentilactobacillus;s__buchneri
+148	Lentilactobacillus kisonensis	HMT-424	3	k__Bacteria;p__Bacillota;c__Bacilli;o__Lactobacillales;f__Lactobacillaceae;g__Lentilactobacillus;s__kisonensis
+149	Lentilactobacillus parafarraginis	HMT-418	2	k__Bacteria;p__Bacillota;c__Bacilli;o__Lactobacillales;f__Lactobacillaceae;g__Lentilactobacillus;s__parafarraginis
+145	Lentilactobacillus rapi	HMT-884	2	k__Bacteria;p__Bacillota;c__Bacilli;o__Lactobacillales;f__Lactobacillaceae;g__Lentilactobacillus;s__rapi
+774	Leptothrix sp. HMT-025	HMT-025	1	k__Bacteria;p__Pseudomonadota;c__Betaproteobacteria;o__Burkholderiales;f__Comamonadaceae;g__Leptothrix;s__sp. HMT-025
+1073	Leptothrix sp. HMT-266	HMT-266	1	k__Bacteria;p__Pseudomonadota;c__Betaproteobacteria;o__Burkholderiales;f__Comamonadaceae;g__Leptothrix;s__sp. HMT-266
+1014	Leptotrichia buccalis	HMT-563	6	k__Bacteria;p__Fusobacteriota;c__Fusobacteriia;o__Fusobacteriales;f__Leptotrichiaceae;g__Leptotrichia;s__buccalis
+1015	Leptotrichia hofstadii	HMT-224	7	k__Bacteria;p__Fusobacteriota;c__Fusobacteriia;o__Fusobacteriales;f__Leptotrichiaceae;g__Leptotrichia;s__hofstadii
+1026	Leptotrichia hongkongensis	HMT-213	6	k__Bacteria;p__Fusobacteriota;c__Fusobacteriia;o__Fusobacteriales;f__Leptotrichiaceae;g__Leptotrichia;s__hongkongensis
+1027	Leptotrichia shahii	HMT-214	6	k__Bacteria;p__Fusobacteriota;c__Fusobacteriia;o__Fusobacteriales;f__Leptotrichiaceae;g__Leptotrichia;s__shahii
+967	Leptotrichia sp. HMT-218	HMT-218	11	k__Bacteria;p__Fusobacteriota;c__Fusobacteriia;o__Fusobacteriales;f__Leptotrichiaceae;g__Leptotrichia;s__sp. HMT-218
+1037	Leptotrichia sp. HMT-221	HMT-221	7	k__Bacteria;p__Fusobacteriota;c__Fusobacteriia;o__Fusobacteriales;f__Leptotrichiaceae;g__Leptotrichia;s__sp. HMT-221
+1021	Leptotrichia sp. HMT-223	HMT-223	3	k__Bacteria;p__Fusobacteriota;c__Fusobacteriia;o__Fusobacteriales;f__Leptotrichiaceae;g__Leptotrichia;s__sp. HMT-223
+1029	Leptotrichia sp. HMT-225	HMT-225	6	k__Bacteria;p__Fusobacteriota;c__Fusobacteriia;o__Fusobacteriales;f__Leptotrichiaceae;g__Leptotrichia;s__sp. HMT-225
+1019	Leptotrichia sp. HMT-417	HMT-417	8	k__Bacteria;p__Fusobacteriota;c__Fusobacteriia;o__Fusobacteriales;f__Leptotrichiaceae;g__Leptotrichia;s__sp. HMT-417
+1248	Leptotrichia sp. HMT-463	HMT-463	1	k__Bacteria;p__Fusobacteriota;c__Fusobacteriia;o__Fusobacteriales;f__Leptotrichiaceae;g__Leptotrichia;s__sp. HMT-463
+1032	Leptotrichia sp. HMT-498	HMT-498	2	k__Bacteria;p__Fusobacteriota;c__Fusobacteriia;o__Fusobacteriales;f__Leptotrichiaceae;g__Leptotrichia;s__sp. HMT-498
+1046	Leptotrichia sp. HMT-847	HMT-847	5	k__Bacteria;p__Fusobacteriota;c__Fusobacteriia;o__Fusobacteriales;f__Leptotrichiaceae;g__Leptotrichia;s__sp. HMT-847
+1250	Leptotrichia sp. HMT-879	HMT-879	1	k__Bacteria;p__Fusobacteriota;c__Fusobacteriia;o__Fusobacteriales;f__Leptotrichiaceae;g__Leptotrichia;s__sp. HMT-879
+1249	Leptotrichia sp. HMT-909	HMT-909	1	k__Bacteria;p__Fusobacteriota;c__Fusobacteriia;o__Fusobacteriales;f__Leptotrichiaceae;g__Leptotrichia;s__sp. HMT-909
+1003	Leptotrichia wadei	HMT-222	11	k__Bacteria;p__Fusobacteriota;c__Fusobacteriia;o__Fusobacteriales;f__Leptotrichiaceae;g__Leptotrichia;s__wadei
+187	Levilactobacillus brevis	HMT-558	20	k__Bacteria;p__Bacillota;c__Bacilli;o__Lactobacillales;f__Lactobacillaceae;g__Levilactobacillus;s__brevis
+214	Ligilactobacillus salivarius	HMT-756	31	k__Bacteria;p__Bacillota;c__Bacilli;o__Lactobacillales;f__Lactobacillaceae;g__Ligilactobacillus;s__salivarius
+142	Limosilactobacillus coleohominis	HMT-816	2	k__Bacteria;p__Bacillota;c__Bacilli;o__Lactobacillales;f__Lactobacillaceae;g__Limosilactobacillus;s__coleohominis
+138	Limosilactobacillus fermentum	HMT-608	25	k__Bacteria;p__Bacillota;c__Bacilli;o__Lactobacillales;f__Lactobacillaceae;g__Limosilactobacillus;s__fermentum
+141	Limosilactobacillus oris	HMT-709	4	k__Bacteria;p__Bacillota;c__Bacilli;o__Lactobacillales;f__Lactobacillaceae;g__Limosilactobacillus;s__oris
+139	Limosilactobacillus panis	HMT-882	5	k__Bacteria;p__Bacillota;c__Bacilli;o__Lactobacillales;f__Lactobacillaceae;g__Limosilactobacillus;s__panis
+137	Limosilactobacillus reuteri	HMT-818	37	k__Bacteria;p__Bacillota;c__Bacilli;o__Lactobacillales;f__Lactobacillaceae;g__Limosilactobacillus;s__reuteri
+287	Limosilactobacillus sp. HMT-052	HMT-052	1	k__Bacteria;p__Bacillota;c__Bacilli;o__Lactobacillales;f__Lactobacillaceae;g__Limosilactobacillus;s__sp. HMT-052
+140	Limosilactobacillus vaginalis	HMT-051	17	k__Bacteria;p__Bacillota;c__Bacilli;o__Lactobacillales;f__Lactobacillaceae;g__Limosilactobacillus;s__vaginalis
+311	Listeria monocytogenes	HMT-825	13	k__Bacteria;p__Bacillota;c__Bacilli;o__Caryophanales;f__Listeriaceae;g__Listeria;s__monocytogenes
+260	Lysinibacillus fusiformis	HMT-614	21	k__Bacteria;p__Bacillota;c__Bacilli;o__Caryophanales;f__Caryophanaceae;g__Lysinibacillus;s__fusiformis
+176	Megasphaera lornae	HMT-841	4	k__Bacteria;p__Bacillota;c__Negativicutes;o__Veillonellales;f__Veillonellaceae;g__Megasphaera;s__lornae
+230	Megasphaera micronuciformis	HMT-122	3	k__Bacteria;p__Bacillota;c__Negativicutes;o__Veillonellales;f__Veillonellaceae;g__Megasphaera;s__micronuciformis
+375	Melioribacter roseus	HMT-983	1	k__Bacteria;p__Chlorobiota;c__Ignavibacteria;o__Ignavibacteriales;f__Melioribacteraceae;g__Melioribacter;s__roseus
+1281	Mesorhizobium japonicum	HMT-659	2	k__Bacteria;p__Pseudomonadota;c__Alphaproteobacteria;o__Hyphomicrobiales;f__Phyllobacteriaceae;g__Mesorhizobium;s__japonicum
+1053	Metamycoplasma buccale	HMT-561	1	k__Bacteria;p__Mycoplasmatota;c__Mollicutes;o__Mycoplasmoidales;f__Metamycoplasmataceae;g__Metamycoplasma;s__buccale
+1079	Metamycoplasma faucium	HMT-606	1	k__Bacteria;p__Mycoplasmatota;c__Mollicutes;o__Mycoplasmoidales;f__Metamycoplasmataceae;g__Metamycoplasma;s__faucium
+919	Metamycoplasma hominis	HMT-632	4	k__Bacteria;p__Mycoplasmatota;c__Mollicutes;o__Mycoplasmoidales;f__Metamycoplasmataceae;g__Metamycoplasma;s__hominis
+925	Metamycoplasma orale	HMT-704	2	k__Bacteria;p__Mycoplasmatota;c__Mollicutes;o__Mycoplasmoidales;f__Metamycoplasmataceae;g__Metamycoplasma;s__orale
+850	Metamycoplasma salivarium	HMT-754	4	k__Bacteria;p__Mycoplasmatota;c__Mollicutes;o__Mycoplasmoidales;f__Metamycoplasmataceae;g__Metamycoplasma;s__salivarium
+1303	Methanobrevibacter oralis	HMT-815	4	k__Archaea;p__Methanobacteriota;c__Methanobacteria;o__Methanobacteriales;f__Methanobacteriaceae;g__Methanobrevibacter;s__oralis
+1279	Micavibrio aeruginosavorus	HMT-330	2	k__Bacteria;p__Pseudomonadota;c__Oligoflexia;o__Bdellovibrionales;f__Pseudobdellovibrionaceae;g__Micavibrio;s__aeruginosavorus
+843	Microbacterium ginsengisoli	HMT-185	4	k__Bacteria;p__Actinomycetota;c__Actinomycetes;o__Micrococcales;f__Microbacteriaceae;g__Microbacterium;s__ginsengisoli
+815	Microbacterium sp. HMT-186	HMT-186	3	k__Bacteria;p__Actinomycetota;c__Actinomycetes;o__Micrococcales;f__Microbacteriaceae;g__Microbacterium;s__sp. HMT-186
+738	Micrococcus luteus	HMT-087	6	k__Bacteria;p__Actinomycetota;c__Actinomycetes;o__Micrococcales;f__Micrococcaceae;g__Micrococcus;s__luteus
+115	Mitsuokella multacida	HMT-684	8	k__Bacteria;p__Bacillota;c__Negativicutes;o__Selenomonadales;f__Selenomonadaceae;g__Mitsuokella;s__multacida
+194	Mitsuokella sp. HMT-131	HMT-131	3	k__Bacteria;p__Bacillota;c__Negativicutes;o__Selenomonadales;f__Selenomonadaceae;g__Mitsuokella;s__sp. HMT-131
+510	Mitsuokella sp. HMT-521	HMT-521	2	k__Bacteria;p__Bacillota;c__Negativicutes;o__Selenomonadales;f__Selenomonadaceae;g__Mitsuokella;s__sp. HMT-521
+519	Mobiluncus mulieris	HMT-830	3	k__Bacteria;p__Actinomycetota;c__Actinomycetes;o__Actinomycetales;f__Actinomycetaceae;g__Mobiluncus;s__mulieris
+915	Mogibacterium diversum	HMT-593	2	k__Bacteria;p__Bacillota;c__Clostridia;o__Peptostreptococcales;f__Anaerovoracaceae;g__Mogibacterium;s__diversum
+913	Mogibacterium neglectum	HMT-691	2	k__Bacteria;p__Bacillota;c__Clostridia;o__Peptostreptococcales;f__Anaerovoracaceae;g__Mogibacterium;s__neglectum
+917	Mogibacterium pumilum	HMT-742	3	k__Bacteria;p__Bacillota;c__Clostridia;o__Peptostreptococcales;f__Anaerovoracaceae;g__Mogibacterium;s__pumilum
+902	Mogibacterium timidum	HMT-042	3	k__Bacteria;p__Bacillota;c__Clostridia;o__Peptostreptococcales;f__Anaerovoracaceae;g__Mogibacterium;s__timidum
+1236	Mogibacterium vescum	HMT-008	1	k__Bacteria;p__Bacillota;c__Clostridia;o__Peptostreptococcales;f__Anaerovoracaceae;g__Mogibacterium;s__vescum
+1320	Mollicutes [O1 F1 G1] bacterium HMT-504	HMT-504	1	k__Bacteria;p__Mycoplasmatota;c__Mollicutes;o__Mollicutes [O1];f__Mollicutes [O1 F1];g__Mollicutes [O1 F1 G1];s__bacterium HMT-504
+1354	Mollicutes [O2 F2 G2] bacterium HMT-906	HMT-906	1	k__Bacteria;p__Mycoplasmatota;c__Mollicutes;o__Mollicutes [O2];f__Mollicutes [O2 F2];g__Mollicutes [O2 F2 G2];s__bacterium HMT-906
+701	Moraxella catarrhalis	HMT-833	18	k__Bacteria;p__Pseudomonadota;c__Gammaproteobacteria;o__Pseudomonadales;f__Moraxellaceae;g__Moraxella;s__catarrhalis
+756	Moraxella lincolnii	HMT-154	4	k__Bacteria;p__Pseudomonadota;c__Gammaproteobacteria;o__Pseudomonadales;f__Moraxellaceae;g__Moraxella;s__lincolnii
+739	Moraxella nonliquefaciens	HMT-098	9	k__Bacteria;p__Pseudomonadota;c__Gammaproteobacteria;o__Pseudomonadales;f__Moraxellaceae;g__Moraxella;s__nonliquefaciens
+662	Moraxella osloensis	HMT-711	5	k__Bacteria;p__Pseudomonadota;c__Gammaproteobacteria;o__Pseudomonadales;f__Moraxellaceae;g__Moraxella;s__osloensis
+1366	Moraxella sp. HMT-276	HMT-276	1	k__Bacteria;p__Pseudomonadota;c__Gammaproteobacteria;o__Pseudomonadales;f__Moraxellaceae;g__Moraxella;s__sp. HMT-276
+625	Moryella sp. HMT-097	HMT-097	5	k__Bacteria;p__Bacillota;c__Clostridia;o__Lachnospirales;f__Lachnospiraceae;g__Moryella;s__sp. HMT-097
+387	Mycobacterium leprae	HMT-823	3	k__Bacteria;p__Actinomycetota;c__Actinomycetes;o__Mycobacteriales;f__Mycobacteriaceae;g__Mycobacterium;s__leprae
+607	Mycobacterium tuberculosis	HMT-822	1	k__Bacteria;p__Actinomycetota;c__Actinomycetes;o__Mycobacteriales;f__Mycobacteriaceae;g__Mycobacterium;s__tuberculosis
+871	Mycolicibacterium neoaurum	HMT-692	6	k__Bacteria;p__Actinomycetota;c__Actinomycetes;o__Mycobacteriales;f__Mycobacteriaceae;g__Mycolicibacterium;s__neoaurum
+934	Mycoplasmoides genitalium	HMT-616	4	k__Bacteria;p__Mycoplasmatota;c__Mollicutes;o__Mycoplasmoidales;f__Mycoplasmoidaceae;g__Mycoplasmoides;s__genitalium
+960	Mycoplasmoides pneumoniae	HMT-732	4	k__Bacteria;p__Mycoplasmatota;c__Mollicutes;o__Mycoplasmoidales;f__Mycoplasmoidaceae;g__Mycoplasmoides;s__pneumoniae
+1023	Mycoplasmopsis fermentans	HMT-607	4	k__Bacteria;p__Mycoplasmatota;c__Mollicutes;o__Mycoplasmoidales;f__Metamycoplasmataceae;g__Mycoplasmopsis;s__fermentans
+1152	Mycoplasmopsis lipophila	HMT-656	1	k__Bacteria;p__Mycoplasmatota;c__Mollicutes;o__Mycoplasmoidales;f__Metamycoplasmataceae;g__Mycoplasmopsis;s__lipophila
+709	Nanogingivalis gingivitcus	HMT-870	1	k__Bacteria;p__Patescibacteria;c__Saccharimonadia;o__Saccharimonadales;f__Nanogingivalaceae;g__Nanogingivalis;s__gingivitcus
+683	Nanogingivalis sp. HMT-399	HMT-399	3	k__Bacteria;p__Patescibacteria;c__Saccharimonadia;o__Saccharimonadales;f__Nanogingivalaceae;g__Nanogingivalis;s__sp. HMT-399
+750	Nanogingivalis sp. HMT-400	HMT-400	2	k__Bacteria;p__Patescibacteria;c__Saccharimonadia;o__Saccharimonadales;f__Nanogingivalaceae;g__Nanogingivalis;s__sp. HMT-400
+1345	Nanoperiomorbus periodonticus	HMT-356	2	k__Bacteria;p__Patescibacteria;c__Saccharimonadia;o__Saccharimonadales;f__Nanoperiomorbaceae;g__Nanoperiomorbus;s__periodonticus
+1311	Nanosynbacter featherlites	HMT-957	1	k__Bacteria;p__Patescibacteria;c__Saccharimonadia;o__Saccharimonadales;f__Nanosynbacteraceae;g__Nanosynbacter;s__featherlites
+168	Nanosynbacter fur	HMT-488	13	k__Bacteria;p__Patescibacteria;c__Saccharimonadia;o__Saccharimonadales;f__Nanosynbacteraceae;g__Nanosynbacter;s__fur
+1312	Nanosynbacter lyticus	HMT-952	2	k__Bacteria;p__Patescibacteria;c__Saccharimonadia;o__Saccharimonadales;f__Nanosynbacteraceae;g__Nanosynbacter;s__lyticus
+759	Nanosynbacter sp. HMT-352	HMT-352	8	k__Bacteria;p__Patescibacteria;c__Saccharimonadia;o__Saccharimonadales;f__Nanosynbacteraceae;g__Nanosynbacter;s__sp. HMT-352
+173	Nanosynbacter sp. HMT-353	HMT-353	1	k__Bacteria;p__Patescibacteria;c__Saccharimonadia;o__Saccharimonadales;f__Nanosynbacteraceae;g__Nanosynbacter;s__sp. HMT-353
+770	Nanosyncoccus nanoralicus	HMT-371	2	k__Bacteria;p__Patescibacteria;c__Saccharimonadia;o__Saccharimonadales;f__Nanosyncoccaceae;g__Nanosyncoccus;s__nanoralicus
+765	Nanosyncoccus sp. HMT-351	HMT-351	3	k__Bacteria;p__Patescibacteria;c__Saccharimonadia;o__Saccharimonadales;f__Nanosyncoccaceae;g__Nanosyncoccus;s__sp. HMT-351
+489	Neisseria bacilliformis	HMT-013	5	k__Bacteria;p__Pseudomonadota;c__Betaproteobacteria;o__Neisseriales;f__Neisseriaceae;g__Neisseria;s__bacilliformis
+465	Neisseria cinerea	HMT-956	4	k__Bacteria;p__Pseudomonadota;c__Betaproteobacteria;o__Neisseriales;f__Neisseriaceae;g__Neisseria;s__cinerea
+452	Neisseria elongata	HMT-598	12	k__Bacteria;p__Pseudomonadota;c__Betaproteobacteria;o__Neisseriales;f__Neisseriaceae;g__Neisseria;s__elongata
+424	Neisseria flava	HMT-609	8	k__Bacteria;p__Pseudomonadota;c__Betaproteobacteria;o__Neisseriales;f__Neisseriaceae;g__Neisseria;s__flava
+486	Neisseria flavescens	HMT-610	15	k__Bacteria;p__Pseudomonadota;c__Betaproteobacteria;o__Neisseriales;f__Neisseriaceae;g__Neisseria;s__flavescens
+477	Neisseria gonorrhoeae	HMT-621	8	k__Bacteria;p__Pseudomonadota;c__Betaproteobacteria;o__Neisseriales;f__Neisseriaceae;g__Neisseria;s__gonorrhoeae
+395	Neisseria lactamica	HMT-649	26	k__Bacteria;p__Pseudomonadota;c__Betaproteobacteria;o__Neisseriales;f__Neisseriaceae;g__Neisseria;s__lactamica
+506	Neisseria macacae	HMT-099	1	k__Bacteria;p__Pseudomonadota;c__Betaproteobacteria;o__Neisseriales;f__Neisseriaceae;g__Neisseria;s__macacae
+341	Neisseria meningitidis	HMT-669	72	k__Bacteria;p__Pseudomonadota;c__Betaproteobacteria;o__Neisseriales;f__Neisseriaceae;g__Neisseria;s__meningitidis
+449	Neisseria mucosa	HMT-682	14	k__Bacteria;p__Pseudomonadota;c__Betaproteobacteria;o__Neisseriales;f__Neisseriaceae;g__Neisseria;s__mucosa
+503	Neisseria oralis	HMT-014	2	k__Bacteria;p__Pseudomonadota;c__Betaproteobacteria;o__Neisseriales;f__Neisseriaceae;g__Neisseria;s__oralis
+487	Neisseria perflava	HMT-101	4	k__Bacteria;p__Pseudomonadota;c__Betaproteobacteria;o__Neisseriales;f__Neisseriaceae;g__Neisseria;s__perflava
+472	Neisseria polysaccharea	HMT-737	12	k__Bacteria;p__Pseudomonadota;c__Betaproteobacteria;o__Neisseriales;f__Neisseriaceae;g__Neisseria;s__polysaccharea
+464	Neisseria sicca	HMT-764	7	k__Bacteria;p__Pseudomonadota;c__Betaproteobacteria;o__Neisseriales;f__Neisseriaceae;g__Neisseria;s__sicca
+1359	Neisseria sp. HMT-018	HMT-018	1	k__Bacteria;p__Pseudomonadota;c__Betaproteobacteria;o__Neisseriales;f__Neisseriaceae;g__Neisseria;s__sp. HMT-018
+476	Neisseria sp. HMT-020	HMT-020	3	k__Bacteria;p__Pseudomonadota;c__Betaproteobacteria;o__Neisseriales;f__Neisseriaceae;g__Neisseria;s__sp. HMT-020
+542	Neisseria sp. HMT-499	HMT-499	1	k__Bacteria;p__Pseudomonadota;c__Betaproteobacteria;o__Neisseriales;f__Neisseriaceae;g__Neisseria;s__sp. HMT-499
+957	Neisseria sp. HMT-523	HMT-523	1	k__Bacteria;p__Pseudomonadota;c__Betaproteobacteria;o__Neisseriales;f__Neisseriaceae;g__Neisseria;s__sp. HMT-523
+439	Neisseria subflava	HMT-476	31	k__Bacteria;p__Pseudomonadota;c__Betaproteobacteria;o__Neisseriales;f__Neisseriaceae;g__Neisseria;s__subflava
+475	Neisseria weaveri	HMT-092	2	k__Bacteria;p__Pseudomonadota;c__Betaproteobacteria;o__Neisseriales;f__Neisseriaceae;g__Neisseria;s__weaveri
+863	Neisseriaceae [G1] bacterium HMT-174	HMT-174	1	k__Bacteria;p__Pseudomonadota;c__Betaproteobacteria;o__Neisseriales;f__Neisseriaceae;g__Neisseriaceae [G1];s__bacterium HMT-174
+831	Neisseriaceae [G1] bacterium HMT-327	HMT-327	1	k__Bacteria;p__Pseudomonadota;c__Betaproteobacteria;o__Neisseriales;f__Neisseriaceae;g__Neisseriaceae [G1];s__bacterium HMT-327
+1288	Novosphingobium humi	HMT-006	1	k__Bacteria;p__Pseudomonadota;c__Alphaproteobacteria;o__Sphingomonadales;f__Erythrobacteraceae;g__Novosphingobium;s__humi
+1271	Novosphingobium panipatense	HMT-342	3	k__Bacteria;p__Pseudomonadota;c__Alphaproteobacteria;o__Sphingomonadales;f__Erythrobacteraceae;g__Novosphingobium;s__panipatense
+1147	Odoribacter sp. HMT-516	HMT-516	1	k__Bacteria;p__Bacteroidota;c__Bacteroidia;o__Bacteroidales;f__Odoribacteraceae;g__Odoribacter;s__sp. HMT-516
+1102	Odoribacteraceae [G3] bacterium HMT-280	HMT-280	1	k__Bacteria;p__Bacteroidota;c__Bacteroidia;o__Bacteroidales;f__Odoribacteraceae;g__Odoribacteraceae [G3];s__bacterium HMT-280
+1104	Odoribacteraceae [G3] bacterium HMT-281	HMT-281	1	k__Bacteria;p__Bacteroidota;c__Bacteroidia;o__Bacteroidales;f__Odoribacteraceae;g__Odoribacteraceae [G3];s__bacterium HMT-281
+1103	Odoribacteraceae [G3] bacterium HMT-365	HMT-365	2	k__Bacteria;p__Bacteroidota;c__Bacteroidia;o__Bacteroidales;f__Odoribacteraceae;g__Odoribacteraceae [G3];s__bacterium HMT-365
+1123	Odoribacteraceae [G3] bacterium HMT-436	HMT-436	1	k__Bacteria;p__Bacteroidota;c__Bacteroidia;o__Bacteroidales;f__Odoribacteraceae;g__Odoribacteraceae [G3];s__bacterium HMT-436
+1177	Odoribacteraceae [G3] bacterium HMT-503	HMT-503	1	k__Bacteria;p__Bacteroidota;c__Bacteroidia;o__Bacteroidales;f__Odoribacteraceae;g__Odoribacteraceae [G3];s__bacterium HMT-503
+1056	Odoribacteraceae [G3] bacterium HMT-899	HMT-899	1	k__Bacteria;p__Bacteroidota;c__Bacteroidia;o__Bacteroidales;f__Odoribacteraceae;g__Odoribacteraceae [G3];s__bacterium HMT-899
+971	Odoribacteraceae [G4] bacterium HMT-509	HMT-509	1	k__Bacteria;p__Bacteroidota;c__Bacteroidia;o__Bacteroidales;f__Odoribacteraceae;g__Odoribacteraceae [G4];s__bacterium HMT-509
+1173	Odoribacteraceae [G5] bacterium HMT-505	HMT-505	1	k__Bacteria;p__Bacteroidota;c__Bacteroidia;o__Bacteroidales;f__Odoribacteraceae;g__Odoribacteraceae [G5];s__bacterium HMT-505
+1178	Odoribacteraceae [G5] bacterium HMT-507	HMT-507	1	k__Bacteria;p__Bacteroidota;c__Bacteroidia;o__Bacteroidales;f__Odoribacteraceae;g__Odoribacteraceae [G5];s__bacterium HMT-507
+1157	Odoribacteraceae [G5] bacterium HMT-511	HMT-511	1	k__Bacteria;p__Bacteroidota;c__Bacteroidia;o__Bacteroidales;f__Odoribacteraceae;g__Odoribacteraceae [G5];s__bacterium HMT-511
+1356	Odoribacteraceae [G7] bacterium HMT-911	HMT-911	1	k__Bacteria;p__Bacteroidota;c__Bacteroidia;o__Bacteroidales;f__Odoribacteraceae;g__Odoribacteraceae [G7];s__bacterium HMT-911
+1018	Olegusella sp. HMT-810	HMT-810	3	k__Bacteria;p__Actinomycetota;c__Coriobacteriia;o__Coriobacteriales;f__Coriobacteriaceae;g__Olegusella;s__sp. HMT-810
+987	Olsenella phocaeensis	HMT-809	3	k__Bacteria;p__Actinomycetota;c__Coriobacteriia;o__Coriobacteriales;f__Atopobiaceae;g__Olsenella;s__phocaeensis
+963	Olsenella profusa	HMT-806	2	k__Bacteria;p__Actinomycetota;c__Coriobacteriia;o__Coriobacteriales;f__Atopobiaceae;g__Olsenella;s__profusa
+927	Olsenella sp. HMT-807	HMT-807	3	k__Bacteria;p__Actinomycetota;c__Coriobacteriia;o__Coriobacteriales;f__Atopobiaceae;g__Olsenella;s__sp. HMT-807
+1368	Olsenella sp. HMT-939	HMT-939	1	k__Bacteria;p__Actinomycetota;c__Coriobacteriia;o__Coriobacteriales;f__Atopobiaceae;g__Olsenella;s__sp. HMT-939
+972	Olsenella uli	HMT-038	2	k__Bacteria;p__Actinomycetota;c__Coriobacteriia;o__Coriobacteriales;f__Atopobiaceae;g__Olsenella;s__uli
+820	Oribacterium asaccharolyticum	HMT-108	7	k__Bacteria;p__Bacillota;c__Clostridia;o__Lachnospirales;f__Lachnospiraceae;g__Oribacterium;s__asaccharolyticum
+767	Oribacterium parvum	HMT-934	10	k__Bacteria;p__Bacillota;c__Clostridia;o__Lachnospirales;f__Lachnospiraceae;g__Oribacterium;s__parvum
+687	Oribacterium sinus	HMT-457	3	k__Bacteria;p__Bacillota;c__Clostridia;o__Lachnospirales;f__Lachnospiraceae;g__Oribacterium;s__sinus
+800	Oribacterium sp. HMT-078	HMT-078	6	k__Bacteria;p__Bacillota;c__Clostridia;o__Lachnospirales;f__Lachnospiraceae;g__Oribacterium;s__sp. HMT-078
+801	Oribacterium sp. HMT-102	HMT-102	5	k__Bacteria;p__Bacillota;c__Clostridia;o__Lachnospirales;f__Lachnospiraceae;g__Oribacterium;s__sp. HMT-102
+419	Oryzomicrobium terrae	HMT-028	2	k__Bacteria;p__Pseudomonadota;c__Betaproteobacteria;o__Rhodocyclales;f__Rhodocyclaceae;g__Oryzomicrobium;s__terrae
+696	Ottowia sp. HMT-894	HMT-894	3	k__Bacteria;p__Pseudomonadota;c__Betaproteobacteria;o__Burkholderiales;f__Comamonadaceae;g__Ottowia;s__sp. HMT-894
+736	Paenacidovorax caeni	HMT-211	2	k__Bacteria;p__Pseudomonadota;c__Betaproteobacteria;o__Burkholderiales;f__Comamonadaceae;g__Paenacidovorax;s__caeni
+234	Paenibacillus glucanolyticus	HMT-921	25	k__Bacteria;p__Bacillota;c__Bacilli;o__Caryophanales;f__Paenibacillaceae;g__Paenibacillus;s__glucanolyticus
+269	Paenibacillus phoenicis	HMT-786	2	k__Bacteria;p__Bacillota;c__Bacilli;o__Caryophanales;f__Paenibacillaceae;g__Paenibacillus;s__phoenicis
+335	Paenibacillus typhae	HMT-048	3	k__Bacteria;p__Bacillota;c__Bacilli;o__Caryophanales;f__Paenibacillaceae;g__Paenibacillus;s__typhae
+795	Paludibacteraceae [G1] bacterium HMT-274	HMT-274	3	k__Bacteria;p__Bacteroidota;c__Bacteroidia;o__Bacteroidales;f__Paludibacteraceae;g__Paludibacteraceae [G1];s__bacterium HMT-274
+766	Parabacteroides distasonis	HMT-973	33	k__Bacteria;p__Bacteroidota;c__Bacteroidia;o__Bacteroidales;f__Tannerellaceae;g__Parabacteroides;s__distasonis
+628	Parabacteroides merdae	HMT-974	7	k__Bacteria;p__Bacteroidota;c__Bacteroidia;o__Bacteroidales;f__Tannerellaceae;g__Parabacteroides;s__merdae
+1326	Paracoccus yeei	HMT-104	5	k__Bacteria;p__Pseudomonadota;c__Alphaproteobacteria;o__Rhodobacterales;f__Paracoccaceae;g__Paracoccus;s__yeei
+700	Parascardovia denticolens	HMT-586	3	k__Bacteria;p__Actinomycetota;c__Actinomycetes;o__Bifidobacteriales;f__Bifidobacteriaceae;g__Parascardovia;s__denticolens
+768	Parvimonas micra	HMT-111	10	k__Bacteria;p__Bacillota;c__Clostridia;o__Tissierellales;f__Peptoniphilaceae;g__Parvimonas;s__micra
+762	Parvimonas sp. HMT-110	HMT-110	6	k__Bacteria;p__Bacillota;c__Clostridia;o__Tissierellales;f__Peptoniphilaceae;g__Parvimonas;s__sp. HMT-110
+758	Parvimonas sp. HMT-393	HMT-393	2	k__Bacteria;p__Bacillota;c__Clostridia;o__Tissierellales;f__Peptoniphilaceae;g__Parvimonas;s__sp. HMT-393
+1307	Parvisynbacter sp. HMT-348	HMT-348	2	k__Bacteria;p__Patescibacteria;c__Saccharimonadia;o__Saccharimonadales;f__Parvisynbacteraceae;g__Parvisynbacter;s__sp. HMT-348
+1289	Patescibacteria [C1 O1 F1 G1] bacterium HMT-871	HMT-871	2	k__Bacteria;p__Patescibacteria;c__Patescibacteria [C1];o__Patescibacteria [C1 O1];f__Patescibacteria [C1 O1 F1];g__Patescibacteria [C1 O1 F1 G1];s__bacterium HMT-871
+1287	Patescibacteria [C1 O1 F1 G1] bacterium HMT-872	HMT-872	2	k__Bacteria;p__Patescibacteria;c__Patescibacteria [C1];o__Patescibacteria [C1 O1];f__Patescibacteria [C1 O1 F1];g__Patescibacteria [C1 O1 F1 G1];s__bacterium HMT-872
+1061	Patescibacteria [C1 O1 F1 G2] bacterium HMT-873	HMT-873	2	k__Bacteria;p__Patescibacteria;c__Patescibacteria [C1];o__Patescibacteria [C1 O1];f__Patescibacteria [C1 O1 F1];g__Patescibacteria [C1 O1 F1 G2];s__bacterium HMT-873
+1186	Pedobacter sp. HMT-318	HMT-318	1	k__Bacteria;p__Bacteroidota;c__Sphingobacteriia;o__Sphingobacteriales;f__Sphingobacteriaceae;g__Pedobacter;s__sp. HMT-318
+1191	Pedobacter sp. HMT-321	HMT-321	1	k__Bacteria;p__Bacteroidota;c__Sphingobacteriia;o__Sphingobacteriales;f__Sphingobacteriaceae;g__Pedobacter;s__sp. HMT-321
+1365	Pedobacter sp. HMT-933	HMT-933	1	k__Bacteria;p__Bacteroidota;c__Sphingobacteriia;o__Sphingobacteriales;f__Sphingobacteriaceae;g__Pedobacter;s__sp. HMT-933
+484	Peptidiphaga gingivicola	HMT-848	3	k__Bacteria;p__Actinomycetota;c__Actinomycetes;o__Actinomycetales;f__Actinomycetaceae;g__Peptidiphaga;s__gingivicola
+507	Peptidiphaga sp. HMT-183	HMT-183	4	k__Bacteria;p__Actinomycetota;c__Actinomycetes;o__Actinomycetales;f__Actinomycetaceae;g__Peptidiphaga;s__sp. HMT-183
+610	Peptoanaerobacter margaretiae	HMT-796	1	k__Bacteria;p__Bacillota;c__Clostridia;o__Peptostreptococcales;f__Filifactoraceae;g__Peptoanaerobacter;s__margaretiae
+1363	Peptoanaerobacter sp. HMT-922	HMT-922	1	k__Bacteria;p__Bacillota;c__Clostridia;o__Peptostreptococcales;f__Filifactoraceae;g__Peptoanaerobacter;s__sp. HMT-922
+671	Peptoanaerobacter stomatis	HMT-081	6	k__Bacteria;p__Bacillota;c__Clostridia;o__Peptostreptococcales;f__Filifactoraceae;g__Peptoanaerobacter;s__stomatis
+585	Peptoanaerobacter yurii	HMT-106,HMT-377	2	k__Bacteria;p__Bacillota;c__Clostridia;o__Peptostreptococcales;f__Filifactoraceae;g__Peptoanaerobacter;s__yurii
+411	Peptococcus sp. HMT-167	HMT-167	2	k__Bacteria;p__Bacillota;c__Clostridia;o__Eubacteriales;f__Peptococcaceae;g__Peptococcus;s__sp. HMT-167
+415	Peptococcus sp. HMT-168	HMT-168	1	k__Bacteria;p__Bacillota;c__Clostridia;o__Eubacteriales;f__Peptococcaceae;g__Peptococcus;s__sp. HMT-168
+720	Peptoniphilaceae [G1] bacterium HMT-113	HMT-113	2	k__Bacteria;p__Bacillota;c__Clostridia;o__Tissierellales;f__Peptoniphilaceae;g__Peptoniphilaceae [G1];s__bacterium HMT-113
+1169	Peptoniphilaceae [G2] bacterium HMT-790	HMT-790	1	k__Bacteria;p__Bacillota;c__Clostridia;o__Tissierellales;f__Peptoniphilaceae;g__Peptoniphilaceae [G2];s__bacterium HMT-790
+666	Peptoniphilus asaccharolyticus	HMT-548	2	k__Bacteria;p__Bacillota;c__Clostridia;o__Tissierellales;f__Peptoniphilaceae;g__Peptoniphilus;s__asaccharolyticus
+780	Peptoniphilus harei	HMT-109	7	k__Bacteria;p__Bacillota;c__Clostridia;o__Tissierellales;f__Peptoniphilaceae;g__Peptoniphilus;s__harei
+668	Peptoniphilus indolicus	HMT-840	4	k__Bacteria;p__Bacillota;c__Clostridia;o__Tissierellales;f__Peptoniphilaceae;g__Peptoniphilus;s__indolicus
+707	Peptoniphilus lacrimalis	HMT-836	4	k__Bacteria;p__Bacillota;c__Clostridia;o__Tissierellales;f__Peptoniphilaceae;g__Peptoniphilus;s__lacrimalis
+778	Peptoniphilus lacydonensis	HMT-784	3	k__Bacteria;p__Bacillota;c__Clostridia;o__Tissierellales;f__Peptoniphilaceae;g__Peptoniphilus;s__lacydonensis
+121	Peptostreptococcus anaerobius	HMT-542	8	k__Bacteria;p__Bacillota;c__Clostridia;o__Peptostreptococcales;f__Peptostreptococcaceae;g__Peptostreptococcus;s__anaerobius
+873	Peptostreptococcus stomatis	HMT-112	3	k__Bacteria;p__Bacillota;c__Clostridia;o__Peptostreptococcales;f__Peptostreptococcaceae;g__Peptostreptococcus;s__stomatis
+679	Phocaeicola abscessus	HMT-272	1	k__Bacteria;p__Bacteroidota;c__Bacteroidia;o__Bacteroidales;f__Bacteroidaceae;g__Phocaeicola;s__abscessus
+554	Phocaeicola dorei	HMT-975	13	k__Bacteria;p__Bacteroidota;c__Bacteroidia;o__Bacteroidales;f__Bacteroidaceae;g__Phocaeicola;s__dorei
+675	Phocaeicola massiliensis	HMT-976	6	k__Bacteria;p__Bacteroidota;c__Bacteroidia;o__Bacteroidales;f__Bacteroidaceae;g__Phocaeicola;s__massiliensis
+743	Phocaeicola plebeius	HMT-977	6	k__Bacteria;p__Bacteroidota;c__Bacteroidia;o__Bacteroidales;f__Bacteroidaceae;g__Phocaeicola;s__plebeius
+612	Phocaeicola vulgatus	HMT-978	51	k__Bacteria;p__Bacteroidota;c__Bacteroidia;o__Bacteroidales;f__Bacteroidaceae;g__Phocaeicola;s__vulgatus
+691	Porphyromonas asaccharolytica	HMT-547	1	k__Bacteria;p__Bacteroidota;c__Bacteroidia;o__Bacteroidales;f__Porphyromonadaceae;g__Porphyromonas;s__asaccharolytica
+712	Porphyromonas catoniae	HMT-283	4	k__Bacteria;p__Bacteroidota;c__Bacteroidia;o__Bacteroidales;f__Porphyromonadaceae;g__Porphyromonas;s__catoniae
+640	Porphyromonas endodontalis	HMT-273	7	k__Bacteria;p__Bacteroidota;c__Bacteroidia;o__Bacteroidales;f__Porphyromonadaceae;g__Porphyromonas;s__endodontalis
+573	Porphyromonas gingivalis	HMT-619	64	k__Bacteria;p__Bacteroidota;c__Bacteroidia;o__Bacteroidales;f__Porphyromonadaceae;g__Porphyromonas;s__gingivalis
+648	Porphyromonas pasteri	HMT-279	13	k__Bacteria;p__Bacteroidota;c__Bacteroidia;o__Bacteroidales;f__Porphyromonadaceae;g__Porphyromonas;s__pasteri
+651	Porphyromonas sp. HMT-275	HMT-275	4	k__Bacteria;p__Bacteroidota;c__Bacteroidia;o__Bacteroidales;f__Porphyromonadaceae;g__Porphyromonas;s__sp. HMT-275
+1092	Porphyromonas sp. HMT-277	HMT-277	1	k__Bacteria;p__Bacteroidota;c__Bacteroidia;o__Bacteroidales;f__Porphyromonadaceae;g__Porphyromonas;s__sp. HMT-277
+717	Porphyromonas sp. HMT-278	HMT-278	2	k__Bacteria;p__Bacteroidota;c__Bacteroidia;o__Bacteroidales;f__Porphyromonadaceae;g__Porphyromonas;s__sp. HMT-278
+1091	Porphyromonas sp. HMT-284	HMT-284	1	k__Bacteria;p__Bacteroidota;c__Bacteroidia;o__Bacteroidales;f__Porphyromonadaceae;g__Porphyromonas;s__sp. HMT-284
+1362	Porphyromonas sp. HMT-930	HMT-930	1	k__Bacteria;p__Bacteroidota;c__Bacteroidia;o__Bacteroidales;f__Porphyromonadaceae;g__Porphyromonas;s__sp. HMT-930
+653	Porphyromonas uenonis	HMT-785	5	k__Bacteria;p__Bacteroidota;c__Bacteroidia;o__Bacteroidales;f__Porphyromonadaceae;g__Porphyromonas;s__uenonis
+678	Prevotella amnii	HMT-797	2	k__Bacteria;p__Bacteroidota;c__Bacteroidia;o__Bacteroidales;f__Prevotellaceae;g__Prevotella;s__amnii
+693	Prevotella aurantiaca	HMT-943	2	k__Bacteria;p__Bacteroidota;c__Bacteroidia;o__Bacteroidales;f__Prevotellaceae;g__Prevotella;s__aurantiaca
+656	Prevotella bivia	HMT-556	7	k__Bacteria;p__Bacteroidota;c__Bacteroidia;o__Bacteroidales;f__Prevotellaceae;g__Prevotella;s__bivia
+611	Prevotella copri	HMT-979	3	k__Bacteria;p__Bacteroidota;c__Bacteroidia;o__Bacteroidales;f__Prevotellaceae;g__Prevotella;s__copri
+647	Prevotella denticola	HMT-291	29	k__Bacteria;p__Bacteroidota;c__Bacteroidia;o__Bacteroidales;f__Prevotellaceae;g__Prevotella;s__denticola
+633	Prevotella fusca	HMT-782	5	k__Bacteria;p__Bacteroidota;c__Bacteroidia;o__Bacteroidales;f__Prevotellaceae;g__Prevotella;s__fusca
+629	Prevotella histicola	HMT-298	9	k__Bacteria;p__Bacteroidota;c__Bacteroidia;o__Bacteroidales;f__Prevotellaceae;g__Prevotella;s__histicola
+638	Prevotella illustrans	HMT-820	2	k__Bacteria;p__Bacteroidota;c__Bacteroidia;o__Bacteroidales;f__Prevotellaceae;g__Prevotella;s__illustrans
+559	Prevotella intermedia	HMT-643	54	k__Bacteria;p__Bacteroidota;c__Bacteroidia;o__Bacteroidales;f__Prevotellaceae;g__Prevotella;s__intermedia
+608	Prevotella jejuni	HMT-313	23	k__Bacteria;p__Bacteroidota;c__Bacteroidia;o__Bacteroidales;f__Prevotellaceae;g__Prevotella;s__jejuni
+499	Prevotella melaninogenica	HMT-469	34	k__Bacteria;p__Bacteroidota;c__Bacteroidia;o__Bacteroidales;f__Prevotellaceae;g__Prevotella;s__melaninogenica
+734	Prevotella micans	HMT-378	1	k__Bacteria;p__Bacteroidota;c__Bacteroidia;o__Bacteroidales;f__Prevotellaceae;g__Prevotella;s__micans
+596	Prevotella multiformis	HMT-685	4	k__Bacteria;p__Bacteroidota;c__Bacteroidia;o__Bacteroidales;f__Prevotellaceae;g__Prevotella;s__multiformis
+551	Prevotella nigrescens	HMT-693	22	k__Bacteria;p__Bacteroidota;c__Bacteroidia;o__Bacteroidales;f__Prevotellaceae;g__Prevotella;s__nigrescens
+652	Prevotella pallens	HMT-714	7	k__Bacteria;p__Bacteroidota;c__Bacteroidia;o__Bacteroidales;f__Prevotellaceae;g__Prevotella;s__pallens
+642	Prevotella scopos	HMT-885	1	k__Bacteria;p__Bacteroidota;c__Bacteroidia;o__Bacteroidales;f__Prevotellaceae;g__Prevotella;s__scopos
+1071	Prevotella sp. HMT-304	HMT-304	1	k__Bacteria;p__Bacteroidota;c__Bacteroidia;o__Bacteroidales;f__Prevotellaceae;g__Prevotella;s__sp. HMT-304
+632	Prevotella sp. HMT-314	HMT-314	8	k__Bacteria;p__Bacteroidota;c__Bacteroidia;o__Bacteroidales;f__Prevotellaceae;g__Prevotella;s__sp. HMT-314
+1078	Prevotella sp. HMT-396	HMT-396	1	k__Bacteria;p__Bacteroidota;c__Bacteroidia;o__Bacteroidales;f__Prevotellaceae;g__Prevotella;s__sp. HMT-396
+664	Prevotella sp. HMT-410	HMT-410	1	k__Bacteria;p__Bacteroidota;c__Bacteroidia;o__Bacteroidales;f__Prevotellaceae;g__Prevotella;s__sp. HMT-410
+619	Prevotella timonensis	HMT-798	5	k__Bacteria;p__Bacteroidota;c__Bacteroidia;o__Bacteroidales;f__Prevotellaceae;g__Prevotella;s__timonensis
+586	Prevotella veroralis	HMT-572	8	k__Bacteria;p__Bacteroidota;c__Bacteroidia;o__Bacteroidales;f__Prevotellaceae;g__Prevotella;s__veroralis
+643	Prevotella vespertina	HMT-306	3	k__Bacteria;p__Bacteroidota;c__Bacteroidia;o__Bacteroidales;f__Prevotellaceae;g__Prevotella;s__vespertina
+1210	Propionibacteriaceae [G1] bacterium HMT-915	HMT-915	1	k__Bacteria;p__Actinomycetota;c__Actinomycetes;o__Propionibacteriales;f__Propionibacteriaceae;g__Propionibacteriaceae [G1];s__bacterium HMT-915
+869	Propionibacterium acidifaciens	HMT-191	3	k__Bacteria;p__Actinomycetota;c__Actinomycetes;o__Propionibacteriales;f__Propionibacteriaceae;g__Propionibacterium;s__acidifaciens
+401	Proteus mirabilis	HMT-676	15	k__Bacteria;p__Pseudomonadota;c__Gammaproteobacteria;o__Enterobacterales;f__Morganellaceae;g__Proteus;s__mirabilis
+999	Pseudoleptotrichia goodfellowii	HMT-845	3	k__Bacteria;p__Fusobacteriota;c__Fusobacteriia;o__Fusobacteriales;f__Leptotrichiaceae;g__Pseudoleptotrichia;s__goodfellowii
+1054	Pseudoleptotrichia sp. HMT-212	HMT-212	2	k__Bacteria;p__Fusobacteriota;c__Fusobacteriia;o__Fusobacteriales;f__Leptotrichiaceae;g__Pseudoleptotrichia;s__sp. HMT-212
+1028	Pseudoleptotrichia sp. HMT-215	HMT-215	7	k__Bacteria;p__Fusobacteriota;c__Fusobacteriia;o__Fusobacteriales;f__Leptotrichiaceae;g__Pseudoleptotrichia;s__sp. HMT-215
+1267	Pseudoleptotrichia sp. HMT-217	HMT-217	1	k__Bacteria;p__Fusobacteriota;c__Fusobacteriia;o__Fusobacteriales;f__Leptotrichiaceae;g__Pseudoleptotrichia;s__sp. HMT-217
+1247	Pseudoleptotrichia sp. HMT-219	HMT-219	1	k__Bacteria;p__Fusobacteriota;c__Fusobacteriia;o__Fusobacteriales;f__Leptotrichiaceae;g__Pseudoleptotrichia;s__sp. HMT-219
+1256	Pseudoleptotrichia sp. HMT-392	HMT-392	1	k__Bacteria;p__Fusobacteriota;c__Fusobacteriia;o__Fusobacteriales;f__Leptotrichiaceae;g__Pseudoleptotrichia;s__sp. HMT-392
+508	Pseudomonas aeruginosa	HMT-536	7	k__Bacteria;p__Pseudomonadota;c__Gammaproteobacteria;o__Pseudomonadales;f__Pseudomonadaceae;g__Pseudomonas;s__aeruginosa
+521	Pseudomonas fluorescens	HMT-612	10	k__Bacteria;p__Pseudomonadota;c__Gammaproteobacteria;o__Pseudomonadales;f__Pseudomonadaceae;g__Pseudomonas;s__fluorescens
+534	Pseudomonas luteola	HMT-344	8	k__Bacteria;p__Pseudomonadota;c__Gammaproteobacteria;o__Pseudomonadales;f__Pseudomonadaceae;g__Pseudomonas;s__luteola
+502	Pseudomonas oleovorans	HMT-740	11	k__Bacteria;p__Pseudomonadota;c__Gammaproteobacteria;o__Pseudomonadales;f__Pseudomonadaceae;g__Pseudomonas;s__oleovorans
+546	Pseudomonas otitidis	HMT-834	6	k__Bacteria;p__Pseudomonadota;c__Gammaproteobacteria;o__Pseudomonadales;f__Pseudomonadaceae;g__Pseudomonas;s__otitidis
+968	Pseudomonas sp. HMT-032	HMT-032	1	k__Bacteria;p__Pseudomonadota;c__Gammaproteobacteria;o__Pseudomonadales;f__Pseudomonadaceae;g__Pseudomonas;s__sp. HMT-032
+1150	Pseudoramibacter alactolyticus	HMT-538	1	k__Bacteria;p__Bacillota;c__Clostridia;o__Eubacteriales;f__Eubacteriaceae;g__Pseudoramibacter;s__alactolyticus
+819	Pyramidobacter piscolens	HMT-357	5	k__Bacteria;p__Synergistota;c__Synergistia;o__Synergistales;f__Dethiosulfovibrionaceae;g__Pyramidobacter;s__piscolens
+517	Ralstonia pickettii	HMT-854	2	k__Bacteria;p__Pseudomonadota;c__Betaproteobacteria;o__Burkholderiales;f__Burkholderiaceae;g__Ralstonia;s__pickettii
+943	Ralstonia sp. HMT-406	HMT-406	1	k__Bacteria;p__Pseudomonadota;c__Betaproteobacteria;o__Burkholderiales;f__Burkholderiaceae;g__Ralstonia;s__sp. HMT-406
+1316	Rhodobacter capsulatus	HMT-857	3	k__Bacteria;p__Pseudomonadota;c__Alphaproteobacteria;o__Rhodobacterales;f__Paracoccaceae;g__Rhodobacter;s__capsulatus
+1133	Riemerella sp. HMT-322	HMT-322	1	k__Bacteria;p__Bacteroidota;c__Flavobacteriia;o__Flavobacteriales;f__Weeksellaceae;g__Riemerella;s__sp. HMT-322
+1241	Roseomonas gilardii	HMT-244	2	k__Bacteria;p__Pseudomonadota;c__Alphaproteobacteria;o__Rhodospirillales;f__Acetobacteraceae;g__Roseomonas;s__gilardii
+1254	Roseomonas mucosa	HMT-245	2	k__Bacteria;p__Pseudomonadota;c__Alphaproteobacteria;o__Rhodospirillales;f__Acetobacteraceae;g__Roseomonas;s__mucosa
+753	Rothia aeria	HMT-188	7	k__Bacteria;p__Actinomycetota;c__Actinomycetes;o__Micrococcales;f__Micrococcaceae;g__Rothia;s__aeria
+547	Rothia dentocariosa	HMT-587	6	k__Bacteria;p__Actinomycetota;c__Actinomycetes;o__Micrococcales;f__Micrococcaceae;g__Rothia;s__dentocariosa
+481	Rothia mucilaginosa	HMT-147,HMT-681	45	k__Bacteria;p__Actinomycetota;c__Actinomycetes;o__Micrococcales;f__Micrococcaceae;g__Rothia;s__mucilaginosa
+1215	Ruminococcaceae [G1] bacterium HMT-075	HMT-075	1	k__Bacteria;p__Bacillota;c__Clostridia;o__Eubacteriales;f__Ruminococcaceae;g__Ruminococcaceae [G1];s__bacterium HMT-075
+1098	Ruminococcaceae [G2] bacterium HMT-085	HMT-085	1	k__Bacteria;p__Bacillota;c__Clostridia;o__Eubacteriales;f__Ruminococcaceae;g__Ruminococcaceae [G2];s__bacterium HMT-085
+1082	Ruminococcaceae [G3] bacterium HMT-366	HMT-366	1	k__Bacteria;p__Bacillota;c__Clostridia;o__Eubacteriales;f__Ruminococcaceae;g__Ruminococcaceae [G3];s__bacterium HMT-366
+1052	Ruminococcaceae [G3] bacterium HMT-381	HMT-381	1	k__Bacteria;p__Bacillota;c__Clostridia;o__Eubacteriales;f__Ruminococcaceae;g__Ruminococcaceae [G3];s__bacterium HMT-381
+1341	Saccharimonadales [F1 G1] bacterium HMT-350	HMT-350	1	k__Bacteria;p__Patescibacteria;c__Saccharimonadia;o__Saccharimonadales;f__Saccharimonadales [F1];g__Saccharimonadales [F1 G1];s__bacterium HMT-350
+1309	Saccharimonadales [F2 G1] bacterium HMT-986	HMT-986	1	k__Bacteria;p__Patescibacteria;c__Saccharimonadia;o__Saccharimonadales;f__Saccharimonadales [F2];g__Saccharimonadales [F2 G1];s__bacterium HMT-986
+128	Saccharimonadales [F2 G1] bacterium HMT-989	HMT-989	1	k__Bacteria;p__Patescibacteria;c__Saccharimonadia;o__Saccharimonadales;f__Saccharimonadales [F2];g__Saccharimonadales [F2 G1];s__bacterium HMT-989
+1260	Saccharimonadales [F3 G1] bacterium HMT-355	HMT-355	1	k__Bacteria;p__Patescibacteria;c__Saccharimonadia;o__Saccharimonadales;f__Saccharimonadales [F3];g__Saccharimonadales [F3 G1];s__bacterium HMT-355
+1371	Saccharimonadales [F4 G1] bacterium HMT-954	HMT-954	1	k__Bacteria;p__Patescibacteria;c__Saccharimonadia;o__Saccharimonadales;f__Saccharimonadales [F4];g__Saccharimonadales [F4 G1];s__bacterium HMT-954
+1145	Saccharimonas aalborgensis	HMT-988	1	k__Bacteria;p__Patescibacteria;c__Saccharimonadia;o__Saccharimonadales;f__Saccharimonadaceae;g__Saccharimonas;s__aalborgensis
+1310	Saccharimonas sicarius	HMT-955	3	k__Bacteria;p__Patescibacteria;c__Saccharimonadia;o__Saccharimonadales;f__Saccharimonadaceae;g__Saccharimonas;s__sicarius
+1308	Saccharimonas sp. HMT-346	HMT-346	2	k__Bacteria;p__Patescibacteria;c__Saccharimonadia;o__Saccharimonadales;f__Saccharimonadaceae;g__Saccharimonas;s__sp. HMT-346
+1338	Saccharimonas sp. HMT-347	HMT-347	1	k__Bacteria;p__Patescibacteria;c__Saccharimonadia;o__Saccharimonadales;f__Saccharimonadaceae;g__Saccharimonas;s__sp. HMT-347
+1304	Saccharimonas sp. HMT-349	HMT-349	3	k__Bacteria;p__Patescibacteria;c__Saccharimonadia;o__Saccharimonadales;f__Saccharimonadaceae;g__Saccharimonas;s__sp. HMT-349
+1337	Saccharimonas sp. HMT-869	HMT-869	1	k__Bacteria;p__Patescibacteria;c__Saccharimonadia;o__Saccharimonadales;f__Saccharimonadaceae;g__Saccharimonas;s__sp. HMT-869
+789	Sanguibacter keddieii	HMT-856	3	k__Bacteria;p__Actinomycetota;c__Actinomycetes;o__Micrococcales;f__Jonesiaceae;g__Sanguibacter;s__keddieii
+443	Scardovia inopinata	HMT-642	2	k__Bacteria;p__Actinomycetota;c__Actinomycetes;o__Bifidobacteriales;f__Bifidobacteriaceae;g__Scardovia;s__inopinata
+511	Scardovia wiggsiae	HMT-195	3	k__Bacteria;p__Actinomycetota;c__Actinomycetes;o__Bifidobacteriales;f__Bifidobacteriaceae;g__Scardovia;s__wiggsiae
+298	Schaalia cardiffensis	HMT-850	3	k__Bacteria;p__Actinomycetota;c__Actinomycetes;o__Actinomycetales;f__Actinomycetaceae;g__Schaalia;s__cardiffensis
+440	Schaalia dentiphila	HMT-710	5	k__Bacteria;p__Actinomycetota;c__Actinomycetes;o__Actinomycetales;f__Actinomycetaceae;g__Schaalia;s__dentiphila
+844	Schaalia georgiae	HMT-617	2	k__Bacteria;p__Actinomycetota;c__Actinomycetes;o__Actinomycetales;f__Actinomycetaceae;g__Schaalia;s__georgiae
+358	Schaalia hongkongensis	HMT-178	2	k__Bacteria;p__Actinomycetota;c__Actinomycetes;o__Actinomycetales;f__Actinomycetaceae;g__Schaalia;s__hongkongensis
+436	Schaalia lingnae	HMT-181	5	k__Bacteria;p__Actinomycetota;c__Actinomycetes;o__Actinomycetales;f__Actinomycetaceae;g__Schaalia;s__lingnae
+438	Schaalia meyeri	HMT-671	1	k__Bacteria;p__Actinomycetota;c__Actinomycetes;o__Actinomycetales;f__Actinomycetaceae;g__Schaalia;s__meyeri
+451	Schaalia odontolytica	HMT-701	5	k__Bacteria;p__Actinomycetota;c__Actinomycetes;o__Actinomycetales;f__Actinomycetaceae;g__Schaalia;s__odontolytica
+423	Schaalia sp. HMT-172	HMT-172	4	k__Bacteria;p__Actinomycetota;c__Actinomycetes;o__Actinomycetales;f__Actinomycetaceae;g__Schaalia;s__sp. HMT-172
+435	Schaalia sp. HMT-180	HMT-180	8	k__Bacteria;p__Actinomycetota;c__Actinomycetes;o__Actinomycetales;f__Actinomycetaceae;g__Schaalia;s__sp. HMT-180
+397	Schaalia sp. HMT-240	HMT-240	4	k__Bacteria;p__Actinomycetota;c__Actinomycetes;o__Actinomycetales;f__Actinomycetaceae;g__Schaalia;s__sp. HMT-240
+1077	Schlegelella aquatica	HMT-026	1	k__Bacteria;p__Pseudomonadota;c__Betaproteobacteria;o__Burkholderiales;f__Comamonadaceae;g__Schlegelella;s__aquatica
+623	Schlegelella thermodepolymerans	HMT-024	5	k__Bacteria;p__Pseudomonadota;c__Betaproteobacteria;o__Burkholderiales;f__Comamonadaceae;g__Schlegelella;s__thermodepolymerans
+577	Segatella baroniae	HMT-553	4	k__Bacteria;p__Bacteroidota;c__Bacteroidia;o__Bacteroidales;f__Prevotellaceae;g__Segatella;s__baroniae
+576	Segatella buccae	HMT-560	10	k__Bacteria;p__Bacteroidota;c__Bacteroidia;o__Bacteroidales;f__Prevotellaceae;g__Segatella;s__buccae
+609	Segatella maculosa	HMT-289	5	k__Bacteria;p__Bacteroidota;c__Bacteroidia;o__Bacteroidales;f__Prevotellaceae;g__Segatella;s__maculosa
+579	Segatella oris	HMT-311	8	k__Bacteria;p__Bacteroidota;c__Bacteroidia;o__Bacteroidales;f__Prevotellaceae;g__Segatella;s__oris
+646	Segatella oulorum	HMT-288	3	k__Bacteria;p__Bacteroidota;c__Bacteroidia;o__Bacteroidales;f__Prevotellaceae;g__Segatella;s__oulorum
+587	Segatella salivae	HMT-307	7	k__Bacteria;p__Bacteroidota;c__Bacteroidia;o__Bacteroidales;f__Prevotellaceae;g__Segatella;s__salivae
+1065	Segatella sp. HMT-300	HMT-300	3	k__Bacteria;p__Bacteroidota;c__Bacteroidia;o__Bacteroidales;f__Prevotellaceae;g__Segatella;s__sp. HMT-300
+1100	Segatella sp. HMT-305	HMT-305	2	k__Bacteria;p__Bacteroidota;c__Bacteroidia;o__Bacteroidales;f__Prevotellaceae;g__Segatella;s__sp. HMT-305
+1095	Segatella sp. HMT-309	HMT-309	2	k__Bacteria;p__Bacteroidota;c__Bacteroidia;o__Bacteroidales;f__Prevotellaceae;g__Segatella;s__sp. HMT-309
+1074	Segatella sp. HMT-443	HMT-443	1	k__Bacteria;p__Bacteroidota;c__Bacteroidia;o__Bacteroidales;f__Prevotellaceae;g__Segatella;s__sp. HMT-443
+733	Segetibacter aerophilus	HMT-261	2	k__Bacteria;p__Bacteroidota;c__Chitinophagia;o__Chitinophagales;f__Chitinophagaceae;g__Segetibacter;s__aerophilus
+1025	Selenomonadaceae [G1] bacterium HMT-129	HMT-129	1	k__Bacteria;p__Bacillota;c__Negativicutes;o__Selenomonadales;f__Selenomonadaceae;g__Selenomonadaceae [G1];s__bacterium HMT-129
+1013	Selenomonadaceae [G1] bacterium HMT-132	HMT-132	1	k__Bacteria;p__Bacillota;c__Negativicutes;o__Selenomonadales;f__Selenomonadaceae;g__Selenomonadaceae [G1];s__bacterium HMT-132
+1045	Selenomonadaceae [G1] bacterium HMT-135	HMT-135	2	k__Bacteria;p__Bacillota;c__Negativicutes;o__Selenomonadales;f__Selenomonadaceae;g__Selenomonadaceae [G1];s__bacterium HMT-135
+1048	Selenomonadaceae [G1] bacterium HMT-145	HMT-145	1	k__Bacteria;p__Bacillota;c__Negativicutes;o__Selenomonadales;f__Selenomonadaceae;g__Selenomonadaceae [G1];s__bacterium HMT-145
+1035	Selenomonadaceae [G1] bacterium HMT-148	HMT-148	1	k__Bacteria;p__Bacillota;c__Negativicutes;o__Selenomonadales;f__Selenomonadaceae;g__Selenomonadaceae [G1];s__bacterium HMT-148
+1020	Selenomonadaceae [G1] bacterium HMT-150	HMT-150	2	k__Bacteria;p__Bacillota;c__Negativicutes;o__Selenomonadales;f__Selenomonadaceae;g__Selenomonadaceae [G1];s__bacterium HMT-150
+978	Selenomonadaceae [G1] bacterium HMT-155	HMT-155	2	k__Bacteria;p__Bacillota;c__Negativicutes;o__Selenomonadales;f__Selenomonadaceae;g__Selenomonadaceae [G1];s__bacterium HMT-155
+1033	Selenomonadaceae [G1] bacterium HMT-483	HMT-483	1	k__Bacteria;p__Bacillota;c__Negativicutes;o__Selenomonadales;f__Selenomonadaceae;g__Selenomonadaceae [G1];s__bacterium HMT-483
+1047	Selenomonadaceae [G1] bacterium HMT-918	HMT-918	1	k__Bacteria;p__Bacillota;c__Negativicutes;o__Selenomonadales;f__Selenomonadaceae;g__Selenomonadaceae [G1];s__bacterium HMT-918
+398	Selenomonas artemidis	HMT-124	9	k__Bacteria;p__Bacillota;c__Negativicutes;o__Selenomonadales;f__Selenomonadaceae;g__Selenomonas;s__artemidis
+391	Selenomonas dianae	HMT-139	6	k__Bacteria;p__Bacillota;c__Negativicutes;o__Selenomonadales;f__Selenomonadaceae;g__Selenomonas;s__dianae
+116	Selenomonas felix	HMT-136	15	k__Bacteria;p__Bacillota;c__Negativicutes;o__Selenomonadales;f__Selenomonadaceae;g__Selenomonas;s__felix
+887	Selenomonas flueggei	HMT-125	2	k__Bacteria;p__Bacillota;c__Negativicutes;o__Selenomonadales;f__Selenomonadaceae;g__Selenomonas;s__flueggei
+422	Selenomonas infelix	HMT-639	2	k__Bacteria;p__Bacillota;c__Negativicutes;o__Selenomonadales;f__Selenomonadaceae;g__Selenomonas;s__infelix
+444	Selenomonas noxia	HMT-130	4	k__Bacteria;p__Bacillota;c__Negativicutes;o__Selenomonadales;f__Selenomonadaceae;g__Selenomonas;s__noxia
+835	Selenomonas sp. HMT-126	HMT-126	2	k__Bacteria;p__Bacillota;c__Negativicutes;o__Selenomonadales;f__Selenomonadaceae;g__Selenomonas;s__sp. HMT-126
+392	Selenomonas sp. HMT-133	HMT-133	2	k__Bacteria;p__Bacillota;c__Negativicutes;o__Selenomonadales;f__Selenomonadaceae;g__Selenomonas;s__sp. HMT-133
+606	Selenomonas sp. HMT-134	HMT-134	1	k__Bacteria;p__Bacillota;c__Negativicutes;o__Selenomonadales;f__Selenomonadaceae;g__Selenomonas;s__sp. HMT-134
+836	Selenomonas sp. HMT-146	HMT-146	1	k__Bacteria;p__Bacillota;c__Negativicutes;o__Selenomonadales;f__Selenomonadaceae;g__Selenomonas;s__sp. HMT-146
+859	Selenomonas sp. HMT-388	HMT-388	1	k__Bacteria;p__Bacillota;c__Negativicutes;o__Selenomonadales;f__Selenomonadaceae;g__Selenomonas;s__sp. HMT-388
+605	Selenomonas sp. HMT-442	HMT-442	1	k__Bacteria;p__Bacillota;c__Negativicutes;o__Selenomonadales;f__Selenomonadaceae;g__Selenomonas;s__sp. HMT-442
+889	Selenomonas sp. HMT-479	HMT-479	1	k__Bacteria;p__Bacillota;c__Negativicutes;o__Selenomonadales;f__Selenomonadaceae;g__Selenomonas;s__sp. HMT-479
+834	Selenomonas sp. HMT-481	HMT-481	2	k__Bacteria;p__Bacillota;c__Negativicutes;o__Selenomonadales;f__Selenomonadaceae;g__Selenomonas;s__sp. HMT-481
+601	Selenomonas sp. HMT-501	HMT-501	1	k__Bacteria;p__Bacillota;c__Negativicutes;o__Selenomonadales;f__Selenomonadaceae;g__Selenomonas;s__sp. HMT-501
+857	Selenomonas sp. HMT-892	HMT-892	1	k__Bacteria;p__Bacillota;c__Negativicutes;o__Selenomonadales;f__Selenomonadaceae;g__Selenomonas;s__sp. HMT-892
+858	Selenomonas sp. HMT-919	HMT-919	2	k__Bacteria;p__Bacillota;c__Negativicutes;o__Selenomonadales;f__Selenomonadaceae;g__Selenomonas;s__sp. HMT-919
+413	Selenomonas sp. HMT-920	HMT-920	5	k__Bacteria;p__Bacillota;c__Negativicutes;o__Selenomonadales;f__Selenomonadaceae;g__Selenomonas;s__sp. HMT-920
+1350	Selenomonas sp. HMT-936	HMT-936	1	k__Bacteria;p__Bacillota;c__Negativicutes;o__Selenomonadales;f__Selenomonadaceae;g__Selenomonas;s__sp. HMT-936
+1349	Selenomonas sp. HMT-937	HMT-937	1	k__Bacteria;p__Bacillota;c__Negativicutes;o__Selenomonadales;f__Selenomonadaceae;g__Selenomonas;s__sp. HMT-937
+113	Selenomonas sputigena	HMT-151	12	k__Bacteria;p__Bacillota;c__Negativicutes;o__Selenomonadales;f__Selenomonadaceae;g__Selenomonas;s__sputigena
+414	Selenomonas timonae	HMT-138	5	k__Bacteria;p__Bacillota;c__Negativicutes;o__Selenomonadales;f__Selenomonadaceae;g__Selenomonas;s__timonae
+431	Serratia marcescens	HMT-115	5	k__Bacteria;p__Pseudomonadota;c__Gammaproteobacteria;o__Enterobacterales;f__Yersiniaceae;g__Serratia;s__marcescens
+537	Shuttleworthia satelles	HMT-095	6	k__Bacteria;p__Bacillota;c__Clostridia;o__Lachnospirales;f__Lachnospiraceae;g__Shuttleworthia;s__satelles
+446	Simonsiella muelleri	HMT-683	2	k__Bacteria;p__Pseudomonadota;c__Betaproteobacteria;o__Neisseriales;f__Neisseriaceae;g__Simonsiella;s__muelleri
+986	Slackia exigua	HMT-602	9	k__Bacteria;p__Actinomycetota;c__Coriobacteriia;o__Eggerthellales;f__Eggerthellaceae;g__Slackia;s__exigua
+993	Sneathia sanguinegens	HMT-837	2	k__Bacteria;p__Fusobacteriota;c__Fusobacteriia;o__Fusobacteriales;f__Leptotrichiaceae;g__Sneathia;s__sanguinegens
+1036	Sneathia vaginalis	HMT-844	5	k__Bacteria;p__Fusobacteriota;c__Fusobacteriia;o__Fusobacteriales;f__Leptotrichiaceae;g__Sneathia;s__vaginalis
+783	Solobacterium moorei	HMT-678	1	k__Bacteria;p__Bacillota;c__Erysipelotrichia;o__Erysipelotrichales;f__Erysipelotrichaceae;g__Solobacterium;s__moorei
+1284	Sphingomonas glacialis	HMT-003	4	k__Bacteria;p__Pseudomonadota;c__Alphaproteobacteria;o__Sphingomonadales;f__Sphingomonadaceae;g__Sphingomonas;s__glacialis
+1372	Sphingomonas sp. HMT-004	HMT-004	1	k__Bacteria;p__Pseudomonadota;c__Alphaproteobacteria;o__Sphingomonadales;f__Sphingomonadaceae;g__Sphingomonas;s__sp. HMT-004
+271	Staphylococcus aureus	HMT-550	118	k__Bacteria;p__Bacillota;c__Bacilli;o__Caryophanales;f__Staphylococcaceae;g__Staphylococcus;s__aureus
+288	Staphylococcus auricularis	HMT-331	15	k__Bacteria;p__Bacillota;c__Bacilli;o__Caryophanales;f__Staphylococcaceae;g__Staphylococcus;s__auricularis
+282	Staphylococcus capitis	HMT-116	46	k__Bacteria;p__Bacillota;c__Bacilli;o__Caryophanales;f__Staphylococcaceae;g__Staphylococcus;s__capitis
+284	Staphylococcus caprae	HMT-567	20	k__Bacteria;p__Bacillota;c__Bacilli;o__Caryophanales;f__Staphylococcaceae;g__Staphylococcus;s__caprae
+274	Staphylococcus cohnii	HMT-117	10	k__Bacteria;p__Bacillota;c__Bacilli;o__Caryophanales;f__Staphylococcaceae;g__Staphylococcus;s__cohnii
+264	Staphylococcus epidermidis	HMT-601	155	k__Bacteria;p__Bacillota;c__Bacilli;o__Caryophanales;f__Staphylococcaceae;g__Staphylococcus;s__epidermidis
+281	Staphylococcus haemolyticus	HMT-120	87	k__Bacteria;p__Bacillota;c__Bacilli;o__Caryophanales;f__Staphylococcaceae;g__Staphylococcus;s__haemolyticus
+283	Staphylococcus hominis	HMT-127	67	k__Bacteria;p__Bacillota;c__Bacilli;o__Caryophanales;f__Staphylococcaceae;g__Staphylococcus;s__hominis
+289	Staphylococcus lugdunensis	HMT-128	45	k__Bacteria;p__Bacillota;c__Bacilli;o__Caryophanales;f__Staphylococcaceae;g__Staphylococcus;s__lugdunensis
+273	Staphylococcus pasteuri	HMT-141	21	k__Bacteria;p__Bacillota;c__Bacilli;o__Caryophanales;f__Staphylococcaceae;g__Staphylococcus;s__pasteuri
+254	Staphylococcus pettenkoferi	HMT-142	12	k__Bacteria;p__Bacillota;c__Bacilli;o__Caryophanales;f__Staphylococcaceae;g__Staphylococcus;s__pettenkoferi
+286	Staphylococcus saccharolyticus	HMT-789	3	k__Bacteria;p__Bacillota;c__Bacilli;o__Caryophanales;f__Staphylococcaceae;g__Staphylococcus;s__saccharolyticus
+270	Staphylococcus schleiferi	HMT-233	7	k__Bacteria;p__Bacillota;c__Bacilli;o__Caryophanales;f__Staphylococcaceae;g__Staphylococcus;s__schleiferi
+272	Staphylococcus warneri	HMT-076	51	k__Bacteria;p__Bacillota;c__Bacilli;o__Caryophanales;f__Staphylococcaceae;g__Staphylococcus;s__warneri
+364	Stenotrophomonas maltophilia	HMT-663	10	k__Bacteria;p__Pseudomonadota;c__Gammaproteobacteria;o__Lysobacterales;f__Lysobacteraceae;g__Stenotrophomonas;s__maltophilia
+366	Stenotrophomonas nitritireducens	HMT-037	3	k__Bacteria;p__Pseudomonadota;c__Gammaproteobacteria;o__Lysobacterales;f__Lysobacteraceae;g__Stenotrophomonas;s__nitritireducens
+637	Stomatobaculum longum	HMT-419	6	k__Bacteria;p__Bacillota;c__Clostridia;o__Lachnospirales;f__Lachnospiraceae;g__Stomatobaculum;s__longum
+1072	Stomatobaculum sp. HMT-373	HMT-373	1	k__Bacteria;p__Bacillota;c__Clostridia;o__Lachnospirales;f__Lachnospiraceae;g__Stomatobaculum;s__sp. HMT-373
+1083	Stomatobaculum sp. HMT-910	HMT-910	1	k__Bacteria;p__Bacillota;c__Clostridia;o__Lachnospirales;f__Lachnospiraceae;g__Stomatobaculum;s__sp. HMT-910
+345	Streptococcus agalactiae	HMT-537	13	k__Bacteria;p__Bacillota;c__Bacilli;o__Lactobacillales;f__Streptococcaceae;g__Streptococcus;s__agalactiae
+229	Streptococcus anginosus	HMT-543	25	k__Bacteria;p__Bacillota;c__Bacilli;o__Lactobacillales;f__Streptococcaceae;g__Streptococcus;s__anginosus
+317	Streptococcus australis	HMT-073	21	k__Bacteria;p__Bacillota;c__Bacilli;o__Lactobacillales;f__Streptococcaceae;g__Streptococcus;s__australis
+249	Streptococcus constellatus	HMT-576	17	k__Bacteria;p__Bacillota;c__Bacilli;o__Lactobacillales;f__Streptococcaceae;g__Streptococcus;s__constellatus
+285	Streptococcus cristatus	HMT-578	30	k__Bacteria;p__Bacillota;c__Bacilli;o__Lactobacillales;f__Streptococcaceae;g__Streptococcus;s__cristatus
+235	Streptococcus downei	HMT-594	6	k__Bacteria;p__Bacillota;c__Bacilli;o__Lactobacillales;f__Streptococcaceae;g__Streptococcus;s__downei
+248	Streptococcus gordonii	HMT-622	29	k__Bacteria;p__Bacillota;c__Bacilli;o__Lactobacillales;f__Streptococcaceae;g__Streptococcus;s__gordonii
+321	Streptococcus ilei	HMT-456	8	k__Bacteria;p__Bacillota;c__Bacilli;o__Lactobacillales;f__Streptococcaceae;g__Streptococcus;s__ilei
+343	Streptococcus infantis	HMT-061,HMT-431,HMT-444,HMT-638	35	k__Bacteria;p__Bacillota;c__Bacilli;o__Lactobacillales;f__Streptococcaceae;g__Streptococcus;s__infantis
+228	Streptococcus intermedius	HMT-644	14	k__Bacteria;p__Bacillota;c__Bacilli;o__Lactobacillales;f__Streptococcaceae;g__Streptococcus;s__intermedius
+348	Streptococcus lactarius	HMT-948	5	k__Bacteria;p__Bacillota;c__Bacilli;o__Lactobacillales;f__Streptococcaceae;g__Streptococcus;s__lactarius
+351	Streptococcus mitis	HMT-677	63	k__Bacteria;p__Bacillota;c__Bacilli;o__Lactobacillales;f__Streptococcaceae;g__Streptococcus;s__mitis
+241	Streptococcus mutans	HMT-686	30	k__Bacteria;p__Bacillota;c__Bacilli;o__Lactobacillales;f__Streptococcaceae;g__Streptococcus;s__mutans
+305	Streptococcus oralis	HMT-071,HMT-398,HMT-707	102	k__Bacteria;p__Bacillota;c__Bacilli;o__Lactobacillales;f__Streptococcaceae;g__Streptococcus;s__oralis
+316	Streptococcus parasanguinis	HMT-411	64	k__Bacteria;p__Bacillota;c__Bacilli;o__Lactobacillales;f__Streptococcaceae;g__Streptococcus;s__parasanguinis
+402	Streptococcus peroris	HMT-728	2	k__Bacteria;p__Bacillota;c__Bacilli;o__Lactobacillales;f__Streptococcaceae;g__Streptococcus;s__peroris
+350	Streptococcus pneumoniae	HMT-734	115	k__Bacteria;p__Bacillota;c__Bacilli;o__Lactobacillales;f__Streptococcaceae;g__Streptococcus;s__pneumoniae
+353	Streptococcus pseudopneumoniae	HMT-425	49	k__Bacteria;p__Bacillota;c__Bacilli;o__Lactobacillales;f__Streptococcaceae;g__Streptococcus;s__pseudopneumoniae
+319	Streptococcus pyogenes	HMT-745	5	k__Bacteria;p__Bacillota;c__Bacilli;o__Lactobacillales;f__Streptococcaceae;g__Streptococcus;s__pyogenes
+336	Streptococcus rubneri	HMT-415	8	k__Bacteria;p__Bacillota;c__Bacilli;o__Lactobacillales;f__Streptococcaceae;g__Streptococcus;s__rubneri
+349	Streptococcus salivarius	HMT-755	19	k__Bacteria;p__Bacillota;c__Bacilli;o__Lactobacillales;f__Streptococcaceae;g__Streptococcus;s__salivarius
+329	Streptococcus sanguinis	HMT-758	42	k__Bacteria;p__Bacillota;c__Bacilli;o__Lactobacillales;f__Streptococcaceae;g__Streptococcus;s__sanguinis
+255	Streptococcus sinensis	HMT-767	5	k__Bacteria;p__Bacillota;c__Bacilli;o__Lactobacillales;f__Streptococcaceae;g__Streptococcus;s__sinensis
+250	Streptococcus sobrinus	HMT-768	13	k__Bacteria;p__Bacillota;c__Bacilli;o__Lactobacillales;f__Streptococcaceae;g__Streptococcus;s__sobrinus
+355	Streptococcus sp. HMT-056	HMT-056	4	k__Bacteria;p__Bacillota;c__Bacilli;o__Lactobacillales;f__Streptococcaceae;g__Streptococcus;s__sp. HMT-056
+797	Streptococcus sp. HMT-057	HMT-057	1	k__Bacteria;p__Bacillota;c__Bacilli;o__Lactobacillales;f__Streptococcaceae;g__Streptococcus;s__sp. HMT-057
+403	Streptococcus sp. HMT-058	HMT-058	4	k__Bacteria;p__Bacillota;c__Bacilli;o__Lactobacillales;f__Streptococcaceae;g__Streptococcus;s__sp. HMT-058
+312	Streptococcus sp. HMT-066	HMT-066	5	k__Bacteria;p__Bacillota;c__Bacilli;o__Lactobacillales;f__Streptococcaceae;g__Streptococcus;s__sp. HMT-066
+769	Streptococcus sp. HMT-070	HMT-070	1	k__Bacteria;p__Bacillota;c__Bacilli;o__Lactobacillales;f__Streptococcaceae;g__Streptococcus;s__sp. HMT-070
+749	Streptococcus sp. HMT-074	HMT-074	1	k__Bacteria;p__Bacillota;c__Bacilli;o__Lactobacillales;f__Streptococcaceae;g__Streptococcus;s__sp. HMT-074
+786	Streptococcus sp. HMT-423	HMT-423	1	k__Bacteria;p__Bacillota;c__Bacilli;o__Lactobacillales;f__Streptococcaceae;g__Streptococcus;s__sp. HMT-423
+352	Streptococcus thermophilus	HMT-152	3	k__Bacteria;p__Bacillota;c__Bacilli;o__Lactobacillales;f__Streptococcaceae;g__Streptococcus;s__thermophilus
+354	Streptococcus vestibularis	HMT-021	6	k__Bacteria;p__Bacillota;c__Bacilli;o__Lactobacillales;f__Streptococcaceae;g__Streptococcus;s__vestibularis
+533	Stutzerimonas stutzeri	HMT-477	18	k__Bacteria;p__Pseudomonadota;c__Gammaproteobacteria;o__Pseudomonadales;f__Pseudomonadaceae;g__Stutzerimonas;s__stutzeri
+384	Syntrophomonadaceae [G1] bacterium HMT-435	HMT-435	1	k__Bacteria;p__Bacillota;c__Clostridia;o__Eubacteriales;f__Syntrophomonadaceae;g__Syntrophomonadaceae [G1];s__bacterium HMT-435
+781	Tannerella forsythia	HMT-613	6	k__Bacteria;p__Bacteroidota;c__Bacteroidia;o__Bacteroidales;f__Tannerellaceae;g__Tannerella;s__forsythia
+716	Tannerella serpentiformis	HMT-286	2	k__Bacteria;p__Bacteroidota;c__Bacteroidia;o__Bacteroidales;f__Tannerellaceae;g__Tannerella;s__serpentiformis
+1115	Tannerella sp. HMT-808	HMT-808	1	k__Bacteria;p__Bacteroidota;c__Bacteroidia;o__Bacteroidales;f__Tannerellaceae;g__Tannerella;s__sp. HMT-808
+1122	Tannerella sp. HMT-916	HMT-916	1	k__Bacteria;p__Bacteroidota;c__Bacteroidia;o__Bacteroidales;f__Tannerellaceae;g__Tannerella;s__sp. HMT-916
+1200	Treponema amylovorum	HMT-541	1	k__Bacteria;p__Spirochaetota;c__Spirochaetia;o__Spirochaetales;f__Treponemataceae;g__Treponema;s__amylovorum
+388	Treponema denticola	HMT-584	16	k__Bacteria;p__Spirochaetota;c__Spirochaetia;o__Spirochaetales;f__Treponemataceae;g__Treponema;s__denticola
+360	Treponema lecithinolyticum	HMT-653	2	k__Bacteria;p__Spirochaetota;c__Spirochaetia;o__Spirochaetales;f__Treponemataceae;g__Treponema;s__lecithinolyticum
+368	Treponema maltophilum	HMT-664	3	k__Bacteria;p__Spirochaetota;c__Spirochaetia;o__Spirochaetales;f__Treponemataceae;g__Treponema;s__maltophilum
+315	Treponema medium	HMT-667	6	k__Bacteria;p__Spirochaetota;c__Spirochaetia;o__Spirochaetales;f__Treponemataceae;g__Treponema;s__medium
+344	Treponema pallidum	HMT-805	3	k__Bacteria;p__Spirochaetota;c__Spirochaetia;o__Spirochaetales;f__Treponemataceae;g__Treponema;s__pallidum
+324	Treponema parvum	HMT-724	4	k__Bacteria;p__Spirochaetota;c__Spirochaetia;o__Spirochaetales;f__Treponemataceae;g__Treponema;s__parvum
+412	Treponema pectinovorum	HMT-725	5	k__Bacteria;p__Spirochaetota;c__Spirochaetia;o__Spirochaetales;f__Treponemataceae;g__Treponema;s__pectinovorum
+365	Treponema putidum	HMT-743	7	k__Bacteria;p__Spirochaetota;c__Spirochaetia;o__Spirochaetales;f__Treponemataceae;g__Treponema;s__putidum
+513	Treponema socranskii	HMT-438,HMT-440,HMT-769	7	k__Bacteria;p__Spirochaetota;c__Spirochaetia;o__Spirochaetales;f__Treponemataceae;g__Treponema;s__socranskii
+1148	Treponema sp. HMT-226	HMT-226	1	k__Bacteria;p__Spirochaetota;c__Spirochaetia;o__Spirochaetales;f__Treponemataceae;g__Treponema;s__sp. HMT-226
+1137	Treponema sp. HMT-227	HMT-227	1	k__Bacteria;p__Spirochaetota;c__Spirochaetia;o__Spirochaetales;f__Treponemataceae;g__Treponema;s__sp. HMT-227
+1140	Treponema sp. HMT-228	HMT-228	1	k__Bacteria;p__Spirochaetota;c__Spirochaetia;o__Spirochaetales;f__Treponemataceae;g__Treponema;s__sp. HMT-228
+1101	Treponema sp. HMT-230	HMT-230	2	k__Bacteria;p__Spirochaetota;c__Spirochaetia;o__Spirochaetales;f__Treponemataceae;g__Treponema;s__sp. HMT-230
+1134	Treponema sp. HMT-231	HMT-231	1	k__Bacteria;p__Spirochaetota;c__Spirochaetia;o__Spirochaetales;f__Treponemataceae;g__Treponema;s__sp. HMT-231
+1136	Treponema sp. HMT-232	HMT-232	1	k__Bacteria;p__Spirochaetota;c__Spirochaetia;o__Spirochaetales;f__Treponemataceae;g__Treponema;s__sp. HMT-232
+1125	Treponema sp. HMT-234	HMT-234	1	k__Bacteria;p__Spirochaetota;c__Spirochaetia;o__Spirochaetales;f__Treponemataceae;g__Treponema;s__sp. HMT-234
+1142	Treponema sp. HMT-235	HMT-235	1	k__Bacteria;p__Spirochaetota;c__Spirochaetia;o__Spirochaetales;f__Treponemataceae;g__Treponema;s__sp. HMT-235
+1139	Treponema sp. HMT-236	HMT-236	1	k__Bacteria;p__Spirochaetota;c__Spirochaetia;o__Spirochaetales;f__Treponemataceae;g__Treponema;s__sp. HMT-236
+1127	Treponema sp. HMT-237	HMT-237	4	k__Bacteria;p__Spirochaetota;c__Spirochaetia;o__Spirochaetales;f__Treponemataceae;g__Treponema;s__sp. HMT-237
+1141	Treponema sp. HMT-238	HMT-238	1	k__Bacteria;p__Spirochaetota;c__Spirochaetia;o__Spirochaetales;f__Treponemataceae;g__Treponema;s__sp. HMT-238
+1151	Treponema sp. HMT-239	HMT-239	2	k__Bacteria;p__Spirochaetota;c__Spirochaetia;o__Spirochaetales;f__Treponemataceae;g__Treponema;s__sp. HMT-239
+1138	Treponema sp. HMT-242	HMT-242	1	k__Bacteria;p__Spirochaetota;c__Spirochaetia;o__Spirochaetales;f__Treponemataceae;g__Treponema;s__sp. HMT-242
+1192	Treponema sp. HMT-246	HMT-246	1	k__Bacteria;p__Spirochaetota;c__Spirochaetia;o__Spirochaetales;f__Treponemataceae;g__Treponema;s__sp. HMT-246
+1131	Treponema sp. HMT-247	HMT-247	1	k__Bacteria;p__Spirochaetota;c__Spirochaetia;o__Spirochaetales;f__Treponemataceae;g__Treponema;s__sp. HMT-247
+1197	Treponema sp. HMT-249	HMT-249	1	k__Bacteria;p__Spirochaetota;c__Spirochaetia;o__Spirochaetales;f__Treponemataceae;g__Treponema;s__sp. HMT-249
+1174	Treponema sp. HMT-250	HMT-250	1	k__Bacteria;p__Spirochaetota;c__Spirochaetia;o__Spirochaetales;f__Treponemataceae;g__Treponema;s__sp. HMT-250
+1194	Treponema sp. HMT-251	HMT-251	1	k__Bacteria;p__Spirochaetota;c__Spirochaetia;o__Spirochaetales;f__Treponemataceae;g__Treponema;s__sp. HMT-251
+1211	Treponema sp. HMT-252	HMT-252	1	k__Bacteria;p__Spirochaetota;c__Spirochaetia;o__Spirochaetales;f__Treponemataceae;g__Treponema;s__sp. HMT-252
+937	Treponema sp. HMT-253	HMT-253	1	k__Bacteria;p__Spirochaetota;c__Spirochaetia;o__Spirochaetales;f__Treponemataceae;g__Treponema;s__sp. HMT-253
+1213	Treponema sp. HMT-254	HMT-254	1	k__Bacteria;p__Spirochaetota;c__Spirochaetia;o__Spirochaetales;f__Treponemataceae;g__Treponema;s__sp. HMT-254
+962	Treponema sp. HMT-256	HMT-256	1	k__Bacteria;p__Spirochaetota;c__Spirochaetia;o__Spirochaetales;f__Treponemataceae;g__Treponema;s__sp. HMT-256
+1217	Treponema sp. HMT-257	HMT-257	1	k__Bacteria;p__Spirochaetota;c__Spirochaetia;o__Spirochaetales;f__Treponemataceae;g__Treponema;s__sp. HMT-257
+1188	Treponema sp. HMT-258	HMT-258	1	k__Bacteria;p__Spirochaetota;c__Spirochaetia;o__Spirochaetales;f__Treponemataceae;g__Treponema;s__sp. HMT-258
+1170	Treponema sp. HMT-260	HMT-260	1	k__Bacteria;p__Spirochaetota;c__Spirochaetia;o__Spirochaetales;f__Treponemataceae;g__Treponema;s__sp. HMT-260
+1202	Treponema sp. HMT-262	HMT-262	1	k__Bacteria;p__Spirochaetota;c__Spirochaetia;o__Spirochaetales;f__Treponemataceae;g__Treponema;s__sp. HMT-262
+1198	Treponema sp. HMT-263	HMT-263	1	k__Bacteria;p__Spirochaetota;c__Spirochaetia;o__Spirochaetales;f__Treponemataceae;g__Treponema;s__sp. HMT-263
+856	Treponema sp. HMT-264	HMT-264	1	k__Bacteria;p__Spirochaetota;c__Spirochaetia;o__Spirochaetales;f__Treponemataceae;g__Treponema;s__sp. HMT-264
+1199	Treponema sp. HMT-265	HMT-265	1	k__Bacteria;p__Spirochaetota;c__Spirochaetia;o__Spirochaetales;f__Treponemataceae;g__Treponema;s__sp. HMT-265
+949	Treponema sp. HMT-268	HMT-268	2	k__Bacteria;p__Spirochaetota;c__Spirochaetia;o__Spirochaetales;f__Treponemataceae;g__Treponema;s__sp. HMT-268
+956	Treponema sp. HMT-269	HMT-269	1	k__Bacteria;p__Spirochaetota;c__Spirochaetia;o__Spirochaetales;f__Treponemataceae;g__Treponema;s__sp. HMT-269
+796	Treponema sp. HMT-270	HMT-270	1	k__Bacteria;p__Spirochaetota;c__Spirochaetia;o__Spirochaetales;f__Treponemataceae;g__Treponema;s__sp. HMT-270
+1206	Treponema sp. HMT-271	HMT-271	1	k__Bacteria;p__Spirochaetota;c__Spirochaetia;o__Spirochaetales;f__Treponemataceae;g__Treponema;s__sp. HMT-271
+842	Treponema sp. HMT-490	HMT-490	2	k__Bacteria;p__Spirochaetota;c__Spirochaetia;o__Spirochaetales;f__Treponemataceae;g__Treponema;s__sp. HMT-490
+1216	Treponema sp. HMT-508	HMT-508	1	k__Bacteria;p__Spirochaetota;c__Spirochaetia;o__Spirochaetales;f__Treponemataceae;g__Treponema;s__sp. HMT-508
+1196	Treponema sp. HMT-517	HMT-517	1	k__Bacteria;p__Spirochaetota;c__Spirochaetia;o__Spirochaetales;f__Treponemataceae;g__Treponema;s__sp. HMT-517
+1220	Treponema sp. HMT-518	HMT-518	1	k__Bacteria;p__Spirochaetota;c__Spirochaetia;o__Spirochaetales;f__Treponemataceae;g__Treponema;s__sp. HMT-518
+1357	Treponema sp. HMT-927	HMT-927	1	k__Bacteria;p__Spirochaetota;c__Spirochaetia;o__Spirochaetales;f__Treponemataceae;g__Treponema;s__sp. HMT-927
+1193	Treponema sp. HMT-951	HMT-951	1	k__Bacteria;p__Spirochaetota;c__Spirochaetia;o__Spirochaetales;f__Treponemataceae;g__Treponema;s__sp. HMT-951
+296	Treponema vincentii	HMT-029,HMT-432	12	k__Bacteria;p__Spirochaetota;c__Spirochaetia;o__Spirochaetales;f__Treponemataceae;g__Treponema;s__vincentii
+959	Ureaplasma parvum	HMT-799	5	k__Bacteria;p__Mycoplasmatota;c__Mollicutes;o__Mycoplasmoidales;f__Mycoplasmoidaceae;g__Ureaplasma;s__parvum
+799	Urinicoccus timonensis	HMT-375	4	k__Bacteria;p__Bacillota;c__Clostridia;o__Tissierellales;f__Peptoniphilaceae;g__Urinicoccus;s__timonensis
+540	Variovorax paradoxus	HMT-717	8	k__Bacteria;p__Pseudomonadota;c__Betaproteobacteria;o__Burkholderiales;f__Comamonadaceae;g__Variovorax;s__paradoxus
+188	Veillonella atypica	HMT-524	15	k__Bacteria;p__Bacillota;c__Negativicutes;o__Veillonellales;f__Veillonellaceae;g__Veillonella;s__atypica
+193	Veillonella denticariosi	HMT-887	3	k__Bacteria;p__Bacillota;c__Negativicutes;o__Veillonellales;f__Veillonellaceae;g__Veillonella;s__denticariosi
+192	Veillonella dispar	HMT-160	7	k__Bacteria;p__Bacillota;c__Negativicutes;o__Veillonellales;f__Veillonellaceae;g__Veillonella;s__dispar
+189	Veillonella nakazawae	HMT-156	13	k__Bacteria;p__Bacillota;c__Negativicutes;o__Veillonellales;f__Veillonellaceae;g__Veillonella;s__nakazawae
+185	Veillonella parvula	HMT-161	34	k__Bacteria;p__Bacillota;c__Negativicutes;o__Veillonellales;f__Veillonellaceae;g__Veillonella;s__parvula
+184	Veillonella rogosae	HMT-158	13	k__Bacteria;p__Bacillota;c__Negativicutes;o__Veillonellales;f__Veillonellaceae;g__Veillonella;s__rogosae
+201	Veillonella sp. HMT-779	HMT-779	9	k__Bacteria;p__Bacillota;c__Negativicutes;o__Veillonellales;f__Veillonellaceae;g__Veillonella;s__sp. HMT-779
+205	Veillonella sp. HMT-780	HMT-780	11	k__Bacteria;p__Bacillota;c__Negativicutes;o__Veillonellales;f__Veillonellaceae;g__Veillonella;s__sp. HMT-780
+457	Veillonella sp. HMT-917	HMT-917	2	k__Bacteria;p__Bacillota;c__Negativicutes;o__Veillonellales;f__Veillonellaceae;g__Veillonella;s__sp. HMT-917
+190	Veillonella tobetsuensis	HMT-421	3	k__Bacteria;p__Bacillota;c__Negativicutes;o__Veillonellales;f__Veillonellaceae;g__Veillonella;s__tobetsuensis
+1070	Victivallis lenta	HMT-998	3	k__Bacteria;p__Verrucomicrobiota;c__Lentisphaeria;o__Victivallales;f__Victivallaceae;g__Victivallis;s__lenta
+1130	Weeksellaceae [G1] bacterium HMT-900	HMT-900	1	k__Bacteria;p__Bacteroidota;c__Flavobacteriia;o__Flavobacteriales;f__Weeksellaceae;g__Weeksellaceae [G1];s__bacterium HMT-900
+1347	Weeksellaceae [G1] bacterium HMT-907	HMT-907	1	k__Bacteria;p__Bacteroidota;c__Flavobacteriia;o__Flavobacteriales;f__Weeksellaceae;g__Weeksellaceae [G1];s__bacterium HMT-907
+1367	Weeksellaceae [G1] bacterium HMT-931	HMT-931	1	k__Bacteria;p__Bacteroidota;c__Flavobacteriia;o__Flavobacteriales;f__Weeksellaceae;g__Weeksellaceae [G1];s__bacterium HMT-931
+406	Yersinia pestis	HMT-827	15	k__Bacteria;p__Pseudomonadota;c__Gammaproteobacteria;o__Enterobacterales;f__Yersiniaceae;g__Yersinia;s__pestis

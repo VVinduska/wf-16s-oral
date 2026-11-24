@@ -1,0 +1,82 @@
+# Include shared CI
+include:
+    - project: "epi2melabs/ci-templates"
+      file: "wf-containers.yaml"
+
+variables:
+    NF_BEFORE_SCRIPT: mkdir -p ${CI_PROJECT_NAME}/data/ && wget -O ${CI_PROJECT_NAME}/data/wf-16s-demo.tar.gz https://ont-exd-int-s3-euwst1-epi2me-labs.s3.amazonaws.com/wf-16s/wf-16s-demo.tar.gz && tar -xzvf ${CI_PROJECT_NAME}/data/wf-16s-demo.tar.gz -C ${CI_PROJECT_NAME}/data/
+    NF_WORKFLOW_OPTS: "--fastq ${CI_PROJECT_NAME}/data/wf-16s-demo/test_data/
+    --classifier minimap2
+    --minimap2_by_reference
+    --database_set ncbi_16s_18s"
+    PYTEST_CONTAINER_NAME: "wf-metagenomics"
+    NF_IGNORE_PROCESSES: "rebatchFastq"
+    GIT_SUBMODULE_STRATEGY: recursive
+    CI_FLAVOUR: "new"
+    CWG_AWS_ENV_NAME: "stack"
+
+aws-run:
+    variables:
+        NF_WORKFLOW_OPTS: "--fastq test_data/case01 --store_dir s3://$${XAWS_BUCKET}/${CI_PROJECT_NAME}/store"
+        NF_IGNORE_PROCESSES: "rebatchFastq"
+    artifacts:
+        when: always
+        paths:
+            - ${CI_PROJECT_NAME}
+            - .nextflow.log
+        exclude: [] # give me everything pal
+    allow_failure: false
+
+
+docker-run:
+
+    # Remove this directive in downstream templates
+    tags:
+        - large_ram
+
+    # Define a 1D job matrix to inject a variable named MATRIX_NAME into
+    #   the CI environment, we can use the value of MATRIX_NAME to determine
+    #   which options to apply as part of the rules block below
+    # NOTE There is a slightly cleaner way to define this matrix to include
+    #   the variables, but it is broken when using long strings! See CW-756
+    parallel:
+        matrix:
+            - MATRIX_NAME: [
+                "kraken2", "minimap2", "minimap2-sample-sheet",
+                "kraken2-bam", "minimap2-bam"]
+
+    rules:
+     - if: ($CI_COMMIT_BRANCH == null || $CI_COMMIT_BRANCH == "dev-template")
+       when: never
+     - if: $MATRIX_NAME == "kraken2"
+       variables:
+          NF_PROCESS_FILES: "wf-metagenomics/subworkflows/kraken_pipeline.nf"
+          NF_WORKFLOW_OPTS: "--fastq test_data/case01 --classifier kraken2 --include_read_assignments"
+          NF_IGNORE_PROCESSES: ""
+          AFTER_NEXTFLOW_CMD: >
+            if [ ! -f $$PWD/$$CI_PROJECT_NAME/wf-16s-report.html ]; then (echo -e "Report not found" && exit 1); fi
+     - if: $MATRIX_NAME == "minimap2"
+       variables:
+          NF_PROCESS_FILES: "wf-metagenomics/subworkflows/minimap_pipeline.nf"
+          NF_WORKFLOW_OPTS: "--fastq test_data/case01 --minimap2_by_reference --keep_bam"
+          NF_IGNORE_PROCESSES: "extractMinimap2Reads"
+          AFTER_NEXTFLOW_CMD: >
+            if [ ! -f $$PWD/$$CI_PROJECT_NAME/wf-16s-report.html ]; then (echo -e "Report not found" && exit 1); fi
+     - if: $MATRIX_NAME == "minimap2-sample-sheet"
+       variables:
+          NF_PROCESS_FILES: "wf-metagenomics/subworkflows/minimap_pipeline.nf"
+          NF_WORKFLOW_OPTS: "--fastq test_data/case02 --sample_sheet test_data/case02/sample_sheet.csv --taxonomic_rank G --n_taxa_barplot 5 --abundance_threshold 1"
+          NF_IGNORE_PROCESSES: "extractMinimap2Reads,getAlignmentStats"
+    # BAM INGRESS
+     # Compare counts with case01_no_duplicateIDs, must be the same
+     - if: $MATRIX_NAME == "kraken2-bam"
+       variables:
+          NF_PROCESS_FILES: "wf-metagenomics/subworkflows/kraken_pipeline.nf"
+          NF_WORKFLOW_OPTS: "--bam test_data/case05_bam --include_read_assignments --abundance_threshold 1 --classifier kraken2"
+          NF_IGNORE_PROCESSES: ""
+     ## Regular test minimap2 - mapping stats
+     - if: $MATRIX_NAME == "minimap2-bam"
+       variables:
+          NF_PROCESS_FILES: "wf-metagenomics/subworkflows/minimap_pipeline.nf"
+          NF_WORKFLOW_OPTS: "--bam test_data/case05_bam --minimap2_by_reference --database_set ncbi_16s_18s --classifier minimap2"
+          NF_IGNORE_PROCESSES: "extractMinimap2Reads"   

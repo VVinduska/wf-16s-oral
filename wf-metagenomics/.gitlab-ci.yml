@@ -1,0 +1,340 @@
+# Include shared CI
+include:
+    - project: "epi2melabs/ci-templates"
+      file: "wf-containers.yaml"
+
+
+variables:
+    # Workflow inputs given to nextflow.
+    # The workflow should define `--out_dir`, the CI template sets this.
+    # Only common file inputs and option values need to be given here
+    # (not things such as -profile)
+    NF_BEFORE_SCRIPT: mkdir -p ${CI_PROJECT_NAME}/data/ && wget -q -O ${CI_PROJECT_NAME}/data/wf-metagenomics-demo.tar.gz https://ont-exd-int-s3-euwst1-epi2me-labs.s3.amazonaws.com/wf-metagenomics/wf-metagenomics-demo.tar.gz && tar -xzvf ${CI_PROJECT_NAME}/data/wf-metagenomics-demo.tar.gz -C ${CI_PROJECT_NAME}/data/
+    NF_WORKFLOW_OPTS: "--fastq ${CI_PROJECT_NAME}/data/wf-metagenomics-demo/test_data/ -executor.\\$$local.memory 16GB --database_set Standard-8"
+    NF_PROCESS_FILES: >
+      subworkflows/kraken_pipeline.nf
+    NF_IGNORE_PROCESSES: "output_kraken2_read_assignments"
+    CI_FLAVOUR: "new"
+    CWG_AWS_ENV_NAME: "stack"
+    PYTEST_CONTAINER_NAME: "wf-common"
+    PYTEST_CONTAINER_CONFIG_KEY: "common_sha"
+
+## Specific tests for wf-metagenomics container
+pytest_wfcontainer:
+    extends: pytest
+    variables:
+        PYTEST_CONTAINER_NAME: "${CI_PROJECT_NAME}"
+        PYTEST_CONTAINER_CONFIG_KEY: "container_sha="
+        PYTEST_TESTS_PATH: "bin/workflow_glue/tests_wf"
+
+## This test works with Standard-8 GB using a stored copy of Standard-8GB in S3.
+aws-run:
+    variables:
+        NF_WORKFLOW_OPTS: "--fastq test_data/case01 --database_set Standard-8"
+    artifacts:
+        when: always
+        paths:
+            - ${CI_PROJECT_NAME}
+            - .nextflow.log
+        exclude: [] # give me everything pal
+    allow_failure: false
+
+## This test avoids using the Standard-8GB. The use of this database is tested in aws-run
+singularity-run:
+    variables:
+        NF_WORKFLOW_OPTS: "--fastq test_data/case01 --database_set ncbi_16s_18s"
+
+## This test avoids using the Standard-8GB. The use of this database is tested in aws-run
+macos-run:
+    variables:
+        NF_WORKFLOW_OPTS: "--fastq test_data/case01 --database_set ncbi_16s_18s"
+
+docker-run:
+
+    # Remove this directive in downstream templates
+    tags:
+        - large_ram
+
+    # Define a 1D job matrix to inject a variable named MATRIX_NAME into
+    #   the CI environment, we can use the value of MATRIX_NAME to determine
+    #   which options to apply as part of the rules block below
+    # NOTE There is a slightly cleaner way to define this matrix to include
+    #   the variables, but it is broken when using long strings! See CW-756
+    parallel:
+        matrix:
+            - MATRIX_NAME: [
+                "kraken2", "minimap2", "minimap2-sample-sheet",
+                "kraken2-baf", "minimap2-baf", "minimap2-filter",
+                "unclassified-minimap2", "unclassified-kraken2",
+                "kraken2-amr", "minimap2-amr",
+                "minimap2-exclude-host", "kraken2-exclude-host", "minimap2-exclude-host-bam", "minimap2-exclude-host-empty-barcode",
+                "kraken2-bam", "minimap2-bam", "minimap2-igv",
+                "minimap2-split-prefix",
+                "report-many-samples",
+                # databases
+                "silva-kraken2", "silva-minimap2",
+                "greengenes-kraken2", "greengenes-minimap2",
+                # test combinations of databases
+                "exception-kraken2-reference", "exception-minimap2-database",
+                "exception-minimap2-igv-mmi-reference",
+                "kraken2-one-empty-sample",
+            ]
+    rules:
+     - if: ($CI_COMMIT_BRANCH == null || $CI_COMMIT_BRANCH == "dev-template")
+       when: never
+     # REGULAR TESTS
+     ## Regular test kraken2
+     - if: $MATRIX_NAME == "kraken2"
+       variables:
+          NF_PROCESS_FILES: >
+            subworkflows/kraken_pipeline.nf
+          NF_WORKFLOW_OPTS: "--fastq test_data/case01 --include_read_assignments --abundance_threshold 1 -executor.\\$$local.memory 16GB --database_set ncbi_16s_18s"
+          NF_IGNORE_PROCESSES: ""
+          AFTER_NEXTFLOW_CMD: >
+            grep "Found empty file for sample 'barcode05'" .nextflow.log &&
+            if [ ! -f $$PWD/$$CI_PROJECT_NAME/reads_assignments/barcode01_lineages.kraken2.assignments.tsv ]; then (echo -e "Assignments not found" && exit 1); fi
+     - if: $MATRIX_NAME == "kraken2-one-empty-sample"
+       variables:
+          NF_PROCESS_FILES: >
+            subworkflows/kraken_pipeline.nf
+          NF_WORKFLOW_OPTS: "--fastq test_data/case01/barcode04 -executor.\\$$local.memory 16GB --database_set ncbi_16s_18s"
+          NF_IGNORE_PROCESSES: "output_kraken2_read_assignments"
+
+     - if: $MATRIX_NAME == "unclassified-kraken2"
+       variables:
+          NF_PROCESS_FILES: >
+            subworkflows/kraken_pipeline.nf
+          NF_WORKFLOW_OPTS: "--fastq test_data/case01 -executor.\\$$local.memory 16GB --database_set ncbi_16s_18s --output_unclassified --bracken_length 1000"
+          NF_IGNORE_PROCESSES: "output_kraken2_read_assignments"
+          AFTER_NEXTFLOW_CMD: >
+            if [ ! -d $$PWD/$$CI_PROJECT_NAME/unclassified ]; then (echo -e "Unclassified not found" && exit 1); fi
+     ## Regular test minimap2 - mapping stats
+     - if: $MATRIX_NAME == "minimap2"
+       variables:
+          NF_PROCESS_FILES: >
+            subworkflows/minimap_pipeline.nf
+            lib/common.nf
+            modules/local/igv_related.nf
+          NF_WORKFLOW_OPTS: "--fastq test_data/case01 --classifier minimap2 --minimap2_by_reference --database_set ncbi_16s_18s --keep_bam --include_read_assignments"
+          NF_IGNORE_PROCESSES: "extractMinimap2Reads,configure_igv,filter_references"
+          AFTER_NEXTFLOW_CMD: >
+            grep "Found empty file for sample 'barcode05'" .nextflow.log &&
+            if [ ! -f $$PWD/$$CI_PROJECT_NAME/reads_assignments/barcode01_lineages.minimap2.assignments.tsv ]; then (echo -e "Assignments not found" && exit 1); fi
+
+
+     # Minimap2 - sample sheet - taxonomic_rank - taxa barplot - abundance_threshold
+     - if: $MATRIX_NAME == "minimap2-sample-sheet"
+       variables:
+          NF_PROCESS_FILES: >
+            subworkflows/minimap_pipeline.nf
+            lib/common.nf
+            modules/local/igv_related.nf
+          NF_WORKFLOW_OPTS: "--fastq test_data/case02 --classifier minimap2 --database_set ncbi_16s_18s --sample_sheet test_data/case02/sample_sheet.csv --taxonomic_rank G --n_taxa_barplot 10 --abundance_threshold 0.01"
+          NF_IGNORE_PROCESSES: "extractMinimap2Reads,getAlignmentStats,configure_igv,filter_references"
+     # BACTERIA-ARCHAEA-EUKARYA
+     ## Bacteria, Archaea, Fungi (BAF) with are supposed to be included in the default database: ncbi_16s_18s.
+     ## It also works as a test for single file - kraken_confidence - include_read_assignments
+     - if: $MATRIX_NAME == "kraken2-baf"
+       variables:
+          NF_PROCESS_FILES: >
+            subworkflows/kraken_pipeline.nf
+          NF_WORKFLOW_OPTS: "--fastq test_data/case03_baf/reads_baf.fastq.gz --abundance_threshold 10 --include_read_assignments --sample bacteria_archaea_fungi --database_set ncbi_16s_18s"
+          NF_IGNORE_PROCESSES: "concatAssignments"
+     - if: $MATRIX_NAME == "minimap2-baf"
+       variables:
+          NF_PROCESS_FILES: >
+            subworkflows/minimap_pipeline.nf
+            lib/common.nf
+            modules/local/igv_related.nf
+          NF_WORKFLOW_OPTS: "--fastq test_data/case03_baf/reads_baf.fastq.gz --database_set ncbi_16s_18s --classifier minimap2 --keep_bam --minimap2_by_reference --abundance_threshold 10"
+          NF_IGNORE_PROCESSES: "extractMinimap2Reads,configure_igv,filter_references"
+      ## Exclude Archaea and Eukaryota from extracted reads (remaining reads should be just from Bacteria).
+     - if: $MATRIX_NAME == "minimap2-filter"
+       variables:
+          NF_PROCESS_FILES: >
+            subworkflows/minimap_pipeline.nf
+            lib/common.nf
+            modules/local/igv_related.nf
+          NF_WORKFLOW_OPTS: "--fastq test_data/case03_baf/reads_baf.fastq.gz --classifier minimap2 --minimap2filter '2157,2759' --minimap2exclude --database_set ncbi_16s_18s --min_percent_identity 97 --min_ref_coverage 95"
+          NF_IGNORE_PROCESSES: "getAlignmentStats,configure_igv,filter_references"
+      ## Unclassified
+     - if: $MATRIX_NAME == "unclassified-minimap2"
+       variables:
+          NF_PROCESS_FILES: >
+            subworkflows/minimap_pipeline.nf
+            lib/common.nf
+            modules/local/igv_related.nf
+          NF_WORKFLOW_OPTS: "--fastq test_data/case01 --classifier minimap2 --database_set ncbi_16s_18s --output_unclassified"
+          NF_IGNORE_PROCESSES: "getAlignmentStats,configure_igv,filter_references,extractMinimap2Reads"
+          AFTER_NEXTFLOW_CMD: >
+            if [ ! -d $$PWD/$$CI_PROJECT_NAME/unclassified ]; then (echo -e "Unclassified not found" && exit 1); fi
+      # AMR TESTS
+      ## AMR tests using isolate test data (need to find better tests)
+     - if: $MATRIX_NAME == "kraken2-amr"
+       variables:
+          NF_PROCESS_FILES: >
+            subworkflows/kraken_pipeline.nf
+          NF_WORKFLOW_OPTS: "--fastq s3://ont-exd-int-s3-euwst1-epi2me-labs/wf-bacterial-genomes/test_data/isolates_fastq/barcode08 --amr -executor.\\$$local.memory 16GB --database_set ncbi_16s_18s"
+          NF_IGNORE_PROCESSES: "output_kraken2_read_assignments"
+     - if: $MATRIX_NAME == "minimap2-amr"
+       variables:
+          NF_PROCESS_FILES: >
+            subworkflows/minimap_pipeline.nf
+            lib/common.nf
+            modules/local/igv_related.nf
+          NF_WORKFLOW_OPTS: "--fastq s3://ont-exd-int-s3-euwst1-epi2me-labs/wf-bacterial-genomes/test_data/isolates_fastq/barcode08 --classifier minimap2 --amr --database_set ncbi_16s_18s"
+          NF_IGNORE_PROCESSES: "extractMinimap2Reads,getAlignmentStats,configure_igv,filter_references"
+     # EXCLUDE HOST
+     - if: $MATRIX_NAME == "minimap2-exclude-host"
+       variables:
+          NF_PROCESS_FILES: >
+            subworkflows/minimap_pipeline.nf
+            lib/common.nf
+            modules/local/igv_related.nf
+          NF_WORKFLOW_OPTS: "--fastq test_data/case04_exclude_host/case04-1/samples --exclude_host test_data/case04_exclude_host/case04-1/host.fasta.gz --classifier minimap2 --minimap2_by_reference --database_set ncbi_16s_18s -executor.\\$$local.memory 16GB"
+          NF_IGNORE_PROCESSES: "extractMinimap2Reads,configure_igv,filter_references"
+          AFTER_NEXTFLOW_CMD: >
+            grep "Found empty file after host depletion for sample: 'barcode02'." .nextflow.log
+     - if: $MATRIX_NAME == "minimap2-split-prefix"
+       variables:
+          NF_BEFORE_SCRIPT: "mkdir -p ${CI_PROJECT_NAME}/data/reference_host && wget -qO ${CI_PROJECT_NAME}/data/reference_host/cw_4388_human_vero.fna.gz ${EPI2ME_ARTIFACT_URL}/data/wf-metagenomics/cw_4388_human_vero.fna.gz && gzip -d ${CI_PROJECT_NAME}/data/reference_host/cw_4388_human_vero.fna.gz"
+          NF_PROCESS_FILES: >
+            subworkflows/minimap_pipeline.nf
+            lib/common.nf
+            modules/local/igv_related.nf
+          NF_WORKFLOW_OPTS: "--fastq test_data/case04_exclude_host/case04-2/ --exclude_host ${CI_PROJECT_NAME}/data/reference_host/cw_4388_human_vero.fna --classifier minimap2 --database_set ncbi_16s_18s -executor.\\$$local.memory 24GB"
+          NF_IGNORE_PROCESSES: "extractMinimap2Reads,getAlignmentStats,configure_igv,filter_references"
+     - if: $MATRIX_NAME == "minimap2-exclude-host-bam"
+       variables:
+          NF_PROCESS_FILES: >
+            subworkflows/minimap_pipeline.nf
+            lib/common.nf
+            modules/local/igv_related.nf
+          NF_WORKFLOW_OPTS: "--bam test_data/case04_exclude_host_bam/samples --exclude_host test_data/case04_exclude_host_bam/host.fasta.gz --classifier minimap2 --database_set ncbi_16s_18s -executor.\\$$local.memory 16GB"
+          NF_IGNORE_PROCESSES: "extractMinimap2Reads,getAlignmentStats,configure_igv,filter_references"
+     - if: $MATRIX_NAME == "kraken2-exclude-host"
+       variables:
+          NF_PROCESS_FILES: >
+            subworkflows/kraken_pipeline.nf
+          NF_WORKFLOW_OPTS: "--fastq test_data/case04_exclude_host/case04-1/samples --exclude_host test_data/case04_exclude_host/case04-1/host.fasta.gz --database_set ncbi_16s_18s -executor.\\$$local.memory 16GB"
+          NF_IGNORE_PROCESSES: "output_kraken2_read_assignments"
+          AFTER_NEXTFLOW_CMD: >
+            grep "Found empty file after host depletion for sample: 'barcode02'." .nextflow.log
+     # BAM INGRESS
+     # Compare counts with case01_no_duplicateIDs, must be the same
+     - if: $MATRIX_NAME == "kraken2-bam"
+       variables:
+          NF_PROCESS_FILES: >
+            subworkflows/kraken_pipeline.nf
+          NF_WORKFLOW_OPTS: "--bam test_data/case05_bam --include_read_assignments --abundance_threshold 1 --database_set ncbi_16s_18s"
+          NF_IGNORE_PROCESSES: ""
+     ## Regular test minimap2 - mapping stats
+     - if: $MATRIX_NAME == "minimap2-bam"
+       variables:
+          NF_PROCESS_FILES: >
+            subworkflows/minimap_pipeline.nf
+            lib/common.nf
+            modules/local/igv_related.nf
+          NF_WORKFLOW_OPTS: "--bam test_data/case05_bam --classifier minimap2 --minimap2_by_reference --database_set ncbi_16s_18s"
+          NF_IGNORE_PROCESSES: "extractMinimap2Reads,configure_igv,filter_references"
+     ## Test with IGV and also custom databases in minimap2
+     - if: $MATRIX_NAME == "minimap2-igv"
+       variables:
+          NF_BEFORE_SCRIPT: mkdir -p ${CI_PROJECT_NAME}/data/ && wget -q -O ${CI_PROJECT_NAME}/data/wf-metagenomics-demo.tar.gz https://ont-exd-int-s3-euwst1-epi2me-labs.s3.amazonaws.com/wf-metagenomics/wf-metagenomics-demo.tar.gz && tar -xzvf ${CI_PROJECT_NAME}/data/wf-metagenomics-demo.tar.gz -C ${CI_PROJECT_NAME}/data/
+          NF_PROCESS_FILES: >
+            subworkflows/minimap_pipeline.nf
+            lib/common.nf
+            modules/local/igv_related.nf
+            modules/local/databases.nf
+          NF_WORKFLOW_OPTS: >
+            --fastq "${CI_PROJECT_NAME}/data/wf-metagenomics-demo/test_data/"
+            -executor.\$$local.memory 16GB
+            --classifier minimap2
+            --minimap2_by_reference
+            --reference "${CI_PROJECT_NAME}/data/wf-metagenomics-demo/reference/genomes.fna.gz"
+            --ref2taxid "${CI_PROJECT_NAME}/data/wf-metagenomics-demo/reference/ref2taxid.tsv"
+            --igv
+          NF_IGNORE_PROCESSES: "extractMinimap2Reads,download_reference_ref2taxid,prepareSILVA,unpack_download_kraken2_database,determine_bracken_length,download_unpack_taxonomy"
+     - if: $MATRIX_NAME == "report-many-samples"
+       variables:
+          # simulate_samples.sh create the samples on the fly
+          NF_BEFORE_SCRIPT: "mkdir -p ${CI_PROJECT_NAME}/data/ && bash util/simulate_many_samples.sh ${CI_PROJECT_NAME}/data/ test_data/case06_amr/reads.fq &> ${CI_PROJECT_NAME}/data/simulate_many_samples.log &"
+          NF_PROCESS_FILES: >
+            subworkflows/minimap_pipeline.nf
+            lib/common.nf
+          NF_WORKFLOW_OPTS: >
+            --fastq="$CI_PROJECT_NAME/data/test_data/"
+            -executor.\$$local.memory 16GB
+            --database_set "ncbi_16s_18s"
+            --classifier minimap2
+            --minimap2_by_reference
+          NF_IGNORE_PROCESSES: "configure_igv,extractMinimap2Reads"
+     - if: $MATRIX_NAME == "silva-kraken2"
+       variables:
+          NF_PROCESS_FILES: >
+            subworkflows/kraken_pipeline.nf
+            lib/common.nf
+          NF_WORKFLOW_OPTS: >
+            --fastq="test_data/case01"
+            -executor.\$$local.memory 16GB
+            --database_set "SILVA_138_1"
+          NF_IGNORE_PROCESSES: "configure_igv,output_kraken2_read_assignments"
+     - if: $MATRIX_NAME == "silva-minimap2"
+       variables:
+          NF_PROCESS_FILES: >
+            subworkflows/minimap_pipeline.nf
+            lib/common.nf
+          NF_WORKFLOW_OPTS: >
+            --fastq="test_data/case01"
+            -executor.\$$local.memory 16GB
+            --database_set "SILVA_138_1"
+            --classifier minimap2
+          NF_IGNORE_PROCESSES: "configure_igv,extractMinimap2Reads,getAlignmentStats"
+     - if: $MATRIX_NAME == "greengenes-kraken2"
+       variables:
+          NF_PROCESS_FILES: >
+            subworkflows/kraken_pipeline.nf
+            lib/common.nf
+          NF_WORKFLOW_OPTS: >
+            --fastq="test_data/case01"
+            -executor.\$$local.memory 16GB
+            --database_set "Greengenes2_plus"
+          NF_IGNORE_PROCESSES: "configure_igv,output_kraken2_read_assignments"
+     - if: $MATRIX_NAME == "greengenes-minimap2"
+       variables:
+          NF_PROCESS_FILES: >
+            subworkflows/minimap_pipeline.nf
+            lib/common.nf
+          NF_WORKFLOW_OPTS: >
+            --fastq="test_data/case01"
+            -executor.\$$local.memory 16GB
+            --database_set "Greengenes2_plus"
+            --classifier minimap2
+          NF_IGNORE_PROCESSES: "configure_igv,extractMinimap2Reads,getAlignmentStats"
+      ## Test invalid combinations
+     - if: $MATRIX_NAME == "exception-kraken2-reference"
+       variables:
+          NF_BEFORE_SCRIPT: mkdir -p ${CI_PROJECT_NAME}/data/ && wget -q -O ${CI_PROJECT_NAME}/data/wf-metagenomics-demo.tar.gz https://ont-exd-int-s3-euwst1-epi2me-labs.s3.amazonaws.com/wf-metagenomics/wf-metagenomics-demo.tar.gz && tar -xzvf ${CI_PROJECT_NAME}/data/wf-metagenomics-demo.tar.gz -C ${CI_PROJECT_NAME}/data/
+          NF_WORKFLOW_OPTS: >
+            --fastq test_data/case01
+            --reference "${CI_PROJECT_NAME}/data/wf-metagenomics-demo/reference/genomes.fna.gz"
+            --ref2taxid "${CI_PROJECT_NAME}/data/wf-metagenomics-demo/reference/ref2taxid.tsv"
+          ASSERT_NEXTFLOW_FAILURE: "yes"
+          ASSERT_NEXTFLOW_FAILURE_REXP : "To use kraken2 with your custom database, you need to use `--database` (instead of `--reference`) and include the `bracken_dist` within it."
+     - if: $MATRIX_NAME == "exception-minimap2-database"
+       variables:
+          NF_WORKFLOW_OPTS: "--fastq test_data/case01 --database data/ --classifier minimap2"
+          ASSERT_NEXTFLOW_FAILURE: "yes"
+          ASSERT_NEXTFLOW_FAILURE_REXP : "To use minimap2 with your custom database, you need to use `--reference` (instead of `--database`) and `--ref2taxid`."
+     - if: $MATRIX_NAME == "exception-minimap2-igv-mmi-reference"
+      ## Pass OPTIONAL_FILE as the goal is make the test fail
+       variables:
+          NF_WORKFLOW_OPTS: >
+            --fastq test_data/case01
+            --classifier minimap2
+            --reference "data/OPTIONAL_FILE"
+            --ref2taxid "${CI_PROJECT_NAME}/data/wf-metagenomics-demo/reference/ref2taxid.tsv"
+            --igv
+          ASSERT_NEXTFLOW_FAILURE: "yes"
+          ASSERT_NEXTFLOW_FAILURE_REXP : "The custom database reference must be a FASTA format file in order to view within IGV."
+
