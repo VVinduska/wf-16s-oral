@@ -254,7 +254,7 @@
                 },
                 "min_percent_identity": {
                     "type": "number",
-                    "default": 95,
+                    "default": 90,
                     "minimum": 0,
                     "maximum": 100,
                     "title": "Filter taxa based on the percent of identity with the references.",
@@ -262,7 +262,7 @@
                 },
                 "min_ref_coverage": {
                     "type": "number",
-                    "default": 90,
+                    "default": 0,
                     "minimum": 0,
                     "maximum": 100,
                     "title": "Filter taxa based on the percent of coverage with the reference.",
@@ -319,7 +319,7 @@
                 },
                 "output_unclassified": {
                     "type": "boolean",
-                    "default": false,
+                    "default": true,
                     "title": "Output unclassified reads.",
                     "description": "Output a FASTQ of the unclassified reads."
                 }
@@ -333,7 +333,7 @@
             "properties": {
                 "min_len": {
                     "type": "integer",
-                    "default": 800,
+                    "default": 0,
                     "title": "Minimum read length",
                     "description": "Specify read length lower limit.",
                     "help_text": "Any reads shorter than this limit will not be included in the analysis."
@@ -347,7 +347,6 @@
                 "max_len": {
                     "type": "integer",
                     "title": "Maximum read length",
-                    "default": 2000,
                     "description": "Specify read length upper limit",
                     "help_text": "Any reads longer than this limit will not be included in the analysis."
                 },
