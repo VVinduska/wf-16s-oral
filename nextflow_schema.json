@@ -254,7 +254,7 @@
                 },
                 "min_percent_identity": {
                     "type": "number",
-                    "default": 90,
+                    "default": 95,
                     "minimum": 0,
                     "maximum": 100,
                     "title": "Filter taxa based on the percent of identity with the references.",
